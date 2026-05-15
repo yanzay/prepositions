@@ -28,3 +28,4 @@ research-reports/
 # Cloud account. Re-render anytime via build_audio.py / build_ipa.py /
 # build_diagrams.py
 english_prepositions_anki.apkg
+wave4*.tsv
