@@ -1,0 +1,87 @@
+# English Prepositions Anki Package — Schema & Strategy Reference (v2)
+
+This file documents the canonical field schemas, tag taxonomy, and module
+routing used by `build_anki_package.py`. It is consumed by humans only —
+the build script reads the staging `*.txt` files directly.
+
+## Note types (5, was 4 in v1)
+
+### 1. Recognition (13 fields, was 9)
+Sentence | Label | Sense | Pattern | Trajector | Landmark | FrameOfRef | ImageSchema | MainUse | QuickCue | Contrast | WhenNotToUse | Tags
+
+NEW v2 fields (Trajector / Landmark / FrameOfRef / ImageSchema) implement
+Cognitive-Linguistic best practice (Tyler & Evans 2003; Langacker 2008).
+Spatial cards must populate all four; non-spatial may use `N-A`.
+
+Card UX: three-tier progressive reveal on the back.
+- Tier A (default): Label + IPA + audio replay button.
+- Tier B (tap "Show context"): Pattern + MainUse + QuickCue.
+- Tier C (tap "Show full reference"): Contrast + WhenNotToUse + image-schema
+  diagram + tags.
+
+### 2. Contrast (7 fields)
+Sentence | OptionA | OptionB | Answer | Why | Tip | Tags
+
+Card UX: "Why?" is gated behind a tap (generation effect).
+
+### 3. Production (6 fields)
+Prompt | Target | Sense | Sample | Why | Tags
+
+Card UX: prompt is a multi-sentence narrative, not a constrained gap-fill.
+"Why this works?" is gated behind a tap.
+
+### 4. Cloze (3 fields, Anki cloze type)
+Text | Hint | Tags
+
+### 5. Listening (5 fields, NEW in v2)
+AudioRef | Question | Answer | Transcript | Tags
+
+Card UX: AudioRef is the front (no text shown). The learner hears a
+sentence and answers a sense-discrimination or minimal-pair question.
+Back reveals transcript + correct preposition.
+
+## Tag taxonomy (8 axes, all required)
+
+- `module:01`..`module:12`               — routes card to subdeck
+- `type:recognition|contrast|production|cloze|listening`
+- `sense:spatial|temporal|movement|dependent|phrasal|idiomatic|interference|polysemy|zero`
+- `frequency:high|mid|low`
+- `register:formal|neutral|informal`
+- `cefr:a1|a2|b1|b2|c1|c2`
+- `image-schema:container|support|point|path|over|under|between|cluster|none`
+- `generalisable:yes|no|partial`         — Modules 05–07 collocations especially
+
+Optional: `variant:brE|amE`, `l1:spanish|french|german|russian|mandarin|japanese`,
+`domain:business|academic|everyday|travel`, `mnemonic:yes`, `picture-cue:yes`,
+`contrast:<pair>` (e.g. `contrast:in-on-at-place`).
+
+## Module → tag routing
+
+| Module | Required tag |
+|--------|--------------|
+| 01 Spatial Core              | `module:01 sense:spatial` |
+| 02 Spatial Extended          | `module:02 sense:spatial` |
+| 03 Time                      | `module:03 sense:temporal` |
+| 04 Movement & Direction      | `module:04 sense:movement` |
+| 05 Dependent — Verb + Prep   | `module:05 sense:dependent dependent:verb` |
+| 06 Dependent — Adj  + Prep   | `module:06 sense:dependent dependent:adjective` |
+| 07 Dependent — Noun + Prep   | `module:07 sense:dependent dependent:noun` |
+| 08 Phrasal & Multi-word      | `module:08 sense:phrasal` |
+| 09 Abstract & Idiomatic      | `module:09 sense:idiomatic` |
+| 10 L1 Interference           | `module:10 sense:interference l1:<lang>` |
+| 11 Polysemy Networks         | `module:11 sense:polysemy` |
+| 12 Zero Preposition          | `module:12 sense:zero` |
+
+## Validation rules (enforced by validate_anki_data.py)
+
+1. Every row has exactly the right number of columns.
+2. Recognition `Label` ∈ canonical preposition-sense vocabulary.
+3. Recognition spatial rows must have non-empty Trajector & Landmark
+   & ImageSchema (≠ `none`).
+4. Contrast `Answer` is byte-equal to `OptionA` or `OptionB`.
+5. Production `Target` is non-empty and contains at least one preposition.
+6. Cloze `Text` contains exactly one `{{c1::...}}` deletion.
+7. Listening `AudioRef` matches `[sound:<12-hex>.mp3]` and the file exists
+   in `media/audio/`.
+8. Every row has at least one tag from each of the 8 required axes.
+9. No duplicate `Sentence` / `Prompt` / `Text` / `AudioRef` within a single file.

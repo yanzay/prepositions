@@ -1,0 +1,246 @@
+#separator:tab
+#html:true
+#columns:Text	Hint	Tags
+The dog is sleeping {{c1::in}} its basket.	bounded enclosure	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+The plates are {{c1::on}} the top shelf.	flat surface, gravity	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:support generalisable:yes
+We arrived {{c1::at}} the station ten minutes late.	point / venue treated as a point	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+Their grandparents live {{c1::in}} a small village in the south.	2-D area / bounded region	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+There's a bird {{c1::on}} the roof of the car.	surface contact against gravity	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a2 image-schema:support generalisable:yes
+She's standing {{c1::at}} the front of the queue.	specific position designated as a point	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a2 image-schema:point generalisable:yes
+There's nothing interesting {{c1::on}} TV tonight.	medium understood as a surface (printed schedule / displayed image)	module:01 sense:spatial type:cloze frequency:high register:informal cefr:a2 image-schema:support generalisable:partial
+I left my umbrella {{c1::on}} the bus this morning.	walk-in vehicle (bus, train, plane)	module:01 sense:spatial type:cloze frequency:high register:informal cefr:a1 image-schema:support generalisable:yes
+The keys are {{c1::in}} the inside pocket of my jacket.	enclosure within a wearable container	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+She's been {{c1::at}} university for three years now.	institutional role at a single venue	module:01 sense:spatial type:cloze frequency:high register:neutral cefr:a2 image-schema:point generalisable:yes
+The school holidays start {{c1::on}} July 5th this year.	specific date with day number	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The school holidays start {{c1::in}} July this year.	whole month, no day number	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The conference begins {{c1::at}} 9 a.m. sharp.	clock time = single point	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+She always reads {{c1::in}} the evening before bed.	part of the day with article	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The owl hunts {{c1::at}} night.	'at night' fixed phrase, no article	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+The deadline for applications is {{c1::by}} the end of the week.	deadline / no later than	module:03 sense:temporal type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:yes
+The library is open {{c1::until}} 10 p.m. on weekdays.	continuous activity up to a stop point	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+She has been waiting {{c1::for}} more than two hours.	duration of an unfinished period	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+She has been waiting {{c1::since}} eight o'clock.	starting point of an unfinished period	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+He fell asleep {{c1::during}} the long flight.	preposition + named period (no clause follows)	module:03 sense:temporal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+Please send your reply {{c1::within}} the next 24 hours.	deadline + permitted span	module:03 sense:temporal type:cloze frequency:high register:formal cefr:b2 image-schema:none generalisable:partial
+We'll arrive {{c1::in}} about ten minutes — see you soon.	future moment measured from now	module:03 sense:temporal type:cloze frequency:high register:informal cefr:a2 image-schema:none generalisable:yes
+The picture on the wall hangs {{c1::above}} the sofa in the living room.	Vertical positioning without motion	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:over generalisable:yes
+The keys are hidden {{c1::inside}} the desk drawer where nobody looks.	Full containment within an enclosure	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+She stood {{c1::in front of}} the mirror to brush her hair.	Facing position on the forward side	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The dog hid {{c1::behind}} the door when the bell rang.	Positioned on the rear, non-visible side	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The village lies {{c1::between}} the mountains and the sea.	Located in the intermediate zone of two features	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:between generalisable:yes
+The cat crept {{c1::under}} the table to rest.	Beneath an object with overhead coverage	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:under generalisable:yes
+The flowers were planted {{c1::among}} the vegetables in the garden.	Distributed within a group or cluster	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:cluster generalisable:yes
+The ladder leaned {{c1::against}} the wall for support.	Pressed into contact with a surface	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:support generalisable:yes
+The café is {{c1::near}} the train station, about a five-minute walk away.	In the general vicinity but not immediately adjacent	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The house sits {{c1::beside}} the old oak tree on the property.	Positioned alongside in lateral arrangement	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+Children played {{c1::around}} the playground equipment without stopping.	Distributed in various positions encircling a focal point	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:cluster generalisable:yes
+The roots grow {{c1::beneath}} the soil in a spreading network.	Hidden under a protective or covering layer; formal tone	module:02 sense:spatial type:cloze frequency:mid register:formal cefr:b1 image-schema:under generalisable:yes
+The plane flew {{c1::over}} the mountains on its way to the coast.	Traversing above; crossing the top of an obstacle	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:over generalisable:yes
+The bench is {{c1::opposite}} the fountain in the town plaza.	Located across a space from a landmark	module:02 sense:spatial type:cloze frequency:mid register:neutral cefr:b1 image-schema:point generalisable:yes
+Tom stood {{c1::next to}} his sister during the entire concert.	Immediately adjacent with minimal or no gap	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The car is parked {{c1::outside}} the garage where it can be seen.	Located in the external area beyond a boundary	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The submarine went {{c1::below}} the surface to avoid detection.	At a lower vertical position relative to a reference	module:02 sense:spatial type:cloze frequency:mid register:formal cefr:b1 image-schema:under generalisable:partial
+The cottage stands {{c1::by}} the river with a beautiful view.	Positioned alongside a natural or linear landmark	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+She found herself {{c1::among}} strangers at the crowded reception.	Surrounded by or immersed in a group of people	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:cluster generalisable:yes
+The sign hung {{c1::against}} the shop window to advertise the sale.	Backed against or pressed into contact with a surface	module:02 sense:spatial type:cloze frequency:high register:neutral cefr:a1 image-schema:support generalisable:yes
+She walked {{c1::to}} the market to buy groceries.	Directional motion toward a destination	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The cat ran {{c1::into}} the house when it started raining.	Crossing a boundary to enter the interior	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+He jumped {{c1::onto}} the chair to reach the shelf.	Mounting a surface by upward motion	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The ball rolled {{c1::out of}} the box and across the floor.	Exiting the interior of a container	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+She removed the lid {{c1::off}} the jar with some effort.	Separating an object from a surface	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The letter came {{c1::from}} Tokyo last week.	Indicating the point of origin	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+We walked {{c1::through}} the park enjoying the scenery.	Passing through the interior of a space	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The bridge spans {{c1::across}} the river at its widest point.	Extending laterally from one side to the opposite	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+We walked {{c1::along}} the beach looking for seashells.	Moving parallel to a linear landmark	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+They moved {{c1::towards}} the exit when the movie ended.	Directed motion in the direction of a goal	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The child ran {{c1::away from}} the dog that chased him.	Moving in a direction opposite to a threat	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The climber struggled {{c1::up}} the steep mountain face.	Moving in an upward direction	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The water flows {{c1::down}} the mountainside after the rain.	Moving in a downward direction	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The car drove {{c1::past}} the house without stopping.	Moving laterally alongside a reference point	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The runners raced {{c1::around}} the track for the final lap.	Moving in a circular path around a reference	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The package was sent {{c1::via}} airmail to save time.	Traveling through an intermediary route	module:04 sense:movement type:cloze frequency:mid register:formal cefr:b1 image-schema:path generalisable:yes
+She stepped {{c1::out of}} the car when we arrived.	Exiting the interior of a vehicle	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+He fell {{c1::off}} the ladder and hurt his arm.	Falling or separating from a mounted surface	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+They arrived {{c1::in}} Paris after a long journey.	Reaching and entering within a large city	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The tunnel goes {{c1::through}} the mountain to the other side.	Cutting a passage through a solid obstacle	module:04 sense:movement type:cloze frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+She depends {{c1::on}} her parents for financial support.	depend on	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+Listen {{c1::to}} the instructions before starting.	listen to	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no dependent:verb
+She looked {{c1::at}} the painting for an hour.	look at	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no dependent:verb
+I'm looking {{c1::for}} my keys everywhere.	look for	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no dependent:verb
+She looks {{c1::after}} her elderly grandmother.	look after	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no dependent:verb
+The police are looking {{c1::into}} the theft.	look into	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+I agree {{c1::with}} your opinion completely.	agree with	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+They agreed {{c1::to}} the contract terms.	agree to	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The committee agreed {{c1::on}} a final decision.	agree on	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+The mixture consists {{c1::of}} flour and eggs.	consist of	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+These paintings belong {{c1::to}} the museum.	belong to	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+He apologised {{c1::for}} arriving late.	apologise for	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+They congratulated her {{c1::on}} winning.	congratulate on	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+Parents prevented him {{c1::from}} leaving alone.	prevent from	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+Police accused him {{c1::of}} stealing.	accuse of	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The accident resulted {{c1::in}} injuries.	result in	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The problem resulted {{c1::from}} poor planning.	result from	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+Their opinions differ {{c1::from}} ours.	differ from	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The report refers {{c1::to}} earlier studies.	refer to	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+She coped {{c1::with}} stress by exercising.	cope with	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+They talk {{c1::to}} their grandparents weekly.	talk to	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+We talked {{c1::with}} the manager yesterday.	talk with	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+The flight arrives {{c1::at}} the airport at noon.	arrive at	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+They will arrive {{c1::in}} Tokyo next week.	arrive in	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+I think {{c1::of}} him when I hear that song.	think of	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+She's thinking {{c1::about}} changing careers.	think about	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no dependent:verb
+She dreams {{c1::of}} becoming a dancer.	dream of	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+Last night I dreamed {{c1::about}} swimming.	dream about	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+I haven't heard {{c1::from}} my cousin.	hear from	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+Did you hear {{c1::about}} the scandal?	hear about	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:verb
+She is afraid {{c1::of}} spiders.	afraid of	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no dependent:adjective
+He is interested {{c1::in}} music.	interested in	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:adjective
+They are fond {{c1::of}} chocolate.	fond of	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is proud {{c1::of}} her achievements.	proud of	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+He is responsible {{c1::for}} the project.	responsible for	module:06 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is familiar {{c1::with}} the system.	familiar with	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+He is good {{c1::at}} mathematics.	good at	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:adjective
+She is good {{c1::with}} children.	good with	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+Exercise is good {{c1::for}} health.	good for	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no dependent:adjective
+She is worried {{c1::about}} the exam.	worried about	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+He is nervous {{c1::about}} speaking.	nervous about	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is grateful {{c1::to}} her parents.	grateful to	module:06 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is grateful {{c1::for}} the opportunity.	grateful for	module:06 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:adjective
+This is different {{c1::from}} that.	different from	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is similar {{c1::to}} her mother.	similar to	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+He is concerned {{c1::about}} climate change.	concerned about	module:06 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is patient {{c1::with}} her students.	patient with	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+He is loyal {{c1::to}} his friends.	loyal to	module:06 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:adjective
+She is excited {{c1::about}} the vacation.	excited about	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+He is jealous {{c1::of}} her success.	jealous of	module:06 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:adjective
+The reason {{c1::for}} his absence was clear.	reason for	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The cause {{c1::of}} the accident was negligence.	cause of	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The effect {{c1::on}} the environment was severe.	effect on	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The influence {{c1::on}} young people was significant.	influence on	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The increase {{c1::in}} prices affected everyone.	increase in	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The decrease {{c1::in}} population was concerning.	decrease in	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The rise {{c1::in}} unemployment was dramatic.	rise in	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The fall {{c1::in}} interest rates was unexpected.	fall in	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The solution {{c1::to}} the problem was simple.	solution to	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The answer {{c1::to}} the question was obvious.	answer to	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The key {{c1::to}} success is hard work.	key to	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+A cure {{c1::for}} cancer is being researched.	cure for	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+There is a need {{c1::for}} more resources.	need for	module:07 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:noun
+The demand {{c1::for}} housing is increasing.	demand for	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The difference {{c1::between}} them was obvious.	difference between	module:07 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:noun
+The match was cancelled {{c1::because of}} the rain.	because of	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+We couldn't attend the meeting {{c1::due to}} unforeseen circumstances.	due to	module:08 sense:phrasal type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:partial
+The delay was {{c1::owing to}} a technical fault.	owing to	module:08 sense:phrasal type:cloze frequency:mid register:formal cefr:b2 image-schema:none generalisable:partial
+We succeeded {{c1::thanks to}} your support.	thanks to	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:partial
+I'll have coffee {{c1::instead of}} tea.	instead of	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+I'd prefer to walk {{c1::rather than}} take the bus.	rather than	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+{{c1::In spite of}} the difficulties, we continued.	In spite of	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+{{c1::Despite}} his injuries, he played well.	Despite	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+{{c1::Regardless of}} the outcome, I'm proud of the effort.	Regardless of	module:08 sense:phrasal type:cloze frequency:mid register:formal cefr:b2 image-schema:none generalisable:partial
+The report was compiled {{c1::according to}} international standards.	according to	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+Our proposal is {{c1::in line with}} your company's values.	in line with	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b2 image-schema:none generalisable:partial
+{{c1::In addition to}} the main course, we served dessert.	In addition to	module:08 sense:phrasal type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:partial
+{{c1::Apart from}} the noise, the hotel was excellent.	Apart from	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+{{c1::Except for}} the final chapter, the book was engaging.	Except for	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+The petition was filed {{c1::on behalf of}} the union.	on behalf of	module:08 sense:phrasal type:cloze frequency:mid register:formal cefr:b1 image-schema:none generalisable:partial
+{{c1::In light of}} new evidence, we revised our conclusions.	In light of	module:08 sense:phrasal type:cloze frequency:mid register:formal cefr:b2 image-schema:none generalisable:partial
+{{c1::In view of}} the circumstances, we postponed the event.	In view of	module:08 sense:phrasal type:cloze frequency:mid register:formal cefr:b2 image-schema:none generalisable:partial
+The mechanism operates {{c1::by means of}} hydraulic pressure.	by means of	module:08 sense:phrasal type:cloze frequency:mid register:formal cefr:b2 image-schema:none generalisable:partial
+{{c1::Regarding}} your inquiry, we will respond shortly.	Regarding	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+{{c1::Concerning}} the budget proposal, questions remain.	Concerning	module:08 sense:phrasal type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:partial
+The train arrived {{c1::on time}}.	on time	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+We arrived {{c1::in time}} to catch the bus.	in time	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+The rain came {{c1::at the right time}} for the crops.	at the right time	module:09 sense:idiomatic type:cloze frequency:mid register:neutral cefr:b1 image-schema:none generalisable:no mnemonic:yes
+He broke the vase {{c1::by accident}}.	by accident	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+I did it {{c1::on purpose}}.	on purpose	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+She answered incorrectly {{c1::by mistake}}.	by mistake	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+She came to the party {{c1::on foot}}.	on foot	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no mnemonic:yes
+I traveled {{c1::by car}}.	by car	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no mnemonic:yes
+He commutes {{c1::by bus}} daily.	by bus	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no mnemonic:yes
+We flew {{c1::by plane}}.	by plane	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no mnemonic:yes
+She sat {{c1::in a car}} and waited.	in a car	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no mnemonic:yes
+We sat {{c1::on a bus}} for hours.	on a bus	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no mnemonic:yes
+The show is {{c1::on TV}}.	on TV	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+The interview is {{c1::on the radio}}.	on the radio	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+The story appeared {{c1::in the news}}.	in the news	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+She's {{c1::in love}}.	in love	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+He's {{c1::in trouble}}.	in trouble	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+The child is {{c1::in danger}}.	in danger	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+She's {{c1::in pain}}.	in pain	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+We're {{c1::in a hurry}}.	in a hurry	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no mnemonic:yes
+The team is {{c1::under pressure}}.	under pressure	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no mnemonic:yes
+The situation is {{c1::under control}}.	under control	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no mnemonic:yes
+The store is {{c1::out of stock}}.	out of stock	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no mnemonic:yes
+He's been {{c1::out of work}} for months.	out of work	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no mnemonic:yes
+She ran {{c1::out of breath}}.	out of breath	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no mnemonic:yes
+My success {{c1::depends on}} hard work.	depend on (Spanish-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:spanish
+I often {{c1::think about}} my childhood.	think about (Spanish-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:spanish
+She is {{c1::married to}} a doctor.	married to (Spanish-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:spanish
+He {{c1::dreams of}} becoming a pilot.	dream of (Spanish-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:spanish
+I'll see you {{c1::at}} 8 a.m.	clock-time point; spanish-trap (asking *en the night*)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no l1:spanish
+I {{c1::listened to}} the podcast yesterday.	listen to (French-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no l1:french
+I {{c1::waited for}} the bus in the rain.	wait for (French-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no l1:french
+She {{c1::looked at}} the painting with great interest.	look at (French-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:a2 image-schema:none generalisable:no l1:french
+He is {{c1::interested in}} modern art and design.	interested in (French-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:french
+I work {{c1::on}} Monday mornings.	day-name marker (German speakers say *am Montag*)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no l1:german
+I exercise {{c1::in}} the morning before breakfast.	part-of-day container (German speakers say *am Morgen*)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:german
+I {{c1::think of}} her fondly whenever we talk.	think of (German-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:german
+She is {{c1::afraid of}} large dogs.	afraid of (German-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:german
+She {{c1::depends on}} her family for support.	depend on (Russian-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:russian
+The book {{c1::consists of}} twelve chapters.	consist of (Russian-trap)	module:10 sense:interference type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no l1:russian
+The keys are {{c1::in}} the box.	CONTAINER schema; trajector enclosed by landmark	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+He is {{c1::in}} trouble.	CONTAINER metaphor; state-as-enclosing-substance	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+She was born {{c1::in}} 2024.	CONTAINER schema; year-as-bounded-period	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The book is {{c1::on}} the table.	SUPPORT schema; trajector resting on landmark surface	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+The movie is {{c1::on}} tonight.	SUPPORT schema; day/date as scheduled-surface	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+She worked {{c1::on}} the project.	SUPPORT schema; activity-as-platform-of-engagement	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+Meet me {{c1::at}} the station.	POINT schema; trajector at zero-dimensional location	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+The meeting is {{c1::at}} 3 p.m.	POINT schema; clock-time as zero-duration moment	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+She is skilled {{c1::at}} languages.	POINT schema; skill-as-point-of-engagement	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The journey is {{c1::by}} train.	instrumental marker (means or method of action)	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The house was built {{c1::by}} the architect.	agent marker in passive voice	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The rule was created {{c1::by}} 2020.	temporal endpoint; not-later-than marker	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The river flows {{c1::through}} the valley.	PATH schema; trajector traverses landmark interior	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+She learned {{c1::through}} experience.	PATH metaphor; means-as-traversed-process	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The cat is {{c1::under}} the bed.	vertical positioning; trajector beneath landmark	module:11 sense:polysemy type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+I'm going {{c1::ø::no preposition}} home today.	home (bare destination)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+I'm going {{c1::to}} bed now.	bed (with 'to')	module:12 sense:zero type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+She arrived {{c1::ø::no preposition}} last week.	last week (bare time adverbial)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+I'll see you {{c1::ø::no preposition}} next year.	next year (bare time adverbial)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+I saw her {{c1::ø::no preposition}} this morning.	this morning (bare time adverbial)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+We {{c1::ø::no preposition}} discussed the proposal yesterday.	discuss (bare transitive)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+Please {{c1::ø::no preposition}} enter the room quietly.	enter (bare transitive)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+They {{c1::ø::no preposition}} approached the house carefully.	approach (bare transitive)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+He {{c1::ø::no preposition}} resembles his father greatly.	resemble (bare transitive)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+I {{c1::ø::no preposition}} play chess every evening.	play + game (bare)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+See you {{c1::ø::no preposition}} Monday! (informal AmE)	Monday (bare day; informal)	module:12 sense:zero type:cloze frequency:high register:informal cefr:a1 image-schema:none generalisable:no
+We {{c1::ø::no preposition}} went to church on Sunday.	church (bare; institutional)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+She's {{c1::ø::no preposition}} in hospital. (BrE)	hospital (bare; BrE)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+The prisoner is {{c1::ø::no preposition}} in prison.	prison (bare; institutional)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no
+I {{c1::play}} the piano daily.	instrument marker; the-article required (vs game = bare)	module:12 sense:zero type:cloze frequency:high register:neutral cefr:a1 image-schema:none generalisable:no
+The concert tickets are {{c1::in}} the desk drawer waiting for the big performance next weekend.	Hidden document: closed compartment needs 'in'	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+She hung the family portrait {{c1::on}} the dining room wall as the room's centerpiece.	Vertical surface mounting: 'on' not 'in'	module:01 type:cloze sense:spatial frequency:mid register:neutral cefr:a1 image-schema:support generalisable:yes
+The meeting starts {{c1::at}} three o'clock sharp in the boardroom this afternoon.	Time point location: 'at' marks the moment	module:01 type:cloze sense:spatial frequency:high register:formal cefr:a1 image-schema:point generalisable:yes
+My keys are {{c1::in}} my jacket pocket because I always lose them otherwise.	Enclosed pocket space: 'in' for enclosure	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+The artwork display is {{c1::on}} the gallery's main wall attracting visitors daily.	Gallery wall surface: 'on' for mounting	module:01 type:cloze sense:spatial frequency:mid register:formal cefr:a2 image-schema:support generalisable:yes
+We're all meeting {{c1::at}} the entrance of the shopping center before we split up.	Meeting point location: 'at' marks specific place	module:01 type:cloze sense:spatial frequency:high register:informal cefr:a1 image-schema:point generalisable:yes
+The fresh vegetables are {{c1::in}} the refrigerator's bottom drawer for longer storage.	Enclosed container space: 'in' for storage	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+That beautiful sunset photo would look perfect {{c1::on}} the mantelpiece above the fireplace.	Surface placement: 'on' not 'in'	module:01 type:cloze sense:spatial frequency:mid register:neutral cefr:a1 image-schema:support generalisable:yes
+The festival celebration happens {{c1::at}} the waterfront park every summer season.	Venue point location: 'at' for events	module:01 type:cloze sense:spatial frequency:mid register:neutral cefr:a1 image-schema:point generalisable:yes
+The precious documents are safely {{c1::in}} the safety deposit box.	Secure enclosure (CONTAINER schema)	module:01 type:cloze sense:spatial frequency:mid register:formal cefr:a2 image-schema:container generalisable:yes
+The safety deposit box is {{c1::at}} the bank.	Institutional location (POINT schema)	module:01 type:cloze sense:spatial frequency:mid register:formal cefr:a2 image-schema:point generalisable:yes
+I haven't heard from her {{c1::for}} a month.	duration of absence; how long the silence has lasted	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+The store is open {{c1::from}} 8am to 10pm.	starting boundary of opening hours	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The store is open from 8am {{c1::to}} 10pm.	closing boundary of opening hours	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+We worked on the project {{c1::from}} June to August.	starting month of work span	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+We worked on the project from June {{c1::to}} August.	ending month of work span	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+{{c1::After}} the movie finished, I went home.	temporal sequence: which event came earlier	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+I'll call you {{c1::before}} tomorrow.	deadline marker: not later than tomorrow	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+{{c1::Throughout}} the conference, there were many discussions.	complete-span marker; from start to end of an event	module:03 type:cloze sense:temporal frequency:mid register:formal cefr:b1 image-schema:none generalisable:yes
+She was reading {{c1::while}} I was cooking.	simultaneity marker introducing a clause	module:03 type:cloze sense:temporal frequency:mid register:neutral cefr:a2 image-schema:none generalisable:yes
+I started my current job three years {{c1::ago}}.	past-distance marker anchored on now	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The contract is valid {{c1::until}} the end of the year.	endpoint marker; valid up to that point	module:03 type:cloze sense:temporal frequency:mid register:formal cefr:b1 image-schema:none generalisable:yes
+I need to submit this {{c1::by}} Friday.	deadline marker; not later than	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+{{c1::Before}} I arrived at the office, my colleagues had already started.	anterior marker; prior event	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
+The exhibition runs {{c1::from}} opening day to closing day.	starting boundary	module:03 type:cloze sense:temporal frequency:mid register:formal cefr:b1 image-schema:none generalisable:yes
+The exhibition runs from opening day {{c1::to}} closing day.	ending boundary	module:03 type:cloze sense:temporal frequency:mid register:formal cefr:b1 image-schema:none generalisable:yes

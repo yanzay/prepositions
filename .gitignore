@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local scratch
+tmp_rovodev_*
+*.bak
+research-reports/
+
+# GCP credentials — never commit. Stored locally so build_audio.py
+# can find them via GOOGLE_APPLICATION_CREDENTIALS=.secrets/gcp-adc.json
+.secrets/
+
+# Tier-2 generated media is committed so importers don't need a Google
+# Cloud account. Re-render anytime via build_audio.py / build_ipa.py /
+# build_diagrams.py
+english_prepositions_anki.apkg

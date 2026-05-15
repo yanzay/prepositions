@@ -1,0 +1,21 @@
+# Core: required to build the .apkg
+genanki==0.13.1
+
+# Tier-2 media (all optional — build_anki_package.py works without them;
+# the deck simply ships without media if media/ is empty).
+
+# Audio (Tier 2a) — Google Cloud Text-to-Speech (Neural2 voices).
+# Auth: GOOGLE_APPLICATION_CREDENTIALS=path/to/service-account.json
+# Free tier: 1M chars/month for Neural2 voices.
+google-cloud-texttospeech>=2.16.0       # build_audio.py
+# Optional: ffmpeg required by normalize_audio.py
+#   macOS:   brew install ffmpeg
+#   Linux:   apt install ffmpeg
+#   Windows: choco install ffmpeg
+
+# IPA (Tier 2b)
+eng-to-ipa>=0.0.2                       # build_ipa.py
+
+# Images (Tier 2c)
+# build_images.py uses ONLY stdlib (urllib) — no extra deps. Throttled
+# Wikimedia Commons API + picsum.photos placeholder fallback.
