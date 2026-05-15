@@ -1,21 +1,18 @@
-# Core: required to build the .apkg
-genanki==0.13.1
+# Build dependencies for english_prepositions_anki.apkg
+#
+# Core: official Anki backend (replaces deprecated genanki — produces
+# modern v18 .apkg files where deck-options presets actually bind on
+# import in Anki Desktop 23.10+).
+anki>=24.0
 
-# Tier-2 media (all optional — build_anki_package.py works without them;
-# the deck simply ships without media if media/ is empty).
+# Tier-2 media generation (all optional — build_anki_package.py works
+# without them; the deck simply ships without that media layer).
+google-cloud-texttospeech>=2.16.0   # for build_audio.py
+eng-to-ipa>=0.0.2                   # for build_ipa.py
+# build_images.py uses ONLY stdlib (urllib) — no extra dep needed for the
+# Wikimedia Commons + picsum.photos fetch.
 
-# Audio (Tier 2a) — Google Cloud Text-to-Speech (Neural2 voices).
-# Auth: GOOGLE_APPLICATION_CREDENTIALS=path/to/service-account.json
-# Free tier: 1M chars/month for Neural2 voices.
-google-cloud-texttospeech>=2.16.0       # build_audio.py
-# Optional: ffmpeg required by normalize_audio.py
-#   macOS:   brew install ffmpeg
-#   Linux:   apt install ffmpeg
-#   Windows: choco install ffmpeg
-
-# IPA (Tier 2b)
-eng-to-ipa>=0.0.2                       # build_ipa.py
-
-# Images (Tier 2c)
-# build_images.py uses ONLY stdlib (urllib) — no extra deps. Throttled
-# Wikimedia Commons API + picsum.photos placeholder fallback.
+# System prerequisite (NOT pip-installable):
+#   ffmpeg — used by normalize_audio.py for EBU R128 loudness pass
+#   macOS:  brew install ffmpeg
+#   Debian: apt install ffmpeg

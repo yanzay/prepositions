@@ -250,7 +250,7 @@ retention 0.85. SM-2 fallback settings are documented in
 
 ## Notes
 
-- The build script auto-installs `genanki` if it is missing.
+- The build script auto-installs the official `anki>=24.0` package if it is missing — the project-local `anki_packager.py` shim wraps it to provide a genanki-compatible API while producing modern v18 .apkg files (so deck-options presets actually bind on import in Anki Desktop 23.10+).
 - All rows must pass `validate_anki_data.py` before each build (tag-axis lint
   included).
 - See **`CONTENT_PLAN.md`** for the per-module content plan, audit trail,

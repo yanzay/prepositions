@@ -29,15 +29,25 @@ import sys
 from pathlib import Path
 from typing import Iterable
 
-# ── genanki bootstrap ───────────────────────────────────────────────────
-def ensure_genanki():
+# ── anki backend bootstrap ──────────────────────────────────────────────
+# We use the project-local `anki_packager` shim instead of genanki because
+# genanki produces legacy v11 .apkg files where deck-options bindings are
+# silently rewritten to "Default" on import. The shim is a drop-in API
+# (Model / Deck / Note / Package) built on top of the official `anki`
+# package, producing modern v18 .apkg files whose preset auto-binds on
+# import in Anki Desktop 23.10+.
+def ensure_anki_backend():
+    """Verify the official `anki` package is installed."""
     try:
-        import genanki  # noqa: F401
+        import anki  # noqa: F401
+        return
     except ImportError:
-        import subprocess
-        print("Installing genanki…")
-        subprocess.check_call([sys.executable, "-m", "pip", "install",
-                               "genanki==0.13.1"])
+        pass
+    import subprocess
+    print("  [setup] official `anki` package not found; installing…")
+    subprocess.check_call([sys.executable, "-m", "pip", "install",
+                           "--user", "--break-system-packages",
+                           "anki>=24.0"])
 
 
 # ── Stable model / deck IDs (random but fixed forever) ──────────────────
@@ -396,7 +406,7 @@ def collect_media_files() -> list[str]:
 
 # ── Note-type definitions ───────────────────────────────────────────────
 def make_models():
-    import genanki
+    import anki_packager as genanki  # drop-in API, see anki_packager.py
     rec_fields = ["Sentence", "Label", "Sense", "Pattern", "Trajector",
                   "Landmark", "FrameOfRef", "ImageSchema", "MainUse",
                   "QuickCue", "Contrast", "WhenNotToUse",
@@ -477,7 +487,7 @@ def _tags_to_anki(tags_str: str) -> list[str]:
 
 
 def build_recognition_note(model, row, media):
-    import genanki
+    import anki_packager as genanki  # drop-in API
     return genanki.Note(
         model=model,
         fields=[
@@ -504,7 +514,7 @@ def build_recognition_note(model, row, media):
 
 
 def build_contrast_note(model, row, media):
-    import genanki
+    import anki_packager as genanki  # drop-in API
     return genanki.Note(
         model=model,
         fields=[
@@ -519,7 +529,7 @@ def build_contrast_note(model, row, media):
 
 
 def build_production_note(model, row, media):
-    import genanki
+    import anki_packager as genanki  # drop-in API
     return genanki.Note(
         model=model,
         fields=[
@@ -533,7 +543,7 @@ def build_production_note(model, row, media):
 
 
 def build_cloze_note(model, row, media):
-    import genanki
+    import anki_packager as genanki  # drop-in API
     return genanki.Note(
         model=model,
         fields=[
@@ -545,7 +555,7 @@ def build_cloze_note(model, row, media):
 
 
 def build_listening_note(model, row, media):
-    import genanki
+    import anki_packager as genanki  # drop-in API
     # AudioRef is already `[sound:hash.mp3]` in the staging file.
     return genanki.Note(
         model=model,
@@ -575,8 +585,8 @@ def main():
                     help="Skip Tier-2 media inclusion (for fast smoke builds)")
     args = ap.parse_args()
 
-    ensure_genanki()
-    import genanki
+    ensure_anki_backend()
+    import anki_packager as genanki  # drop-in API
 
     models = make_models()
     ipa_index, diag_index, pic_index, img_index = load_media_indices(not args.no_media)
@@ -613,8 +623,16 @@ def main():
             deck.add_note(note)
             counts[ctype] += 1
 
-    # Build package
-    pkg = genanki.Package(list(decks.values()))
+    # Build package — bind every non-default deck to the
+    # 'English Prepositions' FSRS preset on import. The L1 Interference
+    # subdeck (module:10) ships opted-out (perDay=0) so a Russian speaker
+    # doesn't drown in Spanish/Mandarin/Japanese cards. Each user enables
+    # only their L1 subdeck via gear → Deck Options → preset selector.
+    pkg = genanki.Package(
+        list(decks.values()),
+        preset_name="English Prepositions",
+        l1_deck_prefix="10 - L1 Interference::",
+    )
     if not args.no_media:
         pkg.media_files = collect_media_files()
     pkg.write_to_file(args.out)

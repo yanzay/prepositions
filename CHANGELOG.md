@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Build system**: replaced `genanki==0.13.1` dependency with the project-local
+  `anki_packager.py` shim built on top of the official `anki>=24.0` backend.
+  The shim exposes a drop-in `Model / Deck / Note / Package` API but produces
+  **modern v18 .apkg files** (instead of legacy v11). This means the FSRS
+  preset 'English Prepositions' now **actually auto-binds on import** in
+  Anki Desktop 23.10+ — previously the import silently rewrote every deck's
+  config_id back to "Default", forcing manual preset selection per subdeck.
+- L1 Interference subdecks (Module 10) ship with an opt-in 'English
+  Prepositions (L1 — opt in)' preset (perDay=0) so users only see L1 traps
+  for their own L1 after switching that single subdeck's preset.
+- **`requirements.txt`**: removed `genanki==0.13.1`, added `anki>=24.0`. Also
+  removed the spurious `requests` dependency — `build_images.py` uses stdlib
+  `urllib` only.
+- **`.apkg size reduced 52 MB → 24 MB`** thanks to v18's more efficient media
+  packaging (still includes all 1,470 MP3s + 56 images + 31 SVG diagrams).
+
+## [Earlier]
+
 ### Added
 - Project scaffolding mirroring the sister `../verbs` deck.
 - Five staging files with header schemas (Recognition, Contrast, Production,
