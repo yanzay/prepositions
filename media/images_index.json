@@ -1,1 +1,562 @@
-{}
+{
+  "0387885aee96": {
+    "attribution": "Esemono",
+    "caption": "Paris is situated between London and Berlin.",
+    "file": "0387885aee96.jpg",
+    "license": "Public domain",
+    "mime": "image/gif",
+    "query": "europe map paris london berlin",
+    "size": 554781,
+    "source": "https://commons.wikimedia.org/wiki/File:Balkans_Animation_1800-2008.gif"
+  },
+  "062a4171bcef": {
+    "attribution": "Unknown authorUnknown author",
+    "caption": "The pharmacy is on the corner.",
+    "file": "062a4171bcef.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "corner pharmacy street intersection",
+    "size": 361817,
+    "source": "https://commons.wikimedia.org/wiki/File:Bystanders_observing_street_construction_at_the_intersection_of_Grand_Avenue_and_Olive_Street.jpg"
+  },
+  "0a29bdcf6ae7": {
+    "attribution": "Roger Lesage",
+    "caption": "The speaker stood behind the podium.",
+    "file": "0a29bdcf6ae7.jpg",
+    "license": "CC BY-SA 3.0 igo",
+    "mime": "image/tiff",
+    "query": "speaker behind podium lectern",
+    "size": 113326,
+    "source": "https://commons.wikimedia.org/wiki/File:Conferences,_Paris_UNESCO_House_-_UNESCO_-_PHOTO0000000918_0000.tiff"
+  },
+  "0c29b16f493a": {
+    "attribution": "Riley from Christchurch, New Zealand",
+    "caption": "The car is parked outside the garage.",
+    "file": "0c29b16f493a.jpg",
+    "license": "CC BY 2.0",
+    "mime": "image/jpeg",
+    "query": "car parked outside garage driveway",
+    "size": 206782,
+    "source": "https://commons.wikimedia.org/wiki/File:1963_Studebaker_Hawk_(6959376084).jpg"
+  },
+  "129c394aefa2": {
+    "attribution": "Famartin",
+    "caption": "The plane flew over the clouds.",
+    "file": "129c394aefa2.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "airplane above clouds aerial view",
+    "size": 181431,
+    "source": "https://commons.wikimedia.org/wiki/File:2022-09-09_18_36_18_UTC_minus_4_Cumulus_clouds_viewed_from_an_airplane_above_western_Indiana.jpg"
+  },
+  "146214dd8c78": {
+    "attribution": "Dave Hitchborne",
+    "caption": "There are children playing in the corner.",
+    "file": "146214dd8c78.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "children playing room corner interior",
+    "size": 78804,
+    "source": "https://commons.wikimedia.org/wiki/File:Methodist_Church,_Fulwood_Road-Ashgate_Road,_Broomhill_-_geograph.org.uk_-_1141785.jpg"
+  },
+  "151087f2ca24": {
+    "attribution": "John Lewis Childs (Firm);\n\nHenry G. Gilbert Nursery and Seed Trade Catalog Collection",
+    "caption": "The package came from Tokyo.",
+    "file": "151087f2ca24.jpg",
+    "license": "No restrictions",
+    "mime": "image/jpeg",
+    "query": "shipping box parcel package",
+    "size": 181882,
+    "source": "https://commons.wikimedia.org/wiki/File:Childs%27_rare_flowers,_vegetables,_and_fruits_(1904)_(20606656255).jpg"
+  },
+  "166e12a38844": {
+    "attribution": "",
+    "caption": "The children stood in front of the school.",
+    "file": "166e12a38844.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "schoolchildren in front of school building",
+    "size": 205136,
+    "source": "https://commons.wikimedia.org/wiki/File:Group_portrait_of_Ballard_schoolchildren,_1902_-_DPLA_-_0d70e6127660a9e88c951ab324deb70c_(page_1).jpg"
+  },
+  "1d6c62db7f6e": {
+    "attribution": "SA Mathieson",
+    "caption": "Turn left at the corner.",
+    "file": "1d6c62db7f6e.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "street corner intersection signpost",
+    "size": 86037,
+    "source": "https://commons.wikimedia.org/wiki/File:Corner_of_Stonesfield_and_Akeman_-_geograph.org.uk_-_190237.jpg"
+  },
+  "1dbf951125b2": {
+    "attribution": "Fons Heijnsbroek",
+    "caption": "She walked through the park.",
+    "file": "1dbf951125b2.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "woman walking park path",
+    "size": 358594,
+    "source": "https://commons.wikimedia.org/wiki/File:A_photo_of_parks_in_Amsterdam_city,_free_download;_an_Autumn_view_of_the_pond_and_fountain_in_the_Westerpark_with_yellowing_trees_by_Fall._Fons_Heijnsbroek,_street_photography_of_The_Netherlands_2018_in_high_resolution;_free_image_CC0.jpg"
+  },
+  "1fc7d4690902": {
+    "attribution": "Internet Archive Book Images",
+    "caption": "She took the lid off the jar.",
+    "file": "1fc7d4690902.jpg",
+    "license": "No restrictions",
+    "mime": "image/jpeg",
+    "query": "hand removing lid from jar",
+    "size": 134847,
+    "source": "https://commons.wikimedia.org/wiki/File:American_homes_and_gardens_(1910)_(18151438502).jpg"
+  },
+  "2010256f08f9": {
+    "attribution": "Internet Archive Book Images",
+    "caption": "She ran to school every morning.",
+    "file": "2010256f08f9.jpg",
+    "license": "No restrictions",
+    "mime": "image/jpeg",
+    "query": "schoolgirl running to school",
+    "size": 295926,
+    "source": "https://commons.wikimedia.org/wiki/File:Letters_from_the_Far_East_(1919)_(14595518118).jpg"
+  },
+  "2ae0c86c441f": {
+    "attribution": "Ryan McNamee",
+    "caption": "The books are under the bed.",
+    "file": "2ae0c86c441f.jpg",
+    "license": "CC BY-SA 3.0",
+    "mime": "image/jpeg",
+    "query": "books stored under bed",
+    "size": 147228,
+    "source": "https://commons.wikimedia.org/wiki/File:S.S._Legacy_-_Admiral_Stateroom.jpg"
+  },
+  "2d9fca3c6f53": {
+    "attribution": "ESO/B. Tafreshi (twanight.org)",
+    "caption": "Stars shine above us every night.",
+    "file": "2d9fca3c6f53.jpg",
+    "license": "CC BY 4.0",
+    "mime": "image/jpeg",
+    "query": "starry night sky above",
+    "size": 88614,
+    "source": "https://commons.wikimedia.org/wiki/File:ALMA_and_a_Starry_Night.jpg"
+  },
+  "2ffdeb9af374": {
+    "attribution": "Cornelis Norbertus Gijsbrechts",
+    "caption": "The painting hangs on the wall.",
+    "file": "2ffdeb9af374.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "painting hanging gallery wall",
+    "size": 462433,
+    "source": "https://commons.wikimedia.org/wiki/File:Cornelius_Norbertus_Gijsbrechts_-_Trompe_l%27Oeil._Board_Partition_with_a_Still_Life_of_Two_Dead_Birds_Hanging_on_a_Wall_-_KMS3030_-_Statens_Museum_for_Kunst.jpg"
+  },
+  "3033c4a679b9": {
+    "attribution": "Picsum",
+    "caption": "They moved towards the exit.",
+    "file": "3033c4a679b9.jpg",
+    "license": "Picsum placeholder (CC0 Lorem-Ipsum-of-images)",
+    "mime": "image/jpeg",
+    "query": "people walking towards exit door",
+    "size": 69367,
+    "source": "https://picsum.photos"
+  },
+  "3f2db40a3391": {
+    "attribution": "JOHN LLOYD from Concrete, Washington, United States",
+    "caption": "The car drove past the house without stopping.",
+    "file": "3f2db40a3391.jpg",
+    "license": "CC BY 2.0",
+    "mime": "image/jpeg",
+    "query": "car driving past house street",
+    "size": 214833,
+    "source": "https://commons.wikimedia.org/wiki/File:Barracuda_(5919269871).jpg"
+  },
+  "4248c549e9e2": {
+    "attribution": "Juhele_CZ",
+    "caption": "The treasure is inside the chest.",
+    "file": "4248c549e9e2.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "open treasure chest gold",
+    "size": 331086,
+    "source": "https://commons.wikimedia.org/wiki/File:2024-12-20_15-32-45_CZ_PRG_Tutankhamun_exhib_JHe_N9.jpg"
+  },
+  "4c30c984584b": {
+    "attribution": "Internet Archive Book Images",
+    "caption": "She sat next to her friend.",
+    "file": "4c30c984584b.jpg",
+    "license": "No restrictions",
+    "mime": "image/jpeg",
+    "query": "two friends sitting together close",
+    "size": 207909,
+    "source": "https://commons.wikimedia.org/wiki/File:Breeder_and_sportsman_(1886)_(20224391640).jpg"
+  },
+  "4f80bff8ab83": {
+    "attribution": "Pete Souza",
+    "caption": "He ran away from the dog.",
+    "file": "4f80bff8ab83.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "person running away from dog",
+    "size": 251564,
+    "source": "https://commons.wikimedia.org/wiki/File:Barack_Obama_runs_away_from_the_family_dog_2009-05-12.jpg"
+  },
+  "5195173e1b52": {
+    "attribution": "Tatiana Markina",
+    "caption": "The cat is under the table.",
+    "file": "5195173e1b52.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "cat under wooden table",
+    "size": 333909,
+    "source": "https://commons.wikimedia.org/wiki/File:2023.09.12_Antique_Table_Rococo.jpg"
+  },
+  "53ed9a9052e2": {
+    "attribution": "Related names:\n\nJervis, John B\nClement, Daniel, transmitter\nBoucher, Jack, photographer",
+    "caption": "The bridge spans across the river.",
+    "file": "53ed9a9052e2.jpg",
+    "license": "Public domain",
+    "mime": "image/tiff",
+    "query": "bridge spanning river aerial",
+    "size": 158711,
+    "source": "https://commons.wikimedia.org/wiki/File:AERIAL_VIEW_OF_HIGH_BRIDGE._STEEL_SPAN_AT_CENTER_OF_BRIDGE_WAS_ERECTED_IN_1923_TO_AID_NAVIGATION_ON_THE_HARLEM_RIVER._-_Old_Croton_Aqueduct,_Harlem_River_Crossing,_Spanning_HAER_NY,3-BRONX,12A-11.tif"
+  },
+  "59b76bdd6241": {
+    "attribution": "Stephen Kennard",
+    "caption": "The town is on the river.",
+    "file": "59b76bdd6241.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "town riverside aerial",
+    "size": 387841,
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Chatham_Town_Centre_(High_Street).jpg"
+  },
+  "5cabc7cf7f27": {
+    "attribution": "",
+    "caption": "The painting is in the gallery.",
+    "file": "5cabc7cf7f27.jpg",
+    "license": "CC BY 4.0",
+    "mime": "image/jpeg",
+    "query": "art gallery interior painting wall",
+    "size": 776139,
+    "source": "https://commons.wikimedia.org/wiki/File:A_group_of_people_are_gathered_in_an_art_gallery_looking_at_Wellcome_V0040815.jpg"
+  },
+  "6346c72783c1": {
+    "attribution": "Internet Archive Book Images",
+    "caption": "The fish are swimming in the water.",
+    "file": "6346c72783c1.jpg",
+    "license": "No restrictions",
+    "mime": "image/jpeg",
+    "query": "goldfish swimming aquarium",
+    "size": 120330,
+    "source": "https://commons.wikimedia.org/wiki/File:Goldfish_varieties_and_tropical_aquarium_fishes;_a_complete_guide_to_aquaria_and_related_subjects_(1917)_(14597724130).jpg"
+  },
+  "660345c3f43b": {
+    "attribution": "Ken Lund from Reno, Nevada, USA",
+    "caption": "The castle stands between two rivers.",
+    "file": "660345c3f43b.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "castle between two rivers aerial",
+    "size": 117454,
+    "source": "https://commons.wikimedia.org/wiki/File:Delaware_River_North_of_Penns_Grove,_New_Jersey_(2894754680).jpg"
+  },
+  "683e40585c80": {
+    "attribution": "വരി വര",
+    "caption": "The fly is sitting on the ceiling.",
+    "file": "683e40585c80.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "fly insect ceiling",
+    "size": 104261,
+    "source": "https://commons.wikimedia.org/wiki/File:Jumping_spider_-_Plexipus_paykulli_Family_salticaidae_Female_at_Mechode_Padur.jpg"
+  },
+  "6d9d9aa80b7c": {
+    "attribution": "Troy Kinney / Margaret West Kinney",
+    "caption": "The diagram is on page 7.",
+    "file": "6d9d9aa80b7c.jpg",
+    "license": "Public domain",
+    "mime": "image/png",
+    "query": "open book diagram page",
+    "size": 57259,
+    "source": "https://commons.wikimedia.org/wiki/File:Social_Dancing_of_To-day_(1914)_Kinney_-_Diagram_page_16.png"
+  },
+  "8040b33c02a6": {
+    "attribution": "David Kernan",
+    "caption": "She lives in Tokyo.",
+    "file": "8040b33c02a6.jpg",
+    "license": "CC BY 4.0",
+    "mime": "image/jpeg",
+    "query": "tokyo skyline city",
+    "size": 154989,
+    "source": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan.jpg"
+  },
+  "85166d7611c8": {
+    "attribution": "Fanny (Appleton) Longfellow (1817-1861)",
+    "caption": "She sat below the window on the bench.",
+    "file": "85166d7611c8.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "woman sitting below window bench",
+    "size": 279879,
+    "source": "https://commons.wikimedia.org/wiki/File:Frances_(Appleton)_Longfellow_to_Emmeline_(Austin)_Wadsworth,_29_May_1841_(3b7f176a-063d-42a9-98e8-243a473587a3).jpg"
+  },
+  "89b0b59a2de5": {
+    "attribution": "Almightybless",
+    "caption": "Children played around the playground.",
+    "file": "89b0b59a2de5.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "children playing playground equipment",
+    "size": 543462,
+    "source": "https://commons.wikimedia.org/wiki/File:Children_play_equipment_at_Mayor_Munusamy_Playground.jpg"
+  },
+  "949d9de4042a": {
+    "attribution": "David Anstiss",
+    "caption": "The water flows down the river.",
+    "file": "949d9de4042a.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "river flowing downstream",
+    "size": 275365,
+    "source": "https://commons.wikimedia.org/wiki/File:River_Eden_flowing_downstream_-_geograph.org.uk_-_1700395.jpg"
+  },
+  "977f3263fc6b": {
+    "attribution": "AnonymousUnknown author",
+    "caption": "The door is behind the curtain.",
+    "file": "977f3263fc6b.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "doorway behind curtain",
+    "size": 422859,
+    "source": "https://commons.wikimedia.org/wiki/File:Design_for_an_Elaborate_Doorway_with_a_Vaulted_Ceiling_Behind,_and_a_Curtain_Drawn_Across_the_Opening_MET_DP803633.jpg"
+  },
+  "99f3b0d7cca4": {
+    "attribution": "Picsum",
+    "caption": "The lamp hangs above the dining table.",
+    "file": "99f3b0d7cca4.jpg",
+    "license": "Picsum placeholder (CC0 Lorem-Ipsum-of-images)",
+    "mime": "image/jpeg",
+    "query": "pendant lamp above dining table",
+    "size": 38579,
+    "source": "https://picsum.photos"
+  },
+  "9a998198990a": {
+    "attribution": "Internet Archive Book Images",
+    "caption": "The bird soared over the mountains.",
+    "file": "9a998198990a.jpg",
+    "license": "No restrictions",
+    "mime": "image/jpeg",
+    "query": "bird soaring over mountain peaks",
+    "size": 321128,
+    "source": "https://commons.wikimedia.org/wiki/File:American_cookery_(1919)_(14773399465).jpg"
+  },
+  "9f6dccee928d": {
+    "attribution": "Photograph by Mike Peel (www.mikepeel.net).",
+    "caption": "The café is near the train station.",
+    "file": "9f6dccee928d.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "small cafe outside train station",
+    "size": 216956,
+    "source": "https://commons.wikimedia.org/wiki/File:At_Lisbon_2025_173.jpg"
+  },
+  "9fab44c0485d": {
+    "attribution": "Print made by: Thomas Rowlandson\n\nAfter: John Nixon",
+    "caption": "She's waiting at the door.",
+    "file": "9fab44c0485d.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "woman waiting at front door",
+    "size": 345036,
+    "source": "https://commons.wikimedia.org/wiki/File:French_liberty_(BM_1868,0808.6264).jpg"
+  },
+  "9fed64fcfdce": {
+    "attribution": "Lance Cpl. Brian Bekkala",
+    "caption": "The dog jumped into the pool and swam.",
+    "file": "9fed64fcfdce.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "dog jumping into swimming pool",
+    "size": 184891,
+    "source": "https://commons.wikimedia.org/wiki/File:MARSOC_K-9_Training_160208-M-GR217-102.jpg"
+  },
+  "ab4738a54ff4": {
+    "attribution": "dbking",
+    "caption": "The ball rolled out of the box.",
+    "file": "ab4738a54ff4.jpg",
+    "license": "CC BY 2.0",
+    "mime": "image/jpeg",
+    "query": "ball rolling out of box",
+    "size": 114968,
+    "source": "https://commons.wikimedia.org/wiki/File:Air_Force_Memorial_(under_construction)_(177355827).jpg"
+  },
+  "b2566cbf297f": {
+    "attribution": "By StartupStockPhotos from Pixabay",
+    "caption": "The book is on the table.",
+    "file": "b2566cbf297f.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "open book wooden table",
+    "size": 86868,
+    "source": "https://commons.wikimedia.org/wiki/File:A_laptop_and_a_notebook_on_the_wooden_table_(Pixabay).jpg"
+  },
+  "baab33303bc0": {
+    "attribution": "Picsum",
+    "caption": "The keys are inside the drawer.",
+    "file": "baab33303bc0.jpg",
+    "license": "Picsum placeholder (CC0 Lorem-Ipsum-of-images)",
+    "mime": "image/jpeg",
+    "query": "keys inside open drawer",
+    "size": 55963,
+    "source": "https://picsum.photos"
+  },
+  "c4f62e8e60bc": {
+    "attribution": "William Murphy from Dublin, Ireland",
+    "caption": "We're on the bus.",
+    "file": "c4f62e8e60bc.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "passengers inside city bus",
+    "size": 279797,
+    "source": "https://commons.wikimedia.org/wiki/File:90_NEW_BUSES_FOR_DUBLIN_CITY_-INSIDE_VIEW-_REF-106983_(20304440428).jpg"
+  },
+  "ca7bcf711513": {
+    "attribution": "Nina Reicer",
+    "caption": "The hikers walked through the valley.",
+    "file": "ca7bcf711513.jpg",
+    "license": "CC BY 4.0",
+    "mime": "image/jpeg",
+    "query": "hikers walking through valley",
+    "size": 188404,
+    "source": "https://commons.wikimedia.org/wiki/File:Balcon_del_Diablo,_Landscape_view_of_Yuncaypata_Valley,_February_2026_40.jpg"
+  },
+  "d16ae90a48e2": {
+    "attribution": "runran",
+    "caption": "Tom sat next to Alice in the cinema.",
+    "file": "d16ae90a48e2.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "two people sitting cinema seats",
+    "size": 532681,
+    "source": "https://commons.wikimedia.org/wiki/File:Bahar_(2599760344).jpg"
+  },
+  "d2a7a8d1b1bd": {
+    "attribution": "Chris Downer",
+    "caption": "We walked along the beach.",
+    "file": "d2a7a8d1b1bd.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "couple walking beach shore",
+    "size": 56839,
+    "source": "https://commons.wikimedia.org/wiki/File:Barry_Island,_dog_walking_on_the_shore_-_geograph.org.uk_-_1188335.jpg"
+  },
+  "d2afe34dcb97": {
+    "attribution": "Picsum",
+    "caption": "The acrobat leaped onto the stage from the wings.",
+    "file": "d2afe34dcb97.jpg",
+    "license": "Picsum placeholder (CC0 Lorem-Ipsum-of-images)",
+    "mime": "image/jpeg",
+    "query": "acrobat performer leaping stage",
+    "size": 29312,
+    "source": "https://picsum.photos"
+  },
+  "d52f7e68846e": {
+    "attribution": "BLM Oregon &amp; Washington",
+    "caption": "The flowers were scattered among the rocks.",
+    "file": "d52f7e68846e.jpg",
+    "license": "Public domain",
+    "mime": "image/jpeg",
+    "query": "wildflowers scattered between rocks",
+    "size": 139124,
+    "source": "https://commons.wikimedia.org/wiki/File:Redmond_Caves_(32501213131).jpg"
+  },
+  "dace928c383b": {
+    "attribution": "Sonkiki",
+    "caption": "A cat is sleeping on the sofa.",
+    "file": "dace928c383b.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "cat sleeping on sofa",
+    "size": 454370,
+    "source": "https://commons.wikimedia.org/wiki/File:Cat-sleeping-curled-up.jpg"
+  },
+  "dda4edef70f6": {
+    "attribution": "Picsum",
+    "caption": "There's a coin in my pocket.",
+    "file": "dda4edef70f6.jpg",
+    "license": "Picsum placeholder (CC0 Lorem-Ipsum-of-images)",
+    "mime": "image/jpeg",
+    "query": "coin in jeans pocket",
+    "size": 23231,
+    "source": "https://picsum.photos"
+  },
+  "dee220fb9269": {
+    "attribution": "Famartin",
+    "caption": "The plane is flying in the clouds.",
+    "file": "dee220fb9269.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "airplane flying through clouds",
+    "size": 135740,
+    "source": "https://commons.wikimedia.org/wiki/File:2015-07-10_19_01_45_Clouds_over_Markham,_Virginia_viewed_from_an_airplane_flying_from_Washington_Dulles_International_Airport_to_Dallas-Fort_Worth_International_Airport.jpg"
+  },
+  "e37d2c88e922": {
+    "attribution": "Rexness",
+    "caption": "Let's meet at the corner.",
+    "file": "e37d2c88e922.jpg",
+    "license": "CC BY-SA 2.0",
+    "mime": "image/jpeg",
+    "query": "two people meeting street corner",
+    "size": 210288,
+    "source": "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station_(5129024217).jpg"
+  },
+  "e8ce0f49d49b": {
+    "attribution": "MustafaAldahabi",
+    "caption": "The climber went up the mountain.",
+    "file": "e8ce0f49d49b.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "mountain climber ascending peak",
+    "size": 263733,
+    "source": "https://commons.wikimedia.org/wiki/File:Ahmad_Bani_Hani_-_Climbing_on_ice_edge.jpg"
+  },
+  "f24bb7eb7cef": {
+    "attribution": "Jim Evans",
+    "caption": "The store is beside the post office.",
+    "file": "f24bb7eb7cef.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "post office street view",
+    "size": 222818,
+    "source": "https://commons.wikimedia.org/wiki/File:Galveston_US_Post_Office,_Custom_House_and_Courthouse.jpg"
+  },
+  "f2d3c13d58a9": {
+    "attribution": "Palauenc05",
+    "caption": "The monument stands in front of the cathedral.",
+    "file": "f2d3c13d58a9.jpg",
+    "license": "CC BY-SA 4.0",
+    "mime": "image/jpeg",
+    "query": "monument cathedral front",
+    "size": 228396,
+    "source": "https://commons.wikimedia.org/wiki/File:1957_Volkswagen_Beetle,_export_model,_in_front_of_Porta_Nigra_in_Trier_2023-05-01.jpg"
+  },
+  "f4b4fc789edc": {
+    "attribution": "The Fun Chronicles",
+    "caption": "The hikers walked among tall pine trees.",
+    "file": "f4b4fc789edc.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "hikers walking pine forest",
+    "size": 204938,
+    "source": "https://commons.wikimedia.org/wiki/File:037_Black_Mountain_Road_Views_(27)_-_Pine_Mountain,_San_Diego_County.jpg"
+  },
+  "fa0cd0806f3a": {
+    "attribution": "Kurt Melzer",
+    "caption": "The keys are in the drawer.",
+    "file": "fa0cd0806f3a.jpg",
+    "license": "CC0",
+    "mime": "image/jpeg",
+    "query": "open drawer keys",
+    "size": 124444,
+    "source": "https://commons.wikimedia.org/wiki/File:Kurt_Melzer,_Key-Escutcheon-Drawer_Pull,_c._1937,_NGA_24022.jpg"
+  }
+}

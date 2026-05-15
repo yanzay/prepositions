@@ -85,10 +85,12 @@ ROOT_DECK_NAME = "English Prepositions"
 # ── Media paths ─────────────────────────────────────────────────────────
 MEDIA_AUDIO_DIR    = Path("media/audio")
 MEDIA_DIAGRAMS_DIR = Path("media/diagrams")
-MEDIA_PICTURES_DIR = Path("media/pictures")
+MEDIA_PICTURES_DIR = Path("media/pictures")   # hand-curated picture-cue assets
+MEDIA_IMAGES_DIR   = Path("media/images")     # auto-fetched (build_images.py)
 MEDIA_IPA_INDEX    = Path("media/ipa_index.json")
 MEDIA_DIAG_INDEX   = Path("media/diagrams_index.json")
 MEDIA_PIC_INDEX    = Path("media/pictures_index.json")
+MEDIA_IMG_INDEX    = Path("media/images_index.json")  # hash → metadata, by sha1(sentence)[:12]
 
 
 # ── Card UX: shared CSS (light / dark / tiered reveal / mobile) ─────────
@@ -130,6 +132,10 @@ SHARED_CSS = """
 .diagram   { display: block; margin: 0.5em auto; max-width: 320px; }
 .picture   { display: block; margin: 0.5em auto; max-width: 100%;
              max-height: 240px; border-radius: 8px; }
+.img-credit{ display: block; text-align: center; font-size: 0.7em;
+             color: #6b7280; margin-top: -0.3em; margin-bottom: 0.5em;
+             font-style: italic; }
+.nightMode .img-credit, .night_mode .img-credit { color: #94a3b8; }
 details    { margin-top: 0.4em; }
 details summary { cursor: pointer; color: #1d4ed8; font-size: 0.9em;
                   user-select: none; }
@@ -321,20 +327,27 @@ def load_tsv(path: Path) -> Iterable[dict]:
 # ── Media indices ───────────────────────────────────────────────────────
 def load_media_indices(use_media: bool):
     if not use_media:
-        return {}, {}, {}
+        return {}, {}, {}, {}
     ipa = json.loads(MEDIA_IPA_INDEX.read_text(encoding="utf-8")) \
         if MEDIA_IPA_INDEX.exists() else {}
     diag = json.loads(MEDIA_DIAG_INDEX.read_text(encoding="utf-8")) \
         if MEDIA_DIAG_INDEX.exists() else {}
     pic = json.loads(MEDIA_PIC_INDEX.read_text(encoding="utf-8")) \
         if MEDIA_PIC_INDEX.exists() else {}
-    return ipa, diag, pic
+    img = json.loads(MEDIA_IMG_INDEX.read_text(encoding="utf-8")) \
+        if MEDIA_IMG_INDEX.exists() else {}
+    return ipa, diag, pic, img
 
 
 def media_for_sentence(sentence: str, ipa_index: dict,
                        diagram_index: dict, picture_index: dict,
+                       image_index: dict,
                        *, label: str = "") -> dict:
-    """Return {Audio, IPA, Diagram, Picture} as Anki-ready HTML strings."""
+    """Return {Audio, IPA, Diagram, Picture} as Anki-ready HTML strings.
+
+    Picture priority: hand-curated `picture_index` (slug-keyed) wins over
+    auto-fetched `image_index` (hash-keyed by sha1(sentence)[:12]).
+    """
     h = text_hash(sentence)
     out = {"Audio": "", "IPA": "", "Diagram": "", "Picture": ""}
     audio_path = MEDIA_AUDIO_DIR / f"{h}.mp3"
@@ -347,10 +360,24 @@ def media_for_sentence(sentence: str, ipa_index: dict,
     diag_file = diagram_index.get(label) or diagram_index.get(bare_label)
     if diag_file:
         out["Diagram"] = f'<img class="diagram" src="{diag_file}">'
+    # Picture: hand-curated wins, then auto-fetched (Wikimedia Commons)
     pic_slug = re.sub(r"[^\w\s-]", "", bare_label.lower()).replace(" ", "-")
     pic_entry = picture_index.get(pic_slug)
     if pic_entry:
         out["Picture"] = f'<img class="picture" src="{pic_entry["file"]}">'
+    elif h in image_index:
+        img_entry = image_index[h]
+        # Render with caption + tiny attribution credit
+        attribution = img_entry.get("attribution", "")
+        license_str = img_entry.get("license", "")
+        credit = ""
+        if attribution or license_str:
+            credit = (f'<div class="img-credit">'
+                      f'{attribution}'
+                      + (f' · {license_str}' if license_str else "")
+                      + f'</div>')
+        out["Picture"] = (f'<img class="picture" src="{img_entry["file"]}">'
+                          f'{credit}')
     return out
 
 
@@ -360,9 +387,10 @@ def collect_media_files() -> list[str]:
         media.extend(str(p) for p in MEDIA_AUDIO_DIR.glob("*.mp3"))
     if MEDIA_DIAGRAMS_DIR.exists():
         media.extend(str(p) for p in MEDIA_DIAGRAMS_DIR.glob("*.svg"))
-    if MEDIA_PICTURES_DIR.exists():
-        for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
-            media.extend(str(p) for p in MEDIA_PICTURES_DIR.glob(ext))
+    for d in (MEDIA_PICTURES_DIR, MEDIA_IMAGES_DIR):
+        if d.exists():
+            for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
+                media.extend(str(p) for p in d.glob(ext))
     return media
 
 
@@ -551,7 +579,7 @@ def main():
     import genanki
 
     models = make_models()
-    ipa_index, diag_index, pic_index = load_media_indices(not args.no_media)
+    ipa_index, diag_index, pic_index, img_index = load_media_indices(not args.no_media)
     decks: dict[str, "genanki.Deck"] = {}
 
     def get_deck(name: str) -> "genanki.Deck":
@@ -579,6 +607,7 @@ def main():
                     "___", row.get("Answer", ""))
             media = media_for_sentence(sentence_for_media,
                                        ipa_index, diag_index, pic_index,
+                                       img_index,
                                        label=row.get("Label", ""))
             note = builder(models[ctype], row, media)
             deck.add_note(note)
