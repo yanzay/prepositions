@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+_Nothing yet._
+
+## [1.0.0] - 2026-05-16
+
+### Released
+
+- **First public release** of the English Prepositions Anki Deck — 1,612 cards across 12 pedagogically structured modules and 5 card types (Recognition, Contrast, Cloze, Production, Listening).
+- 1,470 Google Cloud TTS Neural2 audio files (EBU R128 normalised), 31 image-schema SVG diagrams, 56 Wikimedia Commons CC-licensed photos, full IPA transcription index.
+- Modern v18 .apkg packaging via the project-local `anki_packager.py` shim — FSRS preset auto-binds on import in Anki Desktop 23.10+.
+- L1 Interference module ships opt-in (perDay=0) for ten L1 backgrounds: Spanish, French, German, Russian, Mandarin, Japanese, Korean, Arabic, Portuguese, Italian.
+- Ten audit waves, 700+ findings resolved, 0 ERROR / 1 WARN / 79 INFO lint baseline.
+
 ### Changed
 - **Build system**: replaced `genanki==0.13.1` dependency with the project-local
   `anki_packager.py` shim built on top of the official `anki>=24.0` backend.
@@ -39,7 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   processing — Morris et al. 1977; Roediger & Tekin 2017).
 - **Modules**: 10 → 12 (added **Polysemy Networks** and **Zero Preposition
   & Ellipsis**).
-- **Card-count target**: ~1,300 → ~1,460 with rebalanced R/C/P/Cl/L mix
+- **Card-count target**: ~1,300 → 1,612 (final) with rebalanced R/C/P/Cl/L mix
   (Production rises 16 % → 17 %, Contrast concentrated on confusable pairs,
   Listening adds 12 %).
 - **Recognition schema**: 9 fields → 13 fields, adding `Trajector`,
@@ -60,4 +72,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Phase D Polish: Modules 08–12 (~1,460 cards) + 200 picture-cue photos.
 - Phase E Distribution: AnkiHub + GitHub Release v1.0.
 
-[Unreleased]: https://github.com/EXAMPLE/english-prepositions-anki/compare/HEAD
+[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/yanzay/prepositions/releases/tag/v1.0.0

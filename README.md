@@ -11,6 +11,70 @@ against three independent audits (SLA pedagogy, cognitive science,
 premium-deck parity). See **`CONTENT_PLAN.md` § 0** for the principles and
 **§ 12** for the audit trail.
 
+## Installation
+
+1. **Download** `english_prepositions_anki.apkg` from the latest [GitHub Release](https://github.com/yanzay/prepositions/releases/latest).
+2. **Open Anki Desktop** (24.0 or later) and choose `File → Import…` → select the `.apkg`.
+3. **Verify auto-binding**: open `Tools → Manage Note Types` and confirm five `English Prepositions: …` note types appear. Open `Decks → English Prepositions → gear → Deck Options` and confirm the `English Prepositions` FSRS preset is bound. If you see `Default`, you're on Anki <23.10 — upgrade.
+4. **Optional: enable your L1 Interference module.** All eight Module 10 subdecks ship paused (perDay=0). Pick yours (e.g. `10 - L1 Interference::Spanish`), open its Deck Options, and switch the preset from `English Prepositions (L1 — opt in)` to `English Prepositions`.
+
+## Quick start (first 5 minutes)
+
+```text
+1. Import the .apkg as above.
+2. Click 'Study Now' on the top-level 'English Prepositions' deck.
+3. Anki will start with `01 - Spatial Core::1 - Recognition` (the
+   pedagogically correct entry point).
+4. Press SPACE to reveal the answer; rate Again / Hard / Good / Easy.
+5. Default daily dose: 20 new cards/day, 200 review cards/day cap. Adjust
+   in Deck Options once you've felt the load.
+```
+
+## How to study
+
+The deck enforces a **passive→productive** acquisition order via numerically
+prefixed subdeck names that Anki sorts alphabetically:
+
+```text
+01 - Spatial Core
+├── 1 - Recognition   passive cued recall (start here)
+├── 2 - Contrast      discriminate confusable forms
+├── 3 - Cloze         scaffolded production in context
+├── 4 - Production    full constrained narrative writing
+└── 5 - Listening     auditory transfer-appropriate processing
+```
+
+Recommended workflow:
+
+| Week | Focus | Daily dose |
+|------|-------|-----------:|
+| 1–2  | Modules 01–02 (Spatial) Recognition + Contrast | 20 new / 100 reviews |
+| 3–4  | Add Modules 03–04 (Time + Movement) | 25 new / 150 reviews |
+| 5–8  | Add Modules 05–07 (Dependent collocations) | 25 new / 200 reviews |
+| 9–12 | Modules 08–12 + Production + Listening | 30 new / 250 reviews |
+
+See `ANKI_SETTINGS.md` for FSRS retention tuning, study-time forecasting,
+and the staged unlock approach.
+
+## Module overview
+
+| #  | Module                       | Cards | What it teaches |
+|---:|------------------------------|------:|-----------------|
+| 01 | Spatial Core                 | 143   | `in / on / at` image schemas (CONTAINER, SUPPORT, POINT) |
+| 02 | Spatial Extended             | 143   | `under / over / between / among / behind / beside / around / inside / outside / near` |
+| 03 | Time Prepositions            | 148   | `in / on / at` for time + `by / until / for / since / during / within` |
+| 04 | Movement & Direction         | 125   | `to / into / onto / through / across / along / toward / off / out of / from` |
+| 05 | Verb + Preposition           | 191   | `depend on / consist of / believe in / arrive at / search for…` |
+| 06 | Adjective + Preposition      | 111   | `interested in / good at / proud of / afraid of / responsible for…` |
+| 07 | Noun + Preposition           |  80   | `reason for / increase in / influence on / answer to…` |
+| 08 | Phrasal & Multi-word         | 123   | `in spite of / on behalf of / by means of / out of / for the sake of…` |
+| 09 | Abstract & Idiomatic         | 156   | `in love / on edge / at fault / under pressure / over the moon…` |
+| 10 | L1 Interference              | 100   | Top errors from Spanish, French, German, Russian, Mandarin, Japanese, Arabic, Korean, Portuguese, Italian L1 backgrounds |
+| 11 | Polysemy Networks            |  84   | How `for / of / to / with / over` cluster their senses |
+| 12 | Zero Preposition             |  73   | `come [ø] home / discuss [ø] X / mention [ø] Y` (high-error omissions) |
+
+Total: **1,612 cards** across **60 subdecks**.
+
 ## What is included
 
 | File | Purpose |
@@ -45,7 +109,7 @@ premium-deck parity). See **`CONTENT_PLAN.md` § 0** for the principles and
 | `media/pictures/` | Hand-curated picture-cue images (manifest validated by `build_pictures.py`) |
 | `media/ipa_index.json` | Hash → IPA lookup used by the build script |
 
-## Deck structure (v2 — 12 modules, 5 card types, ~1,460 cards)
+## Deck structure (v1.0 — 12 modules, 5 card types, 1,612 cards)
 
 ```
 English Prepositions
@@ -94,7 +158,7 @@ See `CONTENT_PLAN.md` § 4 for per-module R/C/P/Cl/L counts.
 ## Tier 2 — multimodal layer
 
 ### 🔊 Audio
-- **Google Cloud Text-to-Speech** Neural2 voices (`en-US-Neural2-F` warm female default; switch via `PREP_TTS_VOICE`). First 1M chars/month free; full 1,407-card corpus is ~62k chars.
+- **Google Cloud Text-to-Speech** Neural2 voices (`en-US-Neural2-F` warm female default; switch via `PREP_TTS_VOICE`). First 1M chars/month free; full 1,612-card corpus is ~64k chars.
 - One MP3 per unique sentence, content-addressed (`<sha1[:12]>.mp3`).
 - Optional native-actor recordings post-v1.0 for the top-200 highest-frequency sentences.
 

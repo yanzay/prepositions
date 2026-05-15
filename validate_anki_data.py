@@ -45,7 +45,11 @@ FILES = {
     },
     "prepositions_listening.txt": {
         "columns": ["AudioRef", "Question", "Answer", "Transcript", "Tags"],
-        "key": "AudioRef",
+        # Composite key: the same MP3 (= same Transcript) can legitimately
+        # serve multiple Questions ("what was the missing word" vs "what
+        # was the missing phrase"). Dedup on (AudioRef, Question) instead
+        # of AudioRef alone.
+        "key": ("AudioRef", "Question"),
     },
 }
 
@@ -102,11 +106,18 @@ def validate_file(path: Path) -> int:
     n = 0
     for lineno, row in _read_rows(path):
         n += 1
-        k = row[key].strip()
-        if not k:
-            raise SystemExit(f"{path.name}:{lineno}: empty {key}")
+        if isinstance(key, tuple):
+            k = tuple(row[k_].strip() for k_ in key)
+            if not all(k):
+                raise SystemExit(f"{path.name}:{lineno}: empty {key}")
+            display_k = " | ".join(k)
+        else:
+            k = row[key].strip()
+            if not k:
+                raise SystemExit(f"{path.name}:{lineno}: empty {key}")
+            display_k = k
         if k in seen:
-            raise SystemExit(f"{path.name}:{lineno}: duplicate {key}: {k!r}")
+            raise SystemExit(f"{path.name}:{lineno}: duplicate {key}: {display_k!r}")
         seen.add(k)
         _check_tags(path, lineno, row["Tags"])
         if path.name == "prepositions_contrast.txt":

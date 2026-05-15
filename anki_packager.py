@@ -104,6 +104,10 @@ class Package:
     # Default preset names — can be overridden per-instance via the
     # `preset_name` and `l1_deck_prefix` ctor args (so this packager is
     # reusable across sister projects).
+    # NOTE: the class-level defaults below are FALLBACKS used only when
+    # Package(...) is constructed without the preset_name override. Both
+    # sister projects (verbs, prepositions) PASS their own preset_name
+    # at construction so the shim stays reusable across decks.
     PRESET_NAME = 'English Verb System'
     L1_PRESET_NAME = 'English Verb System (L1 — opt in)'
     L1_DECK_PREFIX = '13 - L1 Interference::'

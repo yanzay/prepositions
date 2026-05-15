@@ -140,12 +140,15 @@ SHARED_CSS = """
 .transcript{ font-family: "Charis SIL", "DejaVu Serif", serif;
              color: #1f2937; font-size: 1.05em; }
 .diagram   { display: block; margin: 0.5em auto; max-width: 320px; }
-.picture   { display: block; margin: 0.5em auto; max-width: 100%;
-             max-height: 240px; border-radius: 8px; }
+.picture   { display: block; margin: 0.5em auto; max-width: 100%; max-height: 240px; width: auto; height: auto; border-radius: 8px; }
 .img-credit{ display: block; text-align: center; font-size: 0.7em;
              color: #6b7280; margin-top: -0.3em; margin-bottom: 0.5em;
              font-style: italic; }
 .nightMode .img-credit, .night_mode .img-credit { color: #94a3b8; }
+.nightMode .prompt, .night_mode .prompt        { color: #f1f5f9; }
+.nightMode .answer, .night_mode .answer        { color: #f1f5f9; }
+.nightMode .transcript, .night_mode .transcript{ color: #f1f5f9; background: #1e293b; }
+.nightMode details, .night_mode details        { background: #1e293b; border-color: #475569; }
 details    { margin-top: 0.4em; }
 details summary { cursor: pointer; color: #1d4ed8; font-size: 0.9em;
                   user-select: none; }
