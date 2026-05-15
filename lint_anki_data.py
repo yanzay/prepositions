@@ -384,11 +384,21 @@ class Lint:
             return
         actual_band = CEFR_ORDER.get(cefr, 0)
         expected_band = CEFR_ORDER.get(expected, 0)
+        # Suppress for dependent collocations and idiomatic phrases — for those,
+        # the WHOLE LEXICAL CHUNK has its own CEFR rating that is independent
+        # of the bare preposition's base band. e.g. 'subordinate to' is B2 even
+        # though 'to' is A1; 'oblivious to' is B2; 'in lieu of' is C1.
+        sense = (row.get("Sense") or "").lower()
+        is_collocation = any(s in sense for s in (
+            "verb+prep", "adj+prep", "noun+prep", "phrasal",
+            "idiomatic", "fixed", "verb-prep", "adj-prep", "noun-prep",
+            "multi-word", "high-register", "academic",
+        ))
+        if is_collocation or "dependent:" in tags:
+            return
         # Allow ±2 band tolerance — basic preps used in advanced senses are
         # legitimately tagged higher (e.g. 'in trouble' = abstract container, B1+
         # not A1). Only flag when the drift is >2 bands.
-        # NOTE: 'in + time' = 'after X time has passed' (e.g. 'in an hour') is genuinely
-        # B1+ per English Vocabulary Profile, despite 'in' being A1. This is accepted noise.
         if actual_band and abs(actual_band - expected_band) > 2:
             self.add("WARN", file, lineno, "cefr-band-off",
                      f"prep '{prep}' base band {expected.upper()}; got {cefr.upper()} "

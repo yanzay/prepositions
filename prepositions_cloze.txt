@@ -244,3 +244,25 @@ I need to submit this {{c1::by}} Friday.	deadline marker; not later than	module:
 {{c1::Before}} I arrived at the office, my colleagues had already started.	anterior marker; prior event	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a2 image-schema:none generalisable:yes
 The exhibition runs {{c1::from}} opening day to closing day.	starting boundary	module:03 type:cloze sense:temporal frequency:mid register:formal cefr:b1 image-schema:none generalisable:yes
 The exhibition runs from opening day {{c1::to}} closing day.	ending boundary	module:03 type:cloze sense:temporal frequency:mid register:formal cefr:b1 image-schema:none generalisable:yes
+The keys are {{c1::in}} my jacket pocket.	Enclosed space within clothing	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+The mirror hangs {{c1::on}} the bathroom wall above the sink.	Vertical surface mounting	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:support generalisable:yes
+The cat napped {{c1::on}} the warm windowsill.	Flat horizontal support surface	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:support generalisable:yes
+We met {{c1::at}} the bus stop on Fifth Avenue.	Specific point location	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+Bread and jam are {{c1::in}} the kitchen cupboard.	Interior containment space	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+The sign is posted {{c1::at}} the entrance.	Directional marker point	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+Water bottles {{c1::on}} the shelf stay cool longer.	Flat surface placement	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:support generalisable:yes
+My phone is {{c1::in}} the desk drawer with my charger.	Interior closed space	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:container generalisable:yes
+The notice board stands {{c1::at}} the corner of the hallway.	Intersection point marker	module:01 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The barn sits {{c1::beside}} the old farmhouse near the road.	Adjacent positioning without formal ranking	module:02 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:point generalisable:yes
+The rowing boat floated {{c1::beneath}} the arched stone bridge.	Directly under with overhead framing	module:02 type:cloze sense:spatial frequency:mid register:formal cefr:b1 image-schema:under generalisable:yes
+His office is {{c1::within}} the executive wing on the top floor.	Interior enclosed space (formal register)	module:02 type:cloze sense:spatial frequency:mid register:formal cefr:b1 image-schema:container generalisable:yes
+The hikers walked {{c1::through}} the dense forest toward the valley.	Interior passage through interior space	module:02 type:cloze sense:spatial frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+Spectators gathered {{c1::throughout}} the stadium in every section.	Distributed across all areas	module:02 type:cloze sense:spatial frequency:mid register:formal cefr:b1 image-schema:cluster generalisable:yes
+The office opens {{c1::at}} 9 AM on weekdays.	Clock time marker (exact hour)	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+We've known each other {{c1::since}} university days.	Starting point in past (duration anchor)	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+The store is closed {{c1::until}} midnight every night.	Endpoint boundary (duration bound)	module:03 type:cloze sense:temporal frequency:high register:neutral cefr:a1 image-schema:none generalisable:yes
+The road passes {{c1::under}} the railway bridge at the village edge.	Beneath structural overhead element	module:04 type:cloze sense:movement frequency:mid register:neutral cefr:a1 image-schema:under generalisable:yes
+She cycled {{c1::around}} the park three times this morning.	Circular/circumnavigating trajectory	module:04 type:cloze sense:movement frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The river flows {{c1::into}} a larger lake at the valley's end.	Boundary crossing (inward direction)	module:04 type:cloze sense:movement frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+We jumped {{c1::off}} the platform onto the beach below.	Detachment from elevated surface	module:04 type:cloze sense:movement frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
+The cable runs {{c1::overhead}} from the power station across the valley.	Above all ground features	module:04 type:cloze sense:movement frequency:mid register:formal cefr:b1 image-schema:over generalisable:yes
