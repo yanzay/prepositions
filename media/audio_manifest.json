@@ -139,6 +139,16 @@
     "text": "I agree with my friend's perspective on environmental issues. She believes we need stronger climate policies, and I agree with her completely.",
     "voice": "en-US-Neural2-F"
   },
+  "01e28f270705": {
+    "file": "01e28f270705.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "f4efccc82113ac4adc094d54ea45d831cae24ca410c2cca9e55865ebae8d4f3c",
+    "size": 26688,
+    "text": "She is very interested in classical music and art.",
+    "voice": "en-US-Neural2-F"
+  },
   "025525aa5410": {
     "file": "025525aa5410.mp3",
     "lang": "en-US",
@@ -159,6 +169,16 @@
     "text": "She is afraid of spiders.",
     "voice": "en-US-Neural2-F"
   },
+  "028286f33f33": {
+    "file": "028286f33f33.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "6e85e1954bb6b2ab53349e79f81699e3564cacc11b793e80011f6d0823bc703b",
+    "size": 21312,
+    "text": "Some children are afraid of the dark at night.",
+    "voice": "en-US-Neural2-F"
+  },
   "028a5bfb004a": {
     "file": "028a5bfb004a.mp3",
     "lang": "en-US",
@@ -167,6 +187,16 @@
     "sha256": "643965d46d7480ef2b2067a067c0ecbccfaa80bf2c28e6d7a4f0dae451c85bed",
     "size": 17856,
     "text": "The suspect is under arrest.",
+    "voice": "en-US-Neural2-F"
+  },
+  "028cd4a40698": {
+    "file": "028cd4a40698.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "0d6fa4a3e04571237a86ba70e1b3e931110361c8a5162408deedbcdde1c9ffe4",
+    "size": 28608,
+    "text": "The contract was executed in accordance with the court order.",
     "voice": "en-US-Neural2-F"
   },
   "029d9360f6e8": {
@@ -539,6 +569,16 @@
     "text": "I am proud of my academic accomplishments and perseverance. They are proud of their children's success in various fields.",
     "voice": "en-US-Neural2-F"
   },
+  "098e2f4a1ca6": {
+    "file": "098e2f4a1ca6.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "012192508cd9c93a240fe2a0f90521c368b80f82eef562dec0bae91df9dcd9ae",
+    "size": 38016,
+    "text": "Details remain unclear; until now, no explanation has emerged.",
+    "voice": "en-US-Neural2-F"
+  },
   "09a72c3d0819": {
     "file": "09a72c3d0819.mp3",
     "lang": "en-US",
@@ -579,6 +619,16 @@
     "text": "The speaker stood behind the podium.",
     "voice": "en-US-Neural2-F"
   },
+  "0a993b155f0a": {
+    "file": "0a993b155f0a.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "86c84e931547d4f1b6403f3ad34fa748a8a95a1c7991aad3b41d7f56d7b4ca69",
+    "size": 45312,
+    "text": "The artist is {{c1::known}} {{c1::as}} a visionary.",
+    "voice": "en-US-Neural2-F"
+  },
   "0ae560518eb8": {
     "file": "0ae560518eb8.mp3",
     "lang": "en-US",
@@ -597,6 +647,16 @@
     "sha256": "4185a9d12af8c94003b8c3c0945f644efd3b0828dae4d7d28146ea809e3663d8",
     "size": 55104,
     "text": "Accepts: according to (standards/authority); in line with (harmony/alignment)",
+    "voice": "en-US-Neural2-F"
+  },
+  "0b3c2206eb67": {
+    "file": "0b3c2206eb67.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "2d63a99823aa45ec7ce9afd4096c91225f4c5d9ad66e7b29fcc0b7d15f856452",
+    "size": 18432,
+    "text": "He began with simple tasks.",
     "voice": "en-US-Neural2-F"
   },
   "0b635c3e45a7": {
@@ -839,6 +899,16 @@
     "text": "Children play at recess.",
     "voice": "en-US-Neural2-F"
   },
+  "0f20233ad2d3": {
+    "file": "0f20233ad2d3.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "14451fbc63ade9605e24876c84759ad0143ed8bcb957cedf8adc6ab4e2af441b",
+    "size": 20160,
+    "text": "The situation looked like a disaster.",
+    "voice": "en-US-Neural2-F"
+  },
   "0fc345d7be90": {
     "file": "0fc345d7be90.mp3",
     "lang": "en-US",
@@ -847,6 +917,16 @@
     "sha256": "f57129d7f5b09d437cc4be8a7fe71a9e98b3260b29ebfeecd4077cabbdc077b0",
     "size": 20928,
     "text": "The car is parked outside the shopping mall.",
+    "voice": "en-US-Neural2-F"
+  },
+  "0fc8923d10cf": {
+    "file": "0fc8923d10cf.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "03373f3bef834104b3b80899f8d5c507a2c6201d57c392175ab87c37d14a1b47",
+    "size": 28032,
+    "text": "I {{c1::reached}} the airport.",
     "voice": "en-US-Neural2-F"
   },
   "102a38c6f9b5": {
@@ -1369,6 +1449,16 @@
     "text": "Accepts: by accident in context of unintentional action",
     "voice": "en-US-Neural2-F"
   },
+  "1933845a013e": {
+    "file": "1933845a013e.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "f05b1609b9330623cc2af502236aca9964ab563d4632d53c75123024e220aed2",
+    "size": 26688,
+    "text": "The team consists of five engineers and designers.",
+    "voice": "en-US-Neural2-F"
+  },
   "194e10f8b274": {
     "file": "194e10f8b274.mp3",
     "lang": "en-US",
@@ -1469,6 +1559,16 @@
     "text": "I saw them three days ago.",
     "voice": "en-US-Neural2-F"
   },
+  "1a69e6f13196": {
+    "file": "1a69e6f13196.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b1bbb6735359f76d1e908f8ed302cd01500972bd6c464164ed2776a202c02cc5",
+    "size": 25728,
+    "text": "The seminar begins with an introduction to the topic.",
+    "voice": "en-US-Neural2-F"
+  },
   "1a8c6bde1f1b": {
     "file": "1a8c6bde1f1b.mp3",
     "lang": "en-US",
@@ -1517,6 +1617,16 @@
     "sha256": "1304fd05e6cd326cf393609d504385ae3c75cc0477cd43a13dbea8c66303c38b",
     "size": 23040,
     "text": "The flight arrives at Heathrow Airport at noon.",
+    "voice": "en-US-Neural2-F"
+  },
+  "1b1045bcf4a9": {
+    "file": "1b1045bcf4a9.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "ed552b907f7c509cf809d9cf152279d9e7e825298f815cf541bb5c6f1d1b4a8c",
+    "size": 18240,
+    "text": "The committee finished with its report.",
     "voice": "en-US-Neural2-F"
   },
   "1b19fb189d13": {
@@ -1607,6 +1717,16 @@
     "sha256": "930776bbcfc6522b61add0fe83fc1f56152b94407a3d3eefa6ca309430e08e7a",
     "size": 16512,
     "text": "The passengers are on the plane.",
+    "voice": "en-US-Neural2-F"
+  },
+  "1c4643d257ba": {
+    "file": "1c4643d257ba.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "aa182dfafc1091c6b649e2c2b4452e8160683b7301019a36c4b5b69e7206028d",
+    "size": 25728,
+    "text": "She has lived there since 2015 without moving.",
     "voice": "en-US-Neural2-F"
   },
   "1cbb10996e79": {
@@ -1727,6 +1847,16 @@
     "sha256": "396bdf4d2bebc4ceaebf67726626baa68fb874ddf9f9ec661fd7e10be2439110",
     "size": 14784,
     "text": "He found it by chance.",
+    "voice": "en-US-Neural2-F"
+  },
+  "1f02ff60fc27": {
+    "file": "1f02ff60fc27.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "4b938f619700ec8ce8ad67db31f6660f0023414075cb0cbb1eec695fae77ebb8",
+    "size": 39552,
+    "text": "Tom's talent, {{c1::as well as}} skill, helps.",
     "voice": "en-US-Neural2-F"
   },
   "1f1e4d3f0163": {
@@ -1969,6 +2099,16 @@
     "text": "The roots grow beneath the soil surface, drawing water and nutrients.",
     "voice": "en-US-Neural2-F"
   },
+  "2579db8bd602": {
+    "file": "2579db8bd602.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "fc4ff73afe6c32f6fcbf78f5c55e69cf2b9dbb543d9b25652ad9df2ce8849e0f",
+    "size": 14208,
+    "text": "She depends on the weather.",
+    "voice": "en-US-Neural2-F"
+  },
   "25a21e12ca94": {
     "file": "25a21e12ca94.mp3",
     "lang": "en-US",
@@ -1989,6 +2129,16 @@
     "text": "The research team is focusing on sustainable energy solutions.",
     "voice": "en-US-Neural2-F"
   },
+  "25ca30f88f62": {
+    "file": "25ca30f88f62.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "c4ee3f9fada368440844ec6400c100dfac052f671860f057a2aa6dd326ebeab9",
+    "size": 27840,
+    "text": "The lawyer argued as legal counsel, not as a friend.",
+    "voice": "en-US-Neural2-F"
+  },
   "25f50eb67ebd": {
     "file": "25f50eb67ebd.mp3",
     "lang": "en-US",
@@ -1997,6 +2147,16 @@
     "sha256": "8f1e91931e7f9eeab48300ee8818a5f7093fe5fce9ee9e08f002ff8d7f162fa0",
     "size": 39744,
     "text": "The legislation proscribes certain conduct; courts proscribe enforcement.",
+    "voice": "en-US-Neural2-F"
+  },
+  "266b571d6359": {
+    "file": "266b571d6359.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "05b9a4e5fe83e6666daffdd7c8771b2d95344363746da2e18de5305366d78c6d",
+    "size": 23808,
+    "text": "I'll see you {{c1::tomorrow}}.",
     "voice": "en-US-Neural2-F"
   },
   "268aa8c44e0b": {
@@ -2117,6 +2277,16 @@
     "sha256": "8214e2ebf1e381acdcef5d4e3f9ea4a9db0b165bcf644813bd420b1c537e76b0",
     "size": 41088,
     "text": "We discussed the proposal. / They discussed politics. / Let's discuss the budget.",
+    "voice": "en-US-Neural2-F"
+  },
+  "28a498ed7024": {
+    "file": "28a498ed7024.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "9214aaec93d39867a0834beea7dc84e8c4bc64fded5190716675e6792564370e",
+    "size": 25344,
+    "text": "His resignation was submitted after the announcement.",
     "voice": "en-US-Neural2-F"
   },
   "28edb267ce35": {
@@ -2427,6 +2597,16 @@
     "sha256": "0432e8ba436c28f520e2c550360ab728015b939f50888899768089452d084906",
     "size": 19584,
     "text": "Letters arrived from all over the world.",
+    "voice": "en-US-Neural2-F"
+  },
+  "2e13851a0f69": {
+    "file": "2e13851a0f69.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "8c3e5cea5f5da359e9dfa528cb72aee20c6b9507d4eb17e917b0c517302fa329",
+    "size": 23616,
+    "text": "We opened the door and found a gift in the hallway.",
     "voice": "en-US-Neural2-F"
   },
   "2e28a40d4adb": {
@@ -3009,6 +3189,16 @@
     "text": "He is skeptical of the new technology's effectiveness.",
     "voice": "en-US-Neural2-F"
   },
+  "3a1349087c32": {
+    "file": "3a1349087c32.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "cff00bf2aa21ce2ff9fb406307f14c1e4e784d872a02e046c38130824122e554",
+    "size": 32832,
+    "text": "The situation looks {{c1::like}} chaos.",
+    "voice": "en-US-Neural2-F"
+  },
   "3a78ab5101f7": {
     "file": "3a78ab5101f7.mp3",
     "lang": "en-US",
@@ -3067,6 +3257,16 @@
     "sha256": "1c3a43e3936bd7bd540ae3eb293e63b9d5bf9a107e047d698ccce166bdf2c087",
     "size": 22272,
     "text": "The disadvantage of that option is cost.",
+    "voice": "en-US-Neural2-F"
+  },
+  "3b4f3926da2c": {
+    "file": "3b4f3926da2c.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1c6a7b42e20eadb5b42cb8d9b0639831fcd06ba6b1db7bf48fbb3e69e7cda954",
+    "size": 20352,
+    "text": "The train arrived at the station on time.",
     "voice": "en-US-Neural2-F"
   },
   "3bb5a02c3ede": {
@@ -3219,6 +3419,16 @@
     "text": "While she was sleeping, the phone rang.",
     "voice": "en-US-Neural2-F"
   },
+  "3fd97890b2b2": {
+    "file": "3fd97890b2b2.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "405520379ec271241de1cff95ff5ba4d64a6ce93ba1574c1ec99a4bd5d8c8472",
+    "size": 29952,
+    "text": "He acts {{c1::as}} if nothing happened.",
+    "voice": "en-US-Neural2-F"
+  },
   "4003311031d2": {
     "file": "4003311031d2.mp3",
     "lang": "en-US",
@@ -3237,6 +3447,16 @@
     "sha256": "a04ff2a95a8d74eab777e3c34423d4546d1845531ebfff6df4880b807a91a080",
     "size": 48576,
     "text": "Throughout the summer, we had beach outings. Throughout my career, I've learned valuable skills.",
+    "voice": "en-US-Neural2-F"
+  },
+  "40852ed236e0": {
+    "file": "40852ed236e0.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "541be296ae5f4c6d31f113be332761912632b8da430f9fb39c8914a06c37d79b",
+    "size": 30720,
+    "text": "She treats him {{c1::like}} a child.",
     "voice": "en-US-Neural2-F"
   },
   "40c4ca34fc07": {
@@ -3347,6 +3567,16 @@
     "sha256": "642339cee756d0533e3a655a6f5aa56b43a332c2fdf2fea9570f290e42c164bd",
     "size": 18432,
     "text": "The treasure is inside the chest.",
+    "voice": "en-US-Neural2-F"
+  },
+  "42540549cf25": {
+    "file": "42540549cf25.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "cc1e3099cfe8d867aaf893f92c5cc658ee8226820d8394a160a6f4640b5b70ff",
+    "size": 23232,
+    "text": "The judge ruled despite the defendant's appeal.",
     "voice": "en-US-Neural2-F"
   },
   "426430a13310": {
@@ -3769,6 +3999,16 @@
     "text": "container + under + point + cluster",
     "voice": "en-US-Neural2-F"
   },
+  "48b71f59e4b2": {
+    "file": "48b71f59e4b2.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "2cf2e4c9a85f1828685c2bfe0b67279224145b1ef17c08665b65cc504fe2ada2",
+    "size": 19968,
+    "text": "The presentation ended in applause.",
+    "voice": "en-US-Neural2-F"
+  },
   "48c8e7a9898f": {
     "file": "48c8e7a9898f.mp3",
     "lang": "en-US",
@@ -3919,6 +4159,16 @@
     "text": "The office opens at 9 AM on weekdays.",
     "voice": "en-US-Neural2-F"
   },
+  "4b436c5ce6a6": {
+    "file": "4b436c5ce6a6.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "adee47b11b2f0e52ac874607203eb9a5699349176ec817ebb4a1572a2f0f9332",
+    "size": 49152,
+    "text": "She {{c1::acts}} {{c1::like}} she owns the place.",
+    "voice": "en-US-Neural2-F"
+  },
   "4b46e663b270": {
     "file": "4b46e663b270.mp3",
     "lang": "en-US",
@@ -4047,6 +4297,16 @@
     "sha256": "7cea29670da0f1b7ff1db6c348141ee45dcfa982661fba83e38e14801320dbd2",
     "size": 31488,
     "text": "The bakery on the corner stays open until midnight on Fridays.",
+    "voice": "en-US-Neural2-F"
+  },
+  "4d44447a5aad": {
+    "file": "4d44447a5aad.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "db31a1af30e9bd7e438c03269c0220a92411c475dbf544a91e79c9e75248b97d",
+    "size": 18432,
+    "text": "The plane flew under the cloud layer.",
     "voice": "en-US-Neural2-F"
   },
   "4d47984c2223": {
@@ -4209,6 +4469,16 @@
     "text": "He remained oblivious to the growing criticism.",
     "voice": "en-US-Neural2-F"
   },
+  "512304e16a1d": {
+    "file": "512304e16a1d.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "79da070be2917f05bc6156da3935dccd4db3dbf2fccd0a80dd40e00e04f0b118",
+    "size": 25728,
+    "text": "We are {{c1::out of}} coffee.",
+    "voice": "en-US-Neural2-F"
+  },
   "51259e655deb": {
     "file": "51259e655deb.mp3",
     "lang": "en-US",
@@ -4249,6 +4519,26 @@
     "text": "The demand for housing is increasing.",
     "voice": "en-US-Neural2-F"
   },
+  "5176d321fac3": {
+    "file": "5176d321fac3.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "956079938924b9b7a2e635bd12894efe9ed29041543238667988433ebadbaf64",
+    "size": 40512,
+    "text": "The ring is {{c1::made}} {{c1::of}} gold.",
+    "voice": "en-US-Neural2-F"
+  },
+  "517e83480784": {
+    "file": "517e83480784.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1a786a7abe1add515db2750f98b19e709bc3d947e7e9ee1c246e41cbdd2d6e3c",
+    "size": 24768,
+    "text": "My day begins with coffee and ends with emails.",
+    "voice": "en-US-Neural2-F"
+  },
   "5195173e1b52": {
     "file": "5195173e1b52.mp3",
     "lang": "en-US",
@@ -4267,6 +4557,26 @@
     "sha256": "3d514d8b41ef6a4a3cef17eef8c20f494cc5508f1995659ef101025c4bb4b031",
     "size": 28800,
     "text": "The bridge goes over the river, and the meeting is over.",
+    "voice": "en-US-Neural2-F"
+  },
+  "52191caa7e81": {
+    "file": "52191caa7e81.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1ee079c946645040f8ce27e3b427ce2cdcab4cc11b4c5ecd3ac515a3c0c79977",
+    "size": 26880,
+    "text": "The discussion continued with new data from the research.",
+    "voice": "en-US-Neural2-F"
+  },
+  "52b0d4c39658": {
+    "file": "52b0d4c39658.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "8be234aaf59f9b3978865466b56a5c95e1251957c62659b8a848f4442570a0e8",
+    "size": 38784,
+    "text": "Results averaged 42 per capita, according to the census data.",
     "voice": "en-US-Neural2-F"
   },
   "52b69610e59a": {
@@ -4729,6 +5039,16 @@
     "text": "The smoke came from the chimney.",
     "voice": "en-US-Neural2-F"
   },
+  "590c7edcf867": {
+    "file": "590c7edcf867.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "07198accb1d6fcca0f03ce015cb107d4f46c43df63f24cebc60995dadfd522c7",
+    "size": 23616,
+    "text": "The team came home exhausted but satisfied.",
+    "voice": "en-US-Neural2-F"
+  },
   "591df446c6c9": {
     "file": "591df446c6c9.mp3",
     "lang": "en-US",
@@ -4969,6 +5289,16 @@
     "text": "Apart from the noise, the hotel was excellent.",
     "voice": "en-US-Neural2-F"
   },
+  "5ddccaf3bd0f": {
+    "file": "5ddccaf3bd0f.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b7af17b6ba3d92619a6a746ed2354160b385b40691e4cdc4a1e67a78bc980aa8",
+    "size": 23616,
+    "text": "The library is open until six in the evening.",
+    "voice": "en-US-Neural2-F"
+  },
   "5e0b4078d493": {
     "file": "5e0b4078d493.mp3",
     "lang": "en-US",
@@ -5099,6 +5429,16 @@
     "text": "I always listen to music while working on creative projects.",
     "voice": "en-US-Neural2-F"
   },
+  "5ff3bd355d2e": {
+    "file": "5ff3bd355d2e.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b3c4b557473ee82ded0ce87a3ca047b997b89f9d3b79a23c6ef8d06889338c94",
+    "size": 20352,
+    "text": "His plan serves as a backup option.",
+    "voice": "en-US-Neural2-F"
+  },
   "5ff5c7ca1c7c": {
     "file": "5ff5c7ca1c7c.mp3",
     "lang": "en-US",
@@ -5227,6 +5567,16 @@
     "sha256": "1599754b85ebb7bcfb10870561eebc98ef4737cce5fe6c50ad0f47cfab346009",
     "size": 38208,
     "text": "Accepts: in addition to; supplementary item must be clear",
+    "voice": "en-US-Neural2-F"
+  },
+  "629e5af2d693": {
+    "file": "629e5af2d693.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "471df119bc4900d175f39c0aff6de938d4be62a32344a04e6666f021a088c2c5",
+    "size": 21696,
+    "text": "The manager regarded him as a future leader.",
     "voice": "en-US-Neural2-F"
   },
   "62d2b99f3007": {
@@ -5439,6 +5789,16 @@
     "text": "The house was built by the architect.",
     "voice": "en-US-Neural2-F"
   },
+  "66c2bb6d7c8b": {
+    "file": "66c2bb6d7c8b.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b6687e2567d52d927c466cb7f50d101c5974cd8c9fd010771f5361c990661ca6",
+    "size": 26688,
+    "text": "She works {{c1::as}} a teacher.",
+    "voice": "en-US-Neural2-F"
+  },
   "66ca055651fc": {
     "file": "66ca055651fc.mp3",
     "lang": "en-US",
@@ -5509,6 +5869,16 @@
     "text": "The fly is sitting on the ceiling.",
     "voice": "en-US-Neural2-F"
   },
+  "687b18ef9bbb": {
+    "file": "687b18ef9bbb.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "3e84277dc7f8b14e9717e0a85c7d48472d8acfee9c8834559b2e20bfd69b1d36",
+    "size": 24960,
+    "text": "Her entire career depends on this presentation.",
+    "voice": "en-US-Neural2-F"
+  },
   "68f63af7f576": {
     "file": "68f63af7f576.mp3",
     "lang": "en-US",
@@ -5537,6 +5907,16 @@
     "sha256": "084fd019aac24873f4162b637dd4f05784fef1f82cd26242f4c45c03a1d0d10e",
     "size": 26880,
     "text": "The house sits beside the old oak tree on the property.",
+    "voice": "en-US-Neural2-F"
+  },
+  "694c5d9da931": {
+    "file": "694c5d9da931.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1a1aa33bd3e03f7c69072f837c538a6d3a0e6c8dce27e883ab92deb78173bb8b",
+    "size": 24384,
+    "text": "The report must be completed by Friday morning.",
     "voice": "en-US-Neural2-F"
   },
   "695025401128": {
@@ -5699,6 +6079,16 @@
     "text": "The situation is by far the worst.",
     "voice": "en-US-Neural2-F"
   },
+  "6b92c5c8e0a2": {
+    "file": "6b92c5c8e0a2.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "9803475edab440ae01c607b723540f3180bf20943bdbcd3575a15ed5c5298bdd",
+    "size": 20544,
+    "text": "She studied for the exam throughout the night.",
+    "voice": "en-US-Neural2-F"
+  },
   "6b9b673f53a1": {
     "file": "6b9b673f53a1.mp3",
     "lang": "en-US",
@@ -5839,6 +6229,16 @@
     "text": "With regard to your complaint, we have investigated.",
     "voice": "en-US-Neural2-F"
   },
+  "6dda1906f855": {
+    "file": "6dda1906f855.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1b43f69a5a2452be78c04fe881352926e07600706199da7b1bc44f3148d5d7d8",
+    "size": 28800,
+    "text": "From now on, all decisions require board approval.",
+    "voice": "en-US-Neural2-F"
+  },
   "6dff2a21cb2b": {
     "file": "6dff2a21cb2b.mp3",
     "lang": "en-US",
@@ -5919,6 +6319,16 @@
     "text": "The advantage of this plan is its simplicity.",
     "voice": "en-US-Neural2-F"
   },
+  "6f115df618d7": {
+    "file": "6f115df618d7.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "2ebfe8456ab054085708c4fc0c7752925a4011748977c2fbb87c386788371f5d",
+    "size": 22464,
+    "text": "Call me {{c1::tonight}}.",
+    "voice": "en-US-Neural2-F"
+  },
   "6f1f387584be": {
     "file": "6f1f387584be.mp3",
     "lang": "en-US",
@@ -5927,6 +6337,16 @@
     "sha256": "738fa1f5e8f335c137d6bc5bada263f729d9ff2021f9712bc83c256982eae216",
     "size": 27072,
     "text": "The findings are synonymous with methodological rigor.",
+    "voice": "en-US-Neural2-F"
+  },
+  "6f47bd466041": {
+    "file": "6f47bd466041.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "4a75267e46043fc61d23c9995225ff0966d2316b06a907ad9904844164d6fd7f",
+    "size": 24768,
+    "text": "We start with appetizers and finish with dessert.",
     "voice": "en-US-Neural2-F"
   },
   "6f5b32140e86": {
@@ -5979,6 +6399,16 @@
     "text": "The driver is in the car.",
     "voice": "en-US-Neural2-F"
   },
+  "70802cc0a8ce": {
+    "file": "70802cc0a8ce.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "43d6a2b5ad09255aaead62635e9268668766f6224e0c0ac0fe9d89d97a7435b8",
+    "size": 16704,
+    "text": "The contract ran out of time.",
+    "voice": "en-US-Neural2-F"
+  },
   "709310db8a48": {
     "file": "709310db8a48.mp3",
     "lang": "en-US",
@@ -5987,6 +6417,16 @@
     "sha256": "f6dfb2c391199b559fdb3d51b0fad294df67e8394770e11b33aef725b54c4c95",
     "size": 34752,
     "text": "Accepts: in love; must be in romantic context",
+    "voice": "en-US-Neural2-F"
+  },
+  "709a9691d130": {
+    "file": "709a9691d130.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "7de29249163a41e59980a39c1a8d81ceb21cf5664830520820f54092d5590131",
+    "size": 13056,
+    "text": "He got married to her.",
     "voice": "en-US-Neural2-F"
   },
   "70d2ca2cb854": {
@@ -6037,6 +6477,16 @@
     "sha256": "6a3cd18ef4f855529172d2612dea7de3c7d111f4a3c9bc83896827afd581f580",
     "size": 25920,
     "text": "I'm afraid of heights. / She's afraid of spiders.",
+    "voice": "en-US-Neural2-F"
+  },
+  "716fff1dadc2": {
+    "file": "716fff1dadc2.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "8b6c7578e4e4eb0f16fed5d213eb8b47d37de0d3b360a0082c25e70296841b09",
+    "size": 28224,
+    "text": "He studied {{c1::for}} three hours.",
     "voice": "en-US-Neural2-F"
   },
   "71937c425c6b": {
@@ -6119,6 +6569,16 @@
     "text": "none + over + cluster + container",
     "voice": "en-US-Neural2-F"
   },
+  "732be484a955": {
+    "file": "732be484a955.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "697df00fbbac2230cf8ed877cb4a3a7646470940232daa004e412d13e227de54",
+    "size": 44928,
+    "text": "That noise {{c1::sounds}} {{c1::like}} thunder.",
+    "voice": "en-US-Neural2-F"
+  },
   "737145a089c1": {
     "file": "737145a089c1.mp3",
     "lang": "en-US",
@@ -6157,6 +6617,16 @@
     "sha256": "25a926e604df37c16d54e2ca89b1b470dae2ff9d95d8772a1d688ec48b69e8b2",
     "size": 21120,
     "text": "under + container + cluster",
+    "voice": "en-US-Neural2-F"
+  },
+  "74528b027d2a": {
+    "file": "74528b027d2a.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "e2b52d61287d746a660673f6c923596236342f3fa7c37a0fbbd9d67880c2cca8",
+    "size": 36480,
+    "text": "The old car still serves {{c1::as}} our backup.",
     "voice": "en-US-Neural2-F"
   },
   "7459a78560a2": {
@@ -6379,6 +6849,16 @@
     "text": "The tent is pitched outside the town perimeter.",
     "voice": "en-US-Neural2-F"
   },
+  "7802ce4ba5ee": {
+    "file": "7802ce4ba5ee.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "486f7561658a4992953c32e1fe31645dadd185e97cc69a6a1fe159d22fb54ecd",
+    "size": 24576,
+    "text": "Nobody wanted to go there without proper equipment.",
+    "voice": "en-US-Neural2-F"
+  },
   "7812d7518b51": {
     "file": "7812d7518b51.mp3",
     "lang": "en-US",
@@ -6419,6 +6899,16 @@
     "text": "I am grateful to my parents for their unwavering support throughout my life. We are grateful to the volunteers who dedicated their time to help.",
     "voice": "en-US-Neural2-F"
   },
+  "78e243c44694": {
+    "file": "78e243c44694.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "f7ca08216a09c6387dc62543229dab86a7c2fb8093785ed7636ef547de13992b",
+    "size": 17856,
+    "text": "The project started with planning.",
+    "voice": "en-US-Neural2-F"
+  },
   "795c7cbe7d86": {
     "file": "795c7cbe7d86.mp3",
     "lang": "en-US",
@@ -6457,6 +6947,16 @@
     "sha256": "c20596e6983306138f4648644edeed3f6bc978aefe626e8aa9c1e60ee7bb1447",
     "size": 37056,
     "text": "She hung the family portrait on the dining room wall as the room's centerpiece.",
+    "voice": "en-US-Neural2-F"
+  },
+  "7a088ff30b8b": {
+    "file": "7a088ff30b8b.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b053db2d27b33f1dd87fe449573ba59d71c46f7cd432b3056307b7b59268ce10",
+    "size": 45504,
+    "text": "The coffee {{c1::tastes}} {{c1::like}} caramel.",
     "voice": "en-US-Neural2-F"
   },
   "7a453548576a": {
@@ -6719,6 +7219,16 @@
     "text": "The CEO, vis-à-vis the board, holds veto power.",
     "voice": "en-US-Neural2-F"
   },
+  "7e4f80c1d758": {
+    "file": "7e4f80c1d758.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "4b136b34731e9a4b3a4981f4091e36152bf67bdcf6b321409c93bd0764864c5e",
+    "size": 24192,
+    "text": "The show ended in standing applause from everyone.",
+    "voice": "en-US-Neural2-F"
+  },
   "7eabf217ae0c": {
     "file": "7eabf217ae0c.mp3",
     "lang": "en-US",
@@ -6829,6 +7339,16 @@
     "text": "Sarah works at the National Library.",
     "voice": "en-US-Neural2-F"
   },
+  "80a0a64851a3": {
+    "file": "80a0a64851a3.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "f144556eaa366c3789a2109087a6c03155781f03ccd8ffb2382cf897e4164d36",
+    "size": 27456,
+    "text": "He scored {{c1::ten out of}} ten.",
+    "voice": "en-US-Neural2-F"
+  },
   "80dee760f1a8": {
     "file": "80dee760f1a8.mp3",
     "lang": "en-US",
@@ -6937,6 +7457,16 @@
     "sha256": "ee09084093641409ce31ae34255adf7162b264c117eb520c21de7f930e8124ea",
     "size": 22848,
     "text": "Throughout the conference, she took notes.",
+    "voice": "en-US-Neural2-F"
+  },
+  "836f7e171b21": {
+    "file": "836f7e171b21.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "d90620deabe977ee27e31689ba026ce0b29d87d06ea8ef6c4d849ade46730e53",
+    "size": 28800,
+    "text": "We checked {{c1::out}} of the hotel.",
     "voice": "en-US-Neural2-F"
   },
   "83c39cda8ebd": {
@@ -7277,6 +7807,16 @@
     "sha256": "136cb72a143a8c8b5b7e6b3c7d1d5ff2c1efd0fefcfa4c403d8e7066e975090c",
     "size": 20352,
     "text": "Commute description and route planning",
+    "voice": "en-US-Neural2-F"
+  },
+  "8a19fdb79a0c": {
+    "file": "8a19fdb79a0c.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "0e439d42299cd16448af1239b493c911bdd6754026b9438f89ac76daa86e9cad",
+    "size": 28992,
+    "text": "Most children are naturally good at learning languages quickly.",
     "voice": "en-US-Neural2-F"
   },
   "8a1f7a6027e8": {
@@ -7659,6 +8199,16 @@
     "text": "The ancient temple lies beneath modern-day ruins.",
     "voice": "en-US-Neural2-F"
   },
+  "8fefb5c1d87b": {
+    "file": "8fefb5c1d87b.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "be65677a72760122c09ecff1abbc2342a1b7c8223ade2d08279c133d3157dc16",
+    "size": 26304,
+    "text": "We succeeded thanks to your amazing support and help.",
+    "voice": "en-US-Neural2-F"
+  },
   "9019c046be0f": {
     "file": "9019c046be0f.mp3",
     "lang": "en-US",
@@ -7929,6 +8479,16 @@
     "text": "They blamed her for the project's failure.",
     "voice": "en-US-Neural2-F"
   },
+  "9575e7f7809d": {
+    "file": "9575e7f7809d.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "5ef58fb1f90d0a18fe7398edf64d18e3656561c3304c40a44296090ce91b01db",
+    "size": 50112,
+    "text": "Accepts: regarding (neutral); about (informal); concerning (formal)",
+    "voice": "en-US-Neural2-F"
+  },
   "9597ea005afc": {
     "file": "9597ea005afc.mp3",
     "lang": "en-US",
@@ -8047,6 +8607,16 @@
     "sha256": "e89bb7b25aad0a303ddf01e7a6df3c659c0a0a2ffa9d44e74ca7bde4a273bca1",
     "size": 20544,
     "text": "There's nothing interesting on TV tonight.",
+    "voice": "en-US-Neural2-F"
+  },
+  "97218bbb23d1": {
+    "file": "97218bbb23d1.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "2bb4fd05f10f59c0a94514bea77a412224f693dcf0ac6bbf0ab5c5edde7ce817",
+    "size": 45888,
+    "text": "This is {{c1::as}} good {{c1::as}} promised.",
     "voice": "en-US-Neural2-F"
   },
   "9752f2b9cc58": {
@@ -8189,6 +8759,16 @@
     "text": "She speaks French and German, sans any accent.",
     "voice": "en-US-Neural2-F"
   },
+  "99b5d266b91f": {
+    "file": "99b5d266b91f.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "c9597635071d433629ecab1bb95d040280181e8ce0e7f8790d379459d1b41a95",
+    "size": 16896,
+    "text": "She set out to achieve goals.",
+    "voice": "en-US-Neural2-F"
+  },
   "99f3b0d7cca4": {
     "file": "99f3b0d7cca4.mp3",
     "lang": "en-US",
@@ -8277,6 +8857,16 @@
     "sha256": "fb6d358f253115b9ddc3f2b57f9317228ee89f5ab37a61b706b87704f044f550",
     "size": 55680,
     "text": "The fall in interest rates encouraged more people to take loans. We celebrate the fall in crime rates in recent years.",
+    "voice": "en-US-Neural2-F"
+  },
+  "9b61ad1df96f": {
+    "file": "9b61ad1df96f.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "5754fbc017f6f2aad4d7ec0510d28e77346464238f51e88a568292c80518489a",
+    "size": 29184,
+    "text": "We finished with a celebration and received our certificates.",
     "voice": "en-US-Neural2-F"
   },
   "9b9a30d66a44": {
@@ -8789,6 +9379,16 @@
     "text": "She lives in the city.",
     "voice": "en-US-Neural2-F"
   },
+  "a262cc9faa3c": {
+    "file": "a262cc9faa3c.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "708a8a362aca1254f0494c9b39ea1f1432bd11761c85628f1d34abe5e1a207e8",
+    "size": 25920,
+    "text": "I come {{c1::home}} now.",
+    "voice": "en-US-Neural2-F"
+  },
   "a28eba837934": {
     "file": "a28eba837934.mp3",
     "lang": "en-US",
@@ -8897,6 +9497,16 @@
     "sha256": "0ef03f1510fdc9bb784bca4c2d37197ee05bdaae059006e3a4e8ce9b4cff71ef",
     "size": 19584,
     "text": "The submarine sits under the waves.",
+    "voice": "en-US-Neural2-F"
+  },
+  "a556be0c3594": {
+    "file": "a556be0c3594.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "458f984f6fae3dcb88d3f0b4c2636cdc0176cf3ffc486b9f87f5bec77eaafda7",
+    "size": 19584,
+    "text": "The team consists of five members.",
     "voice": "en-US-Neural2-F"
   },
   "a57f22d93155": {
@@ -9147,6 +9757,16 @@
     "sha256": "37ff288e64d940a998c8ee6d2d37d6ba13b8c042aafc256c18449488d1f9c47e",
     "size": 23808,
     "text": "She has lived in Paris since 2019.",
+    "voice": "en-US-Neural2-F"
+  },
+  "aaa999fa975b": {
+    "file": "aaa999fa975b.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b89811c5fe00838ca7ec69d569c23296a864f72c037d10756a9778f487793c62",
+    "size": 19008,
+    "text": "The performance ended in ovation.",
     "voice": "en-US-Neural2-F"
   },
   "aac2e92c0611": {
@@ -9469,6 +10089,26 @@
     "text": "She succeeded regardless of the many obstacles.",
     "voice": "en-US-Neural2-F"
   },
+  "af555c7431e2": {
+    "file": "af555c7431e2.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "96cf91d75f19949040d232010f5f10ec519b9a0cfdcc2bfe18acd457b4047f9d",
+    "size": 34944,
+    "text": "The CEO, relative to the board, holds veto power.",
+    "voice": "en-US-Neural2-F"
+  },
+  "af77a36156a6": {
+    "file": "af77a36156a6.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "617b791dec8c9e9fd1f634ca07d674d19674f9c528f14e8d871104ec2cfcaef9",
+    "size": 20736,
+    "text": "We hung the painting on the wall carefully.",
+    "voice": "en-US-Neural2-F"
+  },
   "afac83415504": {
     "file": "afac83415504.mp3",
     "lang": "en-US",
@@ -9487,6 +10127,26 @@
     "sha256": "b0f99b980b1facfd2104255d7a16addef33c0225a3eec3c878bd31863b4c3f3d",
     "size": 37824,
     "text": "Accepts: out of order; context must show malfunction",
+    "voice": "en-US-Neural2-F"
+  },
+  "b0ce0611e28a": {
+    "file": "b0ce0611e28a.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "76f12fd17ffd7d892cb7b07e6588f8efe8089fea4e854d04580a3fc336ad0254",
+    "size": 46080,
+    "text": "The flowers {{c1::smell}} {{c1::like}} roses.",
+    "voice": "en-US-Neural2-F"
+  },
+  "b0fdd717031e": {
+    "file": "b0fdd717031e.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "70128411a1de8fa1567121f51412384baac61ab753cae28bfaa73f4ebfa2e5aa",
+    "size": 40128,
+    "text": "A {{c1::slice}} {{c1::of}} bread.",
     "voice": "en-US-Neural2-F"
   },
   "b0fec82cae65": {
@@ -9839,6 +10499,16 @@
     "text": "The meeting starts at three o'clock sharp in the boardroom this afternoon.",
     "voice": "en-US-Neural2-F"
   },
+  "b7d6c652694c": {
+    "file": "b7d6c652694c.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "9fca0e779805b980f9c30d5a6150743b9f76faa58273bd89b47dcefe7ebf531d",
+    "size": 18816,
+    "text": "The surgeon proceeded with surgery.",
+    "voice": "en-US-Neural2-F"
+  },
   "b80efe31aa2e": {
     "file": "b80efe31aa2e.mp3",
     "lang": "en-US",
@@ -9937,6 +10607,16 @@
     "sha256": "ee36033652e603f19829baf95f766e00cc0de20d382c7e47704814a2d638296d",
     "size": 17472,
     "text": "We saw the film three days ago.",
+    "voice": "en-US-Neural2-F"
+  },
+  "b9c1c8835c4a": {
+    "file": "b9c1c8835c4a.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "dc4e2a378a5474d1ec373abc111a8ea3e1ed41e8d6e1c8d0fa6a561002b042e2",
+    "size": 27648,
+    "text": "They went {{c1::there}} last year.",
     "voice": "en-US-Neural2-F"
   },
   "b9c94aac6e6a": {
@@ -10139,6 +10819,16 @@
     "text": "She is skilled at languages.",
     "voice": "en-US-Neural2-F"
   },
+  "bd085e5da3d5": {
+    "file": "bd085e5da3d5.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "008b5459407cbf50bdb1fb26126cf7955a7d39922e7a0b996acb8397239090b8",
+    "size": 18432,
+    "text": "We're meeting at the café downtown.",
+    "voice": "en-US-Neural2-F"
+  },
   "bd18e57de2c1": {
     "file": "bd18e57de2c1.mp3",
     "lang": "en-US",
@@ -10309,6 +10999,16 @@
     "text": "Everyone attended the meeting apart from the manager.",
     "voice": "en-US-Neural2-F"
   },
+  "bf0b27df64a8": {
+    "file": "bf0b27df64a8.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1d0fd632a20aa6ff3cd4e7d7502a00516d51194217e6a9768b45729a344567c6",
+    "size": 48192,
+    "text": "He {{c1::feels}} {{c1::like}} he's made progress.",
+    "voice": "en-US-Neural2-F"
+  },
   "bf2df619435b": {
     "file": "bf2df619435b.mp3",
     "lang": "en-US",
@@ -10397,6 +11097,16 @@
     "sha256": "ac8db45646c95eb448720a228b22a7ca46e4b09468fd6c6d991ffbafc2d7f685",
     "size": 20160,
     "text": "The ceremony starts at 3 p.m.",
+    "voice": "en-US-Neural2-F"
+  },
+  "c01e5c1a4d60": {
+    "file": "c01e5c1a4d60.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "7e06dea06b5fb1161a09ee8972cee0f9660198da8ff3e45655900be7fe12cf7c",
+    "size": 22080,
+    "text": "He has been married to her for thirty years now.",
     "voice": "en-US-Neural2-F"
   },
   "c02880d704e4": {
@@ -10879,6 +11589,16 @@
     "text": "The interview aired on the radio this morning.",
     "voice": "en-US-Neural2-F"
   },
+  "c9a33cf81ddd": {
+    "file": "c9a33cf81ddd.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "a793ea8edfc4233befe37daf888f5493c1e64bea1b73d621f51a00163b0b7c70",
+    "size": 28608,
+    "text": "The surgeon proceeded with the operation as planned carefully.",
+    "voice": "en-US-Neural2-F"
+  },
   "c9a3e4a1b698": {
     "file": "c9a3e4a1b698.mp3",
     "lang": "en-US",
@@ -10917,6 +11637,26 @@
     "sha256": "d0b1cd2c32fdf354fd3ada049b9ae6401f8b091a8f5f6c43be2ae252923557a7",
     "size": 16128,
     "text": "There are chairs around the table.",
+    "voice": "en-US-Neural2-F"
+  },
+  "ca4fea2ae2ba": {
+    "file": "ca4fea2ae2ba.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "0238a7e71eeafddbd20c9e9b04e74d97005f393b6668a87a19e8a137f7e5e338",
+    "size": 21312,
+    "text": "The conflict continued with arguments.",
+    "voice": "en-US-Neural2-F"
+  },
+  "ca622088c784": {
+    "file": "ca622088c784.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "1cf103cf86bba3190b371ebf5ef93514d1574afd1d98dafbc67d56a768a689e1",
+    "size": 24960,
+    "text": "Success came through sustained effort and discipline.",
     "voice": "en-US-Neural2-F"
   },
   "ca7bcf711513": {
@@ -10997,6 +11737,16 @@
     "sha256": "a7339ad7b19e57922d38a5e160f006d6347e52fb3ac0ac485a8b9184d83d283b",
     "size": 18240,
     "text": "The keys are in my jacket pocket.",
+    "voice": "en-US-Neural2-F"
+  },
+  "cc3f120efeae": {
+    "file": "cc3f120efeae.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "6e67f6e200d8b6c01d3f1ef63dfa059b8460d52e56883c2efafdfcce36ded5bb",
+    "size": 25344,
+    "text": "The class started with a brief quiz about the material.",
     "voice": "en-US-Neural2-F"
   },
   "cc490f40dbf3": {
@@ -11107,6 +11857,16 @@
     "sha256": "9f2534071e5c1ed145f3a84efed1c91795618129e130292de4757ed0460e82ab",
     "size": 17280,
     "text": "She kept going around the topic.",
+    "voice": "en-US-Neural2-F"
+  },
+  "cf571501ac81": {
+    "file": "cf571501ac81.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "7d98e075fd6e30ea903e0e5bc3103acec5d1d5a3fd7d4f1de6e3c78d8f5c1dab",
+    "size": 27648,
+    "text": "Despite his serious injuries, he played quite well.",
     "voice": "en-US-Neural2-F"
   },
   "cf69e929d0f7": {
@@ -11277,6 +12037,16 @@
     "sha256": "dc0ccd9f6eff389447cfc217e451f2d2d7685b60146c529485ccace1b4c476f1",
     "size": 22656,
     "text": "He is waiting for the delivery to arrive tomorrow.",
+    "voice": "en-US-Neural2-F"
+  },
+  "d28a47b0799f": {
+    "file": "d28a47b0799f.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "6c7c4d68a0bd0e5fca55a35696a6c491f26ce52a14c1a0cd948bd6d260f168a5",
+    "size": 23040,
+    "text": "He slept during the entire flight yesterday.",
     "voice": "en-US-Neural2-F"
   },
   "d2a7a8d1b1bd": {
@@ -11499,6 +12269,16 @@
     "text": "She entered the room without knocking.",
     "voice": "en-US-Neural2-F"
   },
+  "d5321252efed": {
+    "file": "d5321252efed.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "8f61ce8b6f22c4b7b2cbfc022cce1d4a77eca3b27f09c92aa23c5d53b6ed7033",
+    "size": 29184,
+    "text": "We arrived {{c1::here}} yesterday.",
+    "voice": "en-US-Neural2-F"
+  },
   "d5a65a772975": {
     "file": "d5a65a772975.mp3",
     "lang": "en-US",
@@ -11507,6 +12287,16 @@
     "sha256": "28ff164fc55786bc40bd6aca767c94621a0a72950c2462fe98298f663af69d52",
     "size": 14784,
     "text": "The lid came off the pot.",
+    "voice": "en-US-Neural2-F"
+  },
+  "d5b15ec6728a": {
+    "file": "d5b15ec6728a.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "762c4dceee478045ed538922a03ebb476212c78d8b2797480fceb3176fb5447e",
+    "size": 21888,
+    "text": "The match was cancelled because of heavy rain.",
     "voice": "en-US-Neural2-F"
   },
   "d600ce54e882": {
@@ -11707,6 +12497,16 @@
     "sha256": "2a32b36cd94ad9da64162acd856d1e24a0e6b29a6c23c97af18e9f5eac6ffadf",
     "size": 17664,
     "text": "A cat is sleeping on the sofa.",
+    "voice": "en-US-Neural2-F"
+  },
+  "db45eb52b2f9": {
+    "file": "db45eb52b2f9.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "b4f2af8e9d451316b798eba9bf2e279d6f10f3476389f3f1c8edac4d2e55f1c8",
+    "size": 18816,
+    "text": "The team finished with celebration.",
     "voice": "en-US-Neural2-F"
   },
   "db46ec5f070c": {
@@ -11967,6 +12767,16 @@
     "sha256": "e2613fec71625681f7613e5ee461d6bf9b4183ba6936287406a552f8048b3760",
     "size": 15552,
     "text": "I go to school every day.",
+    "voice": "en-US-Neural2-F"
+  },
+  "df5bade5cf67": {
+    "file": "df5bade5cf67.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "0a73825fcf6f5bde13e62a6b44abd58b6d5e7e20dac86a45c0f28595e82df2f9",
+    "size": 22272,
+    "text": "We'll discuss this after the meeting finishes.",
     "voice": "en-US-Neural2-F"
   },
   "df82bb483583": {
@@ -12359,6 +13169,16 @@
     "text": "I'd prefer to pay in cash rather than by card.",
     "voice": "en-US-Neural2-F"
   },
+  "e6d344d59e52": {
+    "file": "e6d344d59e52.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "99f198310ef97b5cbf371d618df371d16758fb97e84945fc459cd0d8008c0d62",
+    "size": 31488,
+    "text": "Her role, {{c1::as such}}, demands care.",
+    "voice": "en-US-Neural2-F"
+  },
   "e6f8acce1b2b": {
     "file": "e6f8acce1b2b.mp3",
     "lang": "en-US",
@@ -12409,6 +13229,16 @@
     "text": "The reason for his absence is unclear.",
     "voice": "en-US-Neural2-F"
   },
+  "e7f34c132eb0": {
+    "file": "e7f34c132eb0.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "791962c19fab85683500e631f0b574a01baa0e99a444540495baf75810ae591c",
+    "size": 18048,
+    "text": "The concert started with a solo.",
+    "voice": "en-US-Neural2-F"
+  },
   "e800ed4e6156": {
     "file": "e800ed4e6156.mp3",
     "lang": "en-US",
@@ -12457,6 +13287,16 @@
     "sha256": "0c75ed55773ad70434292756f129b7622ad451d0b635d450d4852c6e223c358d",
     "size": 13440,
     "text": "We met at the station.",
+    "voice": "en-US-Neural2-F"
+  },
+  "e917e8407d57": {
+    "file": "e917e8407d57.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "41ed4c3c3dd92143948e5196b87f8928d0b58f18c6deb187aa4e35cf3e550da3",
+    "size": 43008,
+    "text": "She {{c1::looks}} {{c1::like}} her mother.",
     "voice": "en-US-Neural2-F"
   },
   "e92d79fb3da2": {
@@ -12769,6 +13609,16 @@
     "text": "She ran {{c1::out of breath}}.",
     "voice": "en-US-Neural2-F"
   },
+  "ee8aad1f6651": {
+    "file": "ee8aad1f6651.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "8f541640fdea353de9fd9a51fb314c473862dbbce84f894ce3f8eecc7bb09012",
+    "size": 24768,
+    "text": "A gift {{c1::for}} you.",
+    "voice": "en-US-Neural2-F"
+  },
   "ee96b63b40bd": {
     "file": "ee96b63b40bd.mp3",
     "lang": "en-US",
@@ -12777,6 +13627,16 @@
     "sha256": "758446095e9297ada310cd1f04d2f8a9913aefa6035fb767c5febc0eab62685a",
     "size": 34176,
     "text": "By the time we arrived, the show had started two hours before.",
+    "voice": "en-US-Neural2-F"
+  },
+  "eeeb7e5c6ae1": {
+    "file": "eeeb7e5c6ae1.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "ff4971a69aa15cc6aa21143bb38611af729f22a11771fdb1b78bac9f2c38b871",
+    "size": 22272,
+    "text": "The book sits on the shelf next to the window.",
     "voice": "en-US-Neural2-F"
   },
   "ef0207cd2be6": {
@@ -12910,6 +13770,11 @@
       "sha256": "2876b3ddcad3cf6b087b44d9ce444b9ebb82f1410478fa05396c5b623b319da1",
       "size": 68396
     },
+    "01e28f270705": {
+      "sha256": "d962ce634d7b4c6e013b343833860b6df4ca7fdbd7d13c0260f706ad78ce997b",
+      "size": 27308,
+      "normalized": true
+    },
     "025525aa5410": {
       "normalized": true,
       "sha256": "363acd63cf69ea56b3031da8d845fca34cfe25f672c925dbc745119841f1eb60",
@@ -12920,10 +13785,20 @@
       "sha256": "b1eeb1ae4e099f0ee11fe07ee90457c0ef03e767b5291dab1c5d4e8aa67507d9",
       "size": 16748
     },
+    "028286f33f33": {
+      "sha256": "ede1f0aca72a6503ee114f0af52a9bcca24ad98d6b8d80a4f88c220f9b6cbb03",
+      "size": 21932,
+      "normalized": true
+    },
     "028a5bfb004a": {
       "normalized": true,
       "sha256": "7d017f32e9c64904bd0003cb850c37bda7d0c25effd76cf65caed8cb299cb501",
       "size": 18476
+    },
+    "028cd4a40698": {
+      "sha256": "22753b1cceedbc67f1726e73dee4f7e937616be769b9839078de6ab286c79acc",
+      "size": 29228,
+      "normalized": true
     },
     "029d9360f6e8": {
       "normalized": true,
@@ -13096,9 +13971,9 @@
       "size": 76844
     },
     "0903519ff8e6": {
+      "normalized": true,
       "sha256": "d7c38962d7b64edd6554753bd96a874b483a033f60f322ee14c7c5e8e7c2d0c9",
-      "size": 49196,
-      "normalized": true
+      "size": 49196
     },
     "097296f0f479": {
       "normalized": true,
@@ -13109,6 +13984,11 @@
       "normalized": true,
       "sha256": "60d3bd11d4fe09b3b28c74357884992d3b538b0265154a8ba97bbb5c1036537c",
       "size": 58412
+    },
+    "098e2f4a1ca6": {
+      "sha256": "ee0ebe83d9ad7f641f8c416488fb2c801ed810fc7e06ebbfac8eb6529a9407aa",
+      "size": 38636,
+      "normalized": true
     },
     "09a72c3d0819": {
       "normalized": true,
@@ -13121,14 +14001,19 @@
       "size": 30380
     },
     "0a257ebe402c": {
+      "normalized": true,
       "sha256": "40f5f0f303b32adcea98e673eda80bc6e657f91ea493c84edb156c69866ab921",
-      "size": 23276,
-      "normalized": true
+      "size": 23276
     },
     "0a29bdcf6ae7": {
       "normalized": true,
       "sha256": "d747aaad8593839ac669d7b776fe7dbd43bfa3474d238e8f0a81bf96b3f63d41",
       "size": 19052
+    },
+    "0a993b155f0a": {
+      "sha256": "6ee3452eba0a858796413c1906abb9df6f856e6b8af67acd84e41e8ceca5b5a5",
+      "size": 45932,
+      "normalized": true
     },
     "0ae560518eb8": {
       "normalized": true,
@@ -13140,10 +14025,15 @@
       "sha256": "ee01dccb4d40d39ca2328fd365123399b331d166ed384e5a0a84c45ebadda714",
       "size": 55724
     },
-    "0b635c3e45a7": {
-      "sha256": "f375a8b11b9c6071f8c089ab6949e7825363caf6d226ccd00b53cdf0a8750571",
-      "size": 27116,
+    "0b3c2206eb67": {
+      "sha256": "1269ba46a2f3db3d341938c508e6888fcb1bac6de9d53f4ff1a3f21d4927054e",
+      "size": 19052,
       "normalized": true
+    },
+    "0b635c3e45a7": {
+      "normalized": true,
+      "sha256": "f375a8b11b9c6071f8c089ab6949e7825363caf6d226ccd00b53cdf0a8750571",
+      "size": 27116
     },
     "0b748d603cf8": {
       "normalized": true,
@@ -13156,9 +14046,9 @@
       "size": 15596
     },
     "0c1a40531811": {
+      "normalized": true,
       "sha256": "a6b3ffd39eceed1d6d75dc658696fed33df313dcba4f9e41d91d9c74fc7b7787",
-      "size": 24044,
-      "normalized": true
+      "size": 24044
     },
     "0c29b16f493a": {
       "normalized": true,
@@ -13246,9 +14136,9 @@
       "size": 22124
     },
     "0f1068ba4111": {
+      "normalized": true,
       "sha256": "de391e3d9d7430dacdd48d573107df1dbb4811cc69b69a55f42bcdc9af2df87c",
-      "size": 28076,
-      "normalized": true
+      "size": 28076
     },
     "0f1185a0d4d3": {
       "normalized": true,
@@ -13260,10 +14150,20 @@
       "sha256": "46087bfda4cf3eee99409af9156f4e8944a92695342bda7360fab0c0ff8e6def",
       "size": 15788
     },
+    "0f20233ad2d3": {
+      "sha256": "4d2cc6a23ea77c95fcc09127e1ba502ce83e6f17c069982609b6899ecc93e68f",
+      "size": 20780,
+      "normalized": true
+    },
     "0fc345d7be90": {
       "normalized": true,
       "sha256": "66e23dc09587cab2b4c9e8fd613cf6652b018550a8628ff63ca29d5e5b35ac3d",
       "size": 21548
+    },
+    "0fc8923d10cf": {
+      "sha256": "08733e6de1b5bc4fe4b8170c6ae1bb3fd1cd7794827bddf1de1f413eb02d0dc6",
+      "size": 28652,
+      "normalized": true
     },
     "102a38c6f9b5": {
       "normalized": true,
@@ -13306,19 +14206,19 @@
       "size": 14636
     },
     "11db50ffe176": {
+      "normalized": true,
       "sha256": "25c7ee8e15b095e05a38c3a6c221aa5da7512452e5c9aa36a0376377a0447c95",
-      "size": 34796,
-      "normalized": true
+      "size": 34796
     },
     "11fd9e1366c0": {
+      "normalized": true,
       "sha256": "85e2de3807cee1dc6f91b7534cb4a5db62832efff1587a2663c8951cfc85ed8d",
-      "size": 26348,
-      "normalized": true
+      "size": 26348
     },
     "12620ef4b9fa": {
+      "normalized": true,
       "sha256": "542522fdec1c3e176fc8bc9135d60666c708bc613d2a4af48a478d6eccae00f2",
-      "size": 28844,
-      "normalized": true
+      "size": 28844
     },
     "129c394aefa2": {
       "normalized": true,
@@ -13416,9 +14316,9 @@
       "size": 12332
     },
     "14fc0f48fa5f": {
+      "normalized": true,
       "sha256": "66f579540411497df62dde2ea6c2f380fbd90f31187ebc0316956f6697a5e1b1",
-      "size": 39788,
-      "normalized": true
+      "size": 39788
     },
     "1500d00f68b3": {
       "normalized": true,
@@ -13456,9 +14356,9 @@
       "size": 25004
     },
     "1612059675e4": {
+      "normalized": true,
       "sha256": "f6a95dc6ba04d724fffda44be0b0325ae15cd708a5ee5dbacff07c18c6bfc7ed",
-      "size": 36332,
-      "normalized": true
+      "size": 36332
     },
     "163d5aef588e": {
       "normalized": true,
@@ -13486,14 +14386,14 @@
       "size": 20012
     },
     "1757234aec92": {
+      "normalized": true,
       "sha256": "a9588025e9afc4277bce246b65cbabf366899cc3f80c49e35a89f4c36fd9233b",
-      "size": 45548,
-      "normalized": true
+      "size": 45548
     },
     "176c645e8082": {
+      "normalized": true,
       "sha256": "6eb6934e6f25f05a23813e467907882ccad9928e2abe3ba93c099eb749b7cd09",
-      "size": 41900,
-      "normalized": true
+      "size": 41900
     },
     "17bf1aba93b2": {
       "normalized": true,
@@ -13525,15 +14425,20 @@
       "sha256": "b7dd76a0cf9b249d590fb4fdd3bd4c7ef532ae0667ed566932f76fee3ec087e7",
       "size": 37676
     },
+    "1933845a013e": {
+      "sha256": "a7583c327e985878bd64169bc80222681963d6a76fd5ea8ec7c3dd33b87acfd3",
+      "size": 27308,
+      "normalized": true
+    },
     "194e10f8b274": {
       "normalized": true,
       "sha256": "9344ad63485d9ee0f090bb9a33b931ff7216ca7bc6cb522e5b841b0f05b0d8c9",
       "size": 27116
     },
     "195d5654b25c": {
+      "normalized": true,
       "sha256": "83ec2021641ae12c7eea6089d085adcc657f5b24085ce40967bf2c62b40781b8",
-      "size": 22316,
-      "normalized": true
+      "size": 22316
     },
     "1993421873c2": {
       "normalized": true,
@@ -13575,15 +14480,20 @@
       "sha256": "fe010692f321ec203956f688617cfeb96169020ceb9f1c96e060724ee13f3fdf",
       "size": 16364
     },
+    "1a69e6f13196": {
+      "sha256": "15ce10ac7d2fc34ac431f47abacab90c31cbff27ec29f2afe1aaaea8bbb42958",
+      "size": 26348,
+      "normalized": true
+    },
     "1a8c6bde1f1b": {
       "normalized": true,
       "sha256": "7cbf83195b1eb559b9ce37bb9477ac0030f201e7eb02c03d1f2702ec829c9d74",
       "size": 27500
     },
     "1aa5e8fc7ac7": {
+      "normalized": true,
       "sha256": "de90e6962870919ffb96919dd471ab12eeaf2cc56ad835db1062040e3cfe8b9c",
-      "size": 25964,
-      "normalized": true
+      "size": 25964
     },
     "1ab46f37776d": {
       "normalized": true,
@@ -13599,6 +14509,11 @@
       "normalized": true,
       "sha256": "8ce280f6f5e7d19e7b3159f468d377cc9aeb623ecf4d10d4d4cc8641ad7feab2",
       "size": 23660
+    },
+    "1b1045bcf4a9": {
+      "sha256": "b1a681c228620c35c0eb0aa198a59734f89f02be0e8d26130366e54d4715b1f0",
+      "size": 18860,
+      "normalized": true
     },
     "1b19fb189d13": {
       "normalized": true,
@@ -13645,6 +14560,11 @@
       "sha256": "4d11a76bc1b5007fa786668285657828aeb6a96ca240be3e5954feadd7b05b79",
       "size": 17132
     },
+    "1c4643d257ba": {
+      "sha256": "bafbbc4ee3719821dee7e635f61dee939cf89b4196b14537e7cfe47837fbc735",
+      "size": 26348,
+      "normalized": true
+    },
     "1cbb10996e79": {
       "normalized": true,
       "sha256": "3a5d0605f28b1f9534b4a31f9bf9321cb4bbc1a21de96fd791aa580d72c5eb37",
@@ -13686,9 +14606,9 @@
       "size": 39404
     },
     "1ddebd3608b0": {
+      "normalized": true,
       "sha256": "a5038d8176dbdd6311e286bbaab7ee6652f30cbfc12062c7b923128b48a91bcd",
-      "size": 25580,
-      "normalized": true
+      "size": 25580
     },
     "1e4823043c41": {
       "normalized": true,
@@ -13704,6 +14624,11 @@
       "normalized": true,
       "sha256": "9f974aa9c4973b9540a2c6cebabf22fed834302026d1cf0f32f9e736faa67e87",
       "size": 15404
+    },
+    "1f02ff60fc27": {
+      "sha256": "6f57d3ba09e4a4bfcdddb192ed8bc4bb633bfeb8c401ab48349d2b92d57fa19e",
+      "size": 40172,
+      "normalized": true
     },
     "1f1e4d3f0163": {
       "normalized": true,
@@ -13825,6 +14750,11 @@
       "sha256": "8085e048bf4a754272021a84483ef2586bba7ffd7c91aad3a4c2d0e11720acf0",
       "size": 39404
     },
+    "2579db8bd602": {
+      "sha256": "917149dce4daac9d3b1acabc931681b9f0164c97b739d850abd8b75c62584be2",
+      "size": 14828,
+      "normalized": true
+    },
     "25a21e12ca94": {
       "normalized": true,
       "sha256": "5b6b46fb96c71b5bae9fb20976cd50e8e24eaed4e59aa06d6295fcba8317a82e",
@@ -13835,9 +14765,19 @@
       "sha256": "34dc702e53b416f228f2850de4a1e786ac441c4e406c0f77c8f8fbad27e54260",
       "size": 31916
     },
+    "25ca30f88f62": {
+      "sha256": "2dfc2cd41f23ef7f40d84deb0449cab20a84a36fcf03ec39abee2ecf232e8005",
+      "size": 28460,
+      "normalized": true
+    },
     "25f50eb67ebd": {
+      "normalized": true,
       "sha256": "bcaa46bfaf49de3ec3e9bbdf759b15859d320eccd7aa80f18fea2c7ac6236e1a",
-      "size": 40364,
+      "size": 40364
+    },
+    "266b571d6359": {
+      "sha256": "da36ae03f76ffe2dd2ff6804c7bb7f3fcbc5c90bd82740b1c5eb166ea74adcc1",
+      "size": 24428,
       "normalized": true
     },
     "268aa8c44e0b": {
@@ -13861,14 +14801,14 @@
       "size": 29420
     },
     "27d0e279272c": {
+      "normalized": true,
       "sha256": "a5358372cb02cd8c53a86e9149c897b1ff7d022a5eb6e44ca0bff7eaf5ae5d53",
-      "size": 34796,
-      "normalized": true
+      "size": 34796
     },
     "27d10b11c31a": {
+      "normalized": true,
       "sha256": "4a58652c6a14e55cb7cbd59c432e6af705a4004aab5e689445bf40789202f3e7",
-      "size": 37100,
-      "normalized": true
+      "size": 37100
     },
     "27e2eb26e63d": {
       "normalized": true,
@@ -13881,9 +14821,9 @@
       "size": 18668
     },
     "280c27bfa19b": {
+      "normalized": true,
       "sha256": "fb893d317bc2e8d50b25e7d16846e163a0d8736364bb33e0525016d1bd0d72b3",
-      "size": 28460,
-      "normalized": true
+      "size": 28460
     },
     "281661b0679d": {
       "normalized": true,
@@ -13900,6 +14840,11 @@
       "sha256": "633dcd0496e73a84a004ee956779612c51d655d43075964c4c19841121ac52be",
       "size": 41708
     },
+    "28a498ed7024": {
+      "sha256": "4ff8370ec338c056273e4a9220ff67cf156aaaf6e924c0cdcc98a17466c23833",
+      "size": 25964,
+      "normalized": true
+    },
     "28edb267ce35": {
       "normalized": true,
       "sha256": "085e43245df16954fa46e0d80e8074ac2038781b974d9c759d4a7b37d7d31db2",
@@ -13911,9 +14856,9 @@
       "size": 33644
     },
     "291851c9f208": {
+      "normalized": true,
       "sha256": "a425956dfa8a27031b754e9462cb447218a7a8e87e5e29ef31ba989bc19a38d8",
-      "size": 26924,
-      "normalized": true
+      "size": 26924
     },
     "295724241b08": {
       "normalized": true,
@@ -13951,14 +14896,14 @@
       "size": 16172
     },
     "2a94e48d4595": {
+      "normalized": true,
       "sha256": "103b8d237839aafcfb3b98b3c5c4c79fb1b18f8269f10069c4620d0522a20f2a",
-      "size": 27692,
-      "normalized": true
+      "size": 27692
     },
     "2acca2a17354": {
+      "normalized": true,
       "sha256": "6ebd74e222c986f55a22ae71d67ce94994be44144819c7cc8700cbc0f5bab5f0",
-      "size": 20396,
-      "normalized": true
+      "size": 20396
     },
     "2ad179630694": {
       "normalized": true,
@@ -13996,9 +14941,9 @@
       "size": 24428
     },
     "2bc7ae0dfa62": {
+      "normalized": true,
       "sha256": "79390c016f18ed9ca9222592d3b3f4a3c0528e8417f12f83d255546a5f9be9d8",
-      "size": 25196,
-      "normalized": true
+      "size": 25196
     },
     "2c0ad526523a": {
       "normalized": true,
@@ -14055,6 +15000,11 @@
       "sha256": "5f6ee25bdcb3d28346db35cda78c3161a944b839edb0d4d2bc154e6a14b3626f",
       "size": 20204
     },
+    "2e13851a0f69": {
+      "sha256": "6c34006310735b3aaab9003525b9e34ecec1c99430cc9960c2e9dc4a8658267a",
+      "size": 24236,
+      "normalized": true
+    },
     "2e28a40d4adb": {
       "normalized": true,
       "sha256": "a60793e5e5bee7607a32c93cf2339b65adaa9d3ea6d0fd845a415c0bb90020bb",
@@ -14076,9 +15026,9 @@
       "size": 17708
     },
     "2f3e7e8f3cad": {
+      "normalized": true,
       "sha256": "27d8febd54b9bc3fa199e6b7770ba5b8c8771b6126093e1890be7c57cd4c725c",
-      "size": 24812,
-      "normalized": true
+      "size": 24812
     },
     "2f73aa26ecd7": {
       "normalized": true,
@@ -14101,9 +15051,9 @@
       "size": 16556
     },
     "305ef75d19f5": {
+      "normalized": true,
       "sha256": "08454482060b7b74ab49cb807881eabe2d75764f1f428077c2fa411f76a9b802",
-      "size": 26156,
-      "normalized": true
+      "size": 26156
     },
     "3078b847f8d5": {
       "normalized": true,
@@ -14146,9 +15096,9 @@
       "size": 18860
     },
     "32ab899fd1c3": {
+      "normalized": true,
       "sha256": "9f5173b50be79bdd33ece96a68383287ef411ec5ca3587f33eb04e588c863d9b",
-      "size": 27308,
-      "normalized": true
+      "size": 27308
     },
     "32b8f55e9e4b": {
       "normalized": true,
@@ -14281,9 +15231,9 @@
       "size": 25004
     },
     "37428bc40c05": {
+      "normalized": true,
       "sha256": "5891d81add93ee658af2b4a11de9d22a560bfb2e8fa992b24c8c0c583308fbea",
-      "size": 31340,
-      "normalized": true
+      "size": 31340
     },
     "379ef11620c8": {
       "normalized": true,
@@ -14321,9 +15271,9 @@
       "size": 50924
     },
     "38bddc49143e": {
+      "normalized": true,
       "sha256": "928874121275dda48be3746344a8db53d19f43f46ba051590d2b1475870b7478",
-      "size": 44012,
-      "normalized": true
+      "size": 44012
     },
     "394711883b15": {
       "normalized": true,
@@ -14336,14 +15286,19 @@
       "size": 20012
     },
     "399347ac71f4": {
+      "normalized": true,
       "sha256": "f0789b0a5122d107108eb721d37c7299cd125a40f41fb61845de019b8dda2b33",
-      "size": 27692,
-      "normalized": true
+      "size": 27692
     },
     "39943a173e99": {
       "normalized": true,
       "sha256": "634b7eec7da84ab590ba67199947b22ce1d1816bd2944e188b86eb25e1414d78",
       "size": 26732
+    },
+    "3a1349087c32": {
+      "sha256": "b7bb37953b63fdd0ed1aa772d3d8daca86c8eca8f2551388d012ee7e766cc71d",
+      "size": 33452,
+      "normalized": true
     },
     "3a78ab5101f7": {
       "normalized": true,
@@ -14375,6 +15330,11 @@
       "sha256": "b17626d38b59ac4025be55cf2530d1ac4de5837cf204026779cf22da6753116a",
       "size": 22892
     },
+    "3b4f3926da2c": {
+      "sha256": "a33e5c38a0413abbe7061ec418c0aa15ca04d08a74343989bd138a7ea5144329",
+      "size": 20972,
+      "normalized": true
+    },
     "3bb5a02c3ede": {
       "normalized": true,
       "sha256": "5555cd0fb77a415ed0c4b5398ef4ca4976c2f237416da5261cc6603ac99263aa",
@@ -14401,9 +15361,9 @@
       "size": 14828
     },
     "3d4efb6125e4": {
+      "normalized": true,
       "sha256": "1582dc75d0b0dfb97bb278f13ffd6dca6cb2c86cfd39d47284a7d8e35efc1a31",
-      "size": 27692,
-      "normalized": true
+      "size": 27692
     },
     "3db9ba90db3a": {
       "normalized": true,
@@ -14421,9 +15381,9 @@
       "size": 38444
     },
     "3e58449036ba": {
+      "normalized": true,
       "sha256": "40f03b7ad1e3f5b5965093bc74b2c7819c0533d4cb8b227e2c77c5420b487bc0",
-      "size": 25388,
-      "normalized": true
+      "size": 25388
     },
     "3e8848421495": {
       "normalized": true,
@@ -14450,6 +15410,11 @@
       "sha256": "b8543a4e3f461c575d3b48c64138f319d9ff79bea3cb90bac0e5fc3aa3adb2be",
       "size": 21932
     },
+    "3fd97890b2b2": {
+      "sha256": "6e1b907d5ad25de03bc522721d0383c8e43c4e0087c2cc03932cc7bd07a31ef8",
+      "size": 30572,
+      "normalized": true
+    },
     "4003311031d2": {
       "normalized": true,
       "sha256": "2d473146b5bb9aed1b36ef722fea9cb0067987c043bd9a9e347fa9f3399293ad",
@@ -14459,6 +15424,11 @@
       "normalized": true,
       "sha256": "992467a68e471bfec837624f946a73ce202db2d956ee77f41e9a9cdf1b0d52b1",
       "size": 49196
+    },
+    "40852ed236e0": {
+      "sha256": "65464f5145ddc6cb9d76e484baa66df21a47d8db73fad169413d3f811e36abf9",
+      "size": 31340,
+      "normalized": true
     },
     "40c4ca34fc07": {
       "normalized": true,
@@ -14491,9 +15461,9 @@
       "size": 30956
     },
     "41d59324c04c": {
+      "normalized": true,
       "sha256": "8d800352d8662d31cf531aec076f908cc6cbd571c559aae353d62858b77b71c2",
-      "size": 33068,
-      "normalized": true
+      "size": 33068
     },
     "4207bb03e42a": {
       "normalized": true,
@@ -14515,6 +15485,11 @@
       "sha256": "edbe0f34716d7fc68a7fe17fa0f021b1ad5daaaabb7b5f869bd68ed3737c0aa1",
       "size": 19052
     },
+    "42540549cf25": {
+      "sha256": "1ef2cf641809b8e4db45329c8079678ab56aa7e29170de65132bb093719cd42d",
+      "size": 23852,
+      "normalized": true
+    },
     "426430a13310": {
       "normalized": true,
       "sha256": "0d434c08f8322d851060abdbbd0a02f1efc2dffae005c4dbdf68f3dd79cda003",
@@ -14531,9 +15506,9 @@
       "size": 20972
     },
     "43979593fb76": {
+      "normalized": true,
       "sha256": "17abace6e1ad67ee1d0c1eeec9262f53135bfb93a1e211ad14cc3bedae5a99f0",
-      "size": 31148,
-      "normalized": true
+      "size": 31148
     },
     "43c6e3900e2e": {
       "normalized": true,
@@ -14551,9 +15526,9 @@
       "size": 29996
     },
     "4409d56be849": {
+      "normalized": true,
       "sha256": "d4c25e450b1424437de03b5137d78f129167f8feec07f0333392f1941f5e9c11",
-      "size": 20588,
-      "normalized": true
+      "size": 20588
     },
     "44cecc86b624": {
       "normalized": true,
@@ -14606,9 +15581,9 @@
       "size": 21164
     },
     "459b1b9fc205": {
+      "normalized": true,
       "sha256": "a1c708201bf31acc6fdfe17630ffe245693ffd1dc9f28b6185fbbf15f463d93c",
-      "size": 41708,
-      "normalized": true
+      "size": 41708
     },
     "45ad178dfc7c": {
       "normalized": true,
@@ -14626,9 +15601,9 @@
       "size": 23468
     },
     "462e06538d2b": {
+      "normalized": true,
       "sha256": "1ae5923862379082987cf77d95f0371643d2e84320eea15fe032a92ce93fdd9c",
-      "size": 43244,
-      "normalized": true
+      "size": 43244
     },
     "474c27e6c70f": {
       "normalized": true,
@@ -14661,9 +15636,9 @@
       "size": 22892
     },
     "47b9ec79dea3": {
+      "normalized": true,
       "sha256": "3a380a5f47832b23b2fc76beb8ec33bb00d44a7898573503cb01290db1407c1a",
-      "size": 28076,
-      "normalized": true
+      "size": 28076
     },
     "47c2913b5c46": {
       "normalized": true,
@@ -14691,9 +15666,9 @@
       "size": 25196
     },
     "485293007a69": {
+      "normalized": true,
       "sha256": "61f0bf5b06de73bac9647ee947d9d2cb0d91b08574d427db1b2b74520e9e5583",
-      "size": 25388,
-      "normalized": true
+      "size": 25388
     },
     "485f67d8ce90": {
       "normalized": true,
@@ -14725,10 +15700,15 @@
       "sha256": "f1d85724a6478ae9b90749aea200af43967968689049e06c15b94f9320b863f9",
       "size": 27308
     },
-    "48c8e7a9898f": {
-      "sha256": "025cb0c0315d017bc2c1cdf98f727c441d75510f273cadff83b83f56d737fbe4",
-      "size": 22892,
+    "48b71f59e4b2": {
+      "sha256": "35b290937a9fcdedbebb158825aab6c14530bd0f45b44cdb594be237b4782756",
+      "size": 20588,
       "normalized": true
+    },
+    "48c8e7a9898f": {
+      "normalized": true,
+      "sha256": "025cb0c0315d017bc2c1cdf98f727c441d75510f273cadff83b83f56d737fbe4",
+      "size": 22892
     },
     "48ccd76638ab": {
       "normalized": true,
@@ -14746,9 +15726,9 @@
       "size": 27884
     },
     "49b7db694f12": {
+      "normalized": true,
       "sha256": "35295cf9b76b34a622f84bf400b239a98d337a007bd72026313775be8156c622",
-      "size": 21356,
-      "normalized": true
+      "size": 21356
     },
     "49d8a4e357e3": {
       "normalized": true,
@@ -14796,8 +15776,13 @@
       "size": 18092
     },
     "4b2a47760381": {
+      "normalized": true,
       "sha256": "67ee5020f46ac8235f6de249ee4abfc35d10f0f4fb837034e6063beae4d3bb20",
-      "size": 24620,
+      "size": 24620
+    },
+    "4b436c5ce6a6": {
+      "sha256": "4ed6102665f450607f0dd1c60c0f6136c0cb35127060beea0eb530f9a04cee60",
+      "size": 49772,
       "normalized": true
     },
     "4b46e663b270": {
@@ -14826,9 +15811,9 @@
       "size": 16556
     },
     "4c48be06ed0c": {
+      "normalized": true,
       "sha256": "3e66e349621a3b66efc62c05c338b9e6d108c932f6606443c27bf0342073255e",
-      "size": 27884,
-      "normalized": true
+      "size": 27884
     },
     "4c595437b3c1": {
       "normalized": true,
@@ -14851,9 +15836,9 @@
       "size": 15212
     },
     "4d0424e2ac59": {
+      "normalized": true,
       "sha256": "193b244ebab0a2f2257182d49d372f5765fff4f843899dda4396fb74dcd86851",
-      "size": 25388,
-      "normalized": true
+      "size": 25388
     },
     "4d1318034479": {
       "normalized": true,
@@ -14864,6 +15849,11 @@
       "normalized": true,
       "sha256": "de1d438f3b6995b52267f2b019871c924bde29d656957a9bf3703af162c382c3",
       "size": 32108
+    },
+    "4d44447a5aad": {
+      "sha256": "b05e6fa49b28b8707032769e0822a8bd04c6bdf5b1a6fa5c082e344e0d6f4ed7",
+      "size": 19052,
+      "normalized": true
     },
     "4d47984c2223": {
       "normalized": true,
@@ -14931,9 +15921,9 @@
       "size": 68204
     },
     "501a2d016862": {
+      "normalized": true,
       "sha256": "3f96c455ca44d917aa12ad88d2dbae20c179a412169657dda97171e48a8cb61e",
-      "size": 27308,
-      "normalized": true
+      "size": 27308
     },
     "502089b2c532": {
       "normalized": true,
@@ -14941,8 +15931,13 @@
       "size": 16172
     },
     "50386e96f9d2": {
+      "normalized": true,
       "sha256": "fffb805dceac24590a394e99264f2a87e698f062d0f017f0fdf3997dff29dc69",
-      "size": 23660,
+      "size": 23660
+    },
+    "512304e16a1d": {
+      "sha256": "8da6570250367ede6e386c0ac5bf49ec3b09529961a1213f3514d5639a345923",
+      "size": 26348,
       "normalized": true
     },
     "51259e655deb": {
@@ -14965,6 +15960,16 @@
       "sha256": "7f251cf10ae14aee9bdb659582ccd9d57d35c113c80b5a7e119ea949693bd681",
       "size": 19820
     },
+    "5176d321fac3": {
+      "sha256": "5d33e90fdf827090b5fab086ed9392fd04851a2763d072ebc070008e1b5d421d",
+      "size": 41132,
+      "normalized": true
+    },
+    "517e83480784": {
+      "sha256": "759d8cac99db5c75ac553ee9d1da0282a65dc8d21f3161a97119aa6c883a03d4",
+      "size": 25388,
+      "normalized": true
+    },
     "5195173e1b52": {
       "normalized": true,
       "sha256": "0de6d0e1143603ba06b502fb77154b8ad437620bb93e1ddab4f626abba8fd25b",
@@ -14974,6 +15979,16 @@
       "normalized": true,
       "sha256": "859a5602309683d813be36e119a4989d3fd548b8c825e75ff844d68b9ca14433",
       "size": 29420
+    },
+    "52191caa7e81": {
+      "sha256": "26b63c260e111800128a7f046b89649f7d00a852c5f42a687e30349f204e993b",
+      "size": 27500,
+      "normalized": true
+    },
+    "52b0d4c39658": {
+      "sha256": "f597e9b7a9cafff96c7f777bb0a3838c461ffe9ce8378ac658b3e7f4ce39927e",
+      "size": 39404,
+      "normalized": true
     },
     "52b69610e59a": {
       "normalized": true,
@@ -15036,9 +16051,9 @@
       "size": 22316
     },
     "542452e39966": {
+      "normalized": true,
       "sha256": "ac108e863c2590f8456f1f3ede5f70c6a54d6f28e4655cb44b5c51de84a3a2a9",
-      "size": 28268,
-      "normalized": true
+      "size": 28268
     },
     "544f2933125c": {
       "normalized": true,
@@ -15205,10 +16220,15 @@
       "sha256": "44a08a27d7e3e8c4e2bd5952ba27accc2686fcb56d5c46f6083cfc0f4276f725",
       "size": 16748
     },
-    "591df446c6c9": {
-      "sha256": "cbc479c07f7c8b81ad3c5802a486e7ddddf2764aa53a31a4e28196a97673a1a5",
-      "size": 40940,
+    "590c7edcf867": {
+      "sha256": "26265169f88d03bdf2b337d5fb063466b180203f23b793215e56efd156561e8b",
+      "size": 24236,
       "normalized": true
+    },
+    "591df446c6c9": {
+      "normalized": true,
+      "sha256": "cbc479c07f7c8b81ad3c5802a486e7ddddf2764aa53a31a4e28196a97673a1a5",
+      "size": 40940
     },
     "593366663f36": {
       "normalized": true,
@@ -15296,9 +16316,9 @@
       "size": 23468
     },
     "5d4a01b067c9": {
+      "normalized": true,
       "sha256": "bbe7bf8d5ae7c3f190313d62a6ff31337eaf2b00ca202ae786823aab6d033502",
-      "size": 24620,
-      "normalized": true
+      "size": 24620
     },
     "5d95ad18dd54": {
       "normalized": true,
@@ -15325,6 +16345,11 @@
       "sha256": "756d8b5e35d344093e962729e105df75001e62fb5c6c7a2fc5f8c678092a51f6",
       "size": 25772
     },
+    "5ddccaf3bd0f": {
+      "sha256": "fc72993a5b7217a4253e7905299c7502e944a69f5c056390ade307fdb8397613",
+      "size": 24236,
+      "normalized": true
+    },
     "5e0b4078d493": {
       "normalized": true,
       "sha256": "cc5aed7fb16c4b90fc83575aa4bdf5507972d3805ccb2bc4a9c2e98d6cd75874",
@@ -15336,9 +16361,9 @@
       "size": 22316
     },
     "5e3983e4be6f": {
+      "normalized": true,
       "sha256": "52c8635e66707495feffff03f4c63d80d3ad61598fb93707a7272cb7fcde6eb8",
-      "size": 28076,
-      "normalized": true
+      "size": 28076
     },
     "5e92eeb8d900": {
       "normalized": true,
@@ -15390,6 +16415,11 @@
       "sha256": "34710137f3a7088bcdfa33b0297504c616816420de5e872f36c2c2ff3fb9a79a",
       "size": 31148
     },
+    "5ff3bd355d2e": {
+      "sha256": "8fd02368c8d49d51187aa6c471abd8faf11eb20d9d9bad29a240e0e4f1e030da",
+      "size": 20972,
+      "normalized": true
+    },
     "5ff5c7ca1c7c": {
       "normalized": true,
       "sha256": "c611af6a336a630f763e7ee50c139600a8a53291fae4fd24e820a98205b680e7",
@@ -15426,9 +16456,9 @@
       "size": 33260
     },
     "61ecc8eed605": {
+      "normalized": true,
       "sha256": "35f315462653c0ab8a5d4aa2e7714d07ee161c62d0606ba8f4230cef682bb975",
-      "size": 46892,
-      "normalized": true
+      "size": 46892
     },
     "61ecdb20a768": {
       "normalized": true,
@@ -15454,6 +16484,11 @@
       "normalized": true,
       "sha256": "990d20a98750e30a0e47cb3a51ec4bfa494f237bea40250a02315f15fd8b9694",
       "size": 38828
+    },
+    "629e5af2d693": {
+      "sha256": "1b0f02e54ba583f94fa842cdfdd2df4291bce63b4ca1030ab579e9a821f15634",
+      "size": 22316,
+      "normalized": true
     },
     "62d2b99f3007": {
       "normalized": true,
@@ -15560,10 +16595,15 @@
       "sha256": "5de1375b7df98efa16658b23262fc285c82dcbeb02afb511a67472f816cb0bff",
       "size": 19820
     },
-    "66ca055651fc": {
-      "sha256": "3b2ba0812d322010aa77b7dfdc65a706a9f00451bb25f42f41b0c93d74fc9aff",
-      "size": 27884,
+    "66c2bb6d7c8b": {
+      "sha256": "b5aeed8661d3a1c65c0fae1f019ad51f68307eb27b10a97abe5fde0ebdcf2a5d",
+      "size": 27308,
       "normalized": true
+    },
+    "66ca055651fc": {
+      "normalized": true,
+      "sha256": "3b2ba0812d322010aa77b7dfdc65a706a9f00451bb25f42f41b0c93d74fc9aff",
+      "size": 27884
     },
     "66d74639d3b4": {
       "normalized": true,
@@ -15595,6 +16635,11 @@
       "sha256": "2ca86257c909c2b5c975f67ddc3663a6cb0b269aec90f0a326856165589e7b3c",
       "size": 17900
     },
+    "687b18ef9bbb": {
+      "sha256": "c97e8abf24642b4feab4667bef13838bd957d12aa177ec43198f3f97293b059e",
+      "size": 25580,
+      "normalized": true
+    },
     "68f63af7f576": {
       "normalized": true,
       "sha256": "8a9bd02bcc4965806010196e3156d22fb5c71ecbb3c4ad69a6a27da58b5898ad",
@@ -15609,6 +16654,11 @@
       "normalized": true,
       "sha256": "9dcd35922ac4cdd2884aa193b0e33c3e063c5df6af159b8f2453bcfb503933a6",
       "size": 27500
+    },
+    "694c5d9da931": {
+      "sha256": "7247f4abfdfd50bbff13377e319ce02da613df9dd0aba50d2b5b5de923ef16dc",
+      "size": 25004,
+      "normalized": true
     },
     "695025401128": {
       "normalized": true,
@@ -15626,9 +16676,9 @@
       "size": 15404
     },
     "69f9999aa32c": {
+      "normalized": true,
       "sha256": "90458aa656874e7ff27473a54c9483185c427e5c41c4a1a51e837e80386bd734",
-      "size": 25196,
-      "normalized": true
+      "size": 25196
     },
     "6a43d7dcea02": {
       "normalized": true,
@@ -15676,9 +16726,9 @@
       "size": 26540
     },
     "6b6ef8af43ee": {
+      "normalized": true,
       "sha256": "b6f9c1d92a6c9445a35ea4dfaa075dcdd92111cd2b7c3ace2420605909ece651",
-      "size": 26924,
-      "normalized": true
+      "size": 26924
     },
     "6b7b9e6f46d3": {
       "normalized": true,
@@ -15689,6 +16739,11 @@
       "normalized": true,
       "sha256": "09164299446be57dcb6dd5e555fc24a4aa678347d17fa1bc8471b6e74d40e9dd",
       "size": 21164
+    },
+    "6b92c5c8e0a2": {
+      "sha256": "195216e14dfda63f5d041908c7dd4fe54e55520c07b37eca801452f1b961955f",
+      "size": 21164,
+      "normalized": true
     },
     "6b9b673f53a1": {
       "normalized": true,
@@ -15741,9 +16796,9 @@
       "size": 14252
     },
     "6d5f3c8e3b01": {
+      "normalized": true,
       "sha256": "7e8ba1f039f21b5ba13ba2e03f578b662a3828082de7c6d4195fb0074c1f9a84",
-      "size": 34796,
-      "normalized": true
+      "size": 34796
     },
     "6d9d9aa80b7c": {
       "normalized": true,
@@ -15759,6 +16814,11 @@
       "normalized": true,
       "sha256": "01baf15b3a4114b052ea770a4402141aec82492beb66da023060b1229fc72dec",
       "size": 26540
+    },
+    "6dda1906f855": {
+      "sha256": "fcbc927cb417fa2cd507049f709c7a6ba89439e5a6de1a754b3e1d3ea7ab477d",
+      "size": 29420,
+      "normalized": true
     },
     "6dff2a21cb2b": {
       "normalized": true,
@@ -15781,9 +16841,9 @@
       "size": 26348
     },
     "6ea37c26f296": {
+      "normalized": true,
       "sha256": "3bd63fe67d55d775634774407de0472fb3edb717a4a74fe35227ec2e255d0c76",
-      "size": 29228,
-      "normalized": true
+      "size": 29228
     },
     "6eb83e0a49cc": {
       "normalized": true,
@@ -15800,9 +16860,19 @@
       "sha256": "e7192afa8209cd31fa06f4f94f0f68cb653ab791416234d74f132b2dfe4ce667",
       "size": 23084
     },
+    "6f115df618d7": {
+      "sha256": "50912adba4efc98c4829ece47ed4ed63f4ca57a2244a9ff2fc27777d29c3d2cd",
+      "size": 23084,
+      "normalized": true
+    },
     "6f1f387584be": {
+      "normalized": true,
       "sha256": "77abb82cd0c8538fc7d9c4f563243ee0bd93e9c0e700bd59474d53972604cc48",
-      "size": 27692,
+      "size": 27692
+    },
+    "6f47bd466041": {
+      "sha256": "f129873c8efa46c148ea28277300a99c5fbabca794304459d0ba41ca12135a35",
+      "size": 25388,
       "normalized": true
     },
     "6f5b32140e86": {
@@ -15830,10 +16900,20 @@
       "sha256": "41569725bffaa6986daf818060cd5960ddcc8a1a0e0fa34c8650aad2e68cd736",
       "size": 14636
     },
+    "70802cc0a8ce": {
+      "sha256": "54205c113386c26203e504aefde46757403fc061b35c7ad6e9b2b48b867dd426",
+      "size": 17324,
+      "normalized": true
+    },
     "709310db8a48": {
       "normalized": true,
       "sha256": "ec1ff8e6c2d50bc6fdd8fc2d98458b12b92624b839e81a2fe2337eb5f5d9f6c8",
       "size": 35372
+    },
+    "709a9691d130": {
+      "sha256": "466b30aa31ef7bb935492ef0ace85c954a19e8b6c942f7bef9ea7bc41ce35db9",
+      "size": 13676,
+      "normalized": true
     },
     "70d2ca2cb854": {
       "normalized": true,
@@ -15859,6 +16939,11 @@
       "normalized": true,
       "sha256": "a7a67f28feceace61f3844378629dfe2b3ec26ba04fa0b75d3cdbc33c5c010eb",
       "size": 26540
+    },
+    "716fff1dadc2": {
+      "sha256": "c3224ef2a9d996c30ea5317f6cd365475f7448074d1af7d33145ecddb1cd713b",
+      "size": 28844,
+      "normalized": true
     },
     "71937c425c6b": {
       "normalized": true,
@@ -15900,6 +16985,11 @@
       "sha256": "e4d9bcb63e993133040ad4d29e8011e22e3683942b0b10902f24cf79ef0d2493",
       "size": 26348
     },
+    "732be484a955": {
+      "sha256": "2436ebafe4db7401e31c461a5528c73ce507bc8e4f261b8a05cff1630aae2b98",
+      "size": 45548,
+      "normalized": true
+    },
     "737145a089c1": {
       "normalized": true,
       "sha256": "eac4c0bed164c59cccf0eb1e94facea428308e5490baf2c83704ba97f01c2a9b",
@@ -15920,15 +17010,20 @@
       "sha256": "6ef3181e1ef92795c63e22ae060a168ff567c7fbeac83c57823fbf96099d6320",
       "size": 21740
     },
+    "74528b027d2a": {
+      "sha256": "a3682949c7f405fbfd28d28ec283ff66ab341748e4e1ab2ac9f83eda6a809b66",
+      "size": 37100,
+      "normalized": true
+    },
     "7459a78560a2": {
       "normalized": true,
       "sha256": "e083d592322f9bc9012e105730a41a5941eb70181fb9ffcdf6af448b991d66bd",
       "size": 18668
     },
     "75178839cf76": {
+      "normalized": true,
       "sha256": "c8caf1ac8d12bf88cbe00b9a977b57d15ffcc8ee13b2c87f2351602825ce0f9a",
-      "size": 34220,
-      "normalized": true
+      "size": 34220
     },
     "75187511fde8": {
       "normalized": true,
@@ -15966,9 +17061,9 @@
       "size": 55148
     },
     "768fb76533a6": {
+      "normalized": true,
       "sha256": "6e5efd1c65cd90d8f865ae185523f16431248800eab6f2f409e10b126a1372aa",
-      "size": 32684,
-      "normalized": true
+      "size": 32684
     },
     "76af5b839f3e": {
       "normalized": true,
@@ -16030,6 +17125,11 @@
       "sha256": "470c4ef044f46cda739c377b81a7e1d033351b87e840b06357a3ae1f2020f83a",
       "size": 23468
     },
+    "7802ce4ba5ee": {
+      "sha256": "fdf378482c581f6a151f3fa47b5350550bae427ab61fcd337c5fdc600ed389ed",
+      "size": 25196,
+      "normalized": true
+    },
     "7812d7518b51": {
       "normalized": true,
       "sha256": "ea2110b88d0436c5180406966a19ca6a904f886d65206de497720f1b06d48079",
@@ -16050,6 +17150,11 @@
       "sha256": "db63138224f4bbbfa8a76e3af1c83c53dc301b588d1569d789ba971220336ecc",
       "size": 70508
     },
+    "78e243c44694": {
+      "sha256": "e42650ff0aaf4613388eb01e14b725291c67d4fc449419338ec6fddd553e0602",
+      "size": 18476,
+      "normalized": true
+    },
     "795c7cbe7d86": {
       "normalized": true,
       "sha256": "e8b1e433484bcddd3d772b87072f3e169b2330afa602912915a42455256ae576",
@@ -16069,6 +17174,11 @@
       "normalized": true,
       "sha256": "d2e3d3f86af407187364b05ed26564961aa64465f5c55901996cb94adae13fb2",
       "size": 37676
+    },
+    "7a088ff30b8b": {
+      "sha256": "1ef5150f10952ab99cb8374f7eec702a0d22c46620d2df02897c64ca9d18f090",
+      "size": 46124,
+      "normalized": true
     },
     "7a453548576a": {
       "normalized": true,
@@ -16126,9 +17236,9 @@
       "size": 19244
     },
     "7c499ed8230c": {
+      "normalized": true,
       "sha256": "b6593c674d936b54744d8a2de04cc7dd0201ea87fe169a7cbf97f9c53fd556a0",
-      "size": 27884,
-      "normalized": true
+      "size": 27884
     },
     "7c51bed3fa00": {
       "normalized": true,
@@ -16191,19 +17301,24 @@
       "size": 58796
     },
     "7de94f006b2a": {
+      "normalized": true,
       "sha256": "402f6f5975b7a41a34f107a9bd2cc336b4cd8c523b951ad9f120473ae61d802f",
-      "size": 29228,
-      "normalized": true
+      "size": 29228
     },
     "7e395f5dcf88": {
+      "normalized": true,
       "sha256": "6debe9ad649ab47db870863c19c0b7487681ca3985240e1a47d17cc004d77463",
-      "size": 37292,
+      "size": 37292
+    },
+    "7e4f80c1d758": {
+      "sha256": "31c7c69e0d1774dd09a14d9ef88e1adca07914c9025b42804799eb1124171e69",
+      "size": 24812,
       "normalized": true
     },
     "7eabf217ae0c": {
+      "normalized": true,
       "sha256": "1948a5c710b45283a3a66d34bafbaba38824b1a1affe5f454f292ffac00c3871",
-      "size": 24812,
-      "normalized": true
+      "size": 24812
     },
     "7edf9b28ba69": {
       "normalized": true,
@@ -16231,9 +17346,9 @@
       "size": 27884
     },
     "7fda1e76f470": {
+      "normalized": true,
       "sha256": "719a7b31ad7e5af1564070cf82b641bbfefa2ddecd00fa408d8909d84213d597",
-      "size": 20396,
-      "normalized": true
+      "size": 20396
     },
     "8027b09eba6b": {
       "normalized": true,
@@ -16254,6 +17369,11 @@
       "normalized": true,
       "sha256": "f14f7f471d4774dfdc14b12b75919141c7dc19b827f7a6f4b107aa0fe517073e",
       "size": 20780
+    },
+    "80a0a64851a3": {
+      "sha256": "8604307cd76300f1f856b88f97750a190234b82387e5347d4e533490c0ebbb5f",
+      "size": 28076,
+      "normalized": true
     },
     "80dee760f1a8": {
       "normalized": true,
@@ -16310,6 +17430,11 @@
       "sha256": "1928a138a64608d23d8184e99e82ef230ede2474a79c008e36a10d01d085721f",
       "size": 23468
     },
+    "836f7e171b21": {
+      "sha256": "57f38754a4fb98fd03f4892db7e699f0b96d21ebd547c0ac4905e317814e228a",
+      "size": 29420,
+      "normalized": true
+    },
     "83c39cda8ebd": {
       "normalized": true,
       "sha256": "09bed1c2c1f8ee05766fb8c6859228616c7cad950e537b81b02cc50969f041af",
@@ -16331,9 +17456,9 @@
       "size": 14636
     },
     "846f479e1077": {
+      "normalized": true,
       "sha256": "44762af1da5b458f05cf14f91ea5f21d4b46e8170622248c81289fd8734bdfd7",
-      "size": 20396,
-      "normalized": true
+      "size": 20396
     },
     "8470310d4b3f": {
       "normalized": true,
@@ -16356,9 +17481,9 @@
       "size": 31532
     },
     "856f2aaf329f": {
+      "normalized": true,
       "sha256": "8db7fc22203589b21fd8af6c3fcf1d57a15950b9fdb8a2f5f62bb3afa23b231a",
-      "size": 12524,
-      "normalized": true
+      "size": 12524
     },
     "857e25ac00e6": {
       "normalized": true,
@@ -16431,9 +17556,9 @@
       "size": 19628
     },
     "88a8c7c82f48": {
+      "normalized": true,
       "sha256": "4f2307af6e153385b5ec1c7c1386899c118c81626e86dab66022cbf13e912a9d",
-      "size": 45548,
-      "normalized": true
+      "size": 45548
     },
     "88caee1af9b9": {
       "normalized": true,
@@ -16479,6 +17604,11 @@
       "normalized": true,
       "sha256": "b648d5f92628bc79f5569ef09d48427c1b28d8710b6e4e9784a2828fdeee4e79",
       "size": 20972
+    },
+    "8a19fdb79a0c": {
+      "sha256": "fa2a5ffb2ee773fe16737dfa67964314d34a5f08081f806c48afb9de2dfc3b31",
+      "size": 29612,
+      "normalized": true
     },
     "8a1f7a6027e8": {
       "normalized": true,
@@ -16586,9 +17716,9 @@
       "size": 16172
     },
     "8d49a4622321": {
+      "normalized": true,
       "sha256": "dee543c00eb48500f8a7f28d94e1a479752a6d63ec0e28149b26c3e147cb2d62",
-      "size": 31340,
-      "normalized": true
+      "size": 31340
     },
     "8daacb98d2d1": {
       "normalized": true,
@@ -16596,9 +17726,9 @@
       "size": 61868
     },
     "8ddc8cd61560": {
+      "normalized": true,
       "sha256": "6a5aa501e825645cdc4f5653f07fcfb0b7a35e2ba29d9a90d32512310204ba20",
-      "size": 27884,
-      "normalized": true
+      "size": 27884
     },
     "8df1d62a13fa": {
       "normalized": true,
@@ -16616,9 +17746,9 @@
       "size": 66860
     },
     "8eabd8f80454": {
+      "normalized": true,
       "sha256": "4f2bc8edc55f67d4d57e249c87a6a41a9bb13548ce173faed227fa704acb2ea8",
-      "size": 28076,
-      "normalized": true
+      "size": 28076
     },
     "8eaf35c7bf0e": {
       "normalized": true,
@@ -16670,6 +17800,11 @@
       "sha256": "bdf8d72a4c88e8b0d9db8482a4fc882532c3b35c3ac7110523abd1c00c596d1e",
       "size": 27692
     },
+    "8fefb5c1d87b": {
+      "sha256": "68b6ad33704ba8936d69334238a6a96c62b372ceb0f49957b1230da05c62ffa3",
+      "size": 26924,
+      "normalized": true
+    },
     "9019c046be0f": {
       "normalized": true,
       "sha256": "047f9a24218665c43ff9fb1bf87481d5d8de1ec1b55045c9e2718482a5d5dabd",
@@ -16681,9 +17816,9 @@
       "size": 21740
     },
     "908ce2da9cef": {
+      "normalized": true,
       "sha256": "27cf06f2b3b0ec2f595522d536b0f7b8ffc0a4cbbfd036e7d1f655a974df1f75",
-      "size": 39596,
-      "normalized": true
+      "size": 39596
     },
     "909298c519e9": {
       "normalized": true,
@@ -16761,9 +17896,9 @@
       "size": 15212
     },
     "92c349b58de6": {
+      "normalized": true,
       "sha256": "bd61b5519509cc506b00bb9cd7e493d04d31dc0f2131a1ffd0a069b40a5c1092",
-      "size": 23084,
-      "normalized": true
+      "size": 23084
     },
     "92d52e963b85": {
       "normalized": true,
@@ -16805,15 +17940,20 @@
       "sha256": "355483ebcd3ba261a4aa46e4306698c22b6a485ee8d98b6765aa6c4ebd6df629",
       "size": 20588
     },
+    "9575e7f7809d": {
+      "sha256": "11519a1b7c41a9a377a02f78b2359a80ad60ec4767aba076e3dbe5f8aeea0c0b",
+      "size": 50732,
+      "normalized": true
+    },
     "9597ea005afc": {
       "normalized": true,
       "sha256": "12691f18da78113ed3470fdeb044a4809621972c925db05688eea41bcde16ab7",
       "size": 22124
     },
     "95e310c5ada1": {
+      "normalized": true,
       "sha256": "c86d68078ae28175a16a6ca768a24c85ef79041fd3387707a649f52a84095512",
-      "size": 26924,
-      "normalized": true
+      "size": 26924
     },
     "95e5c900d635": {
       "normalized": true,
@@ -16865,6 +18005,11 @@
       "sha256": "fb761587305306ad165960296e71762210f9c7a2ae6bf47b3ae3b4439969e60d",
       "size": 21164
     },
+    "97218bbb23d1": {
+      "sha256": "9d90cb1e90b93a4ce96b377687a1675b8932cdcdd45c1017019bf42f777979e5",
+      "size": 46508,
+      "normalized": true
+    },
     "9752f2b9cc58": {
       "normalized": true,
       "sha256": "617493532898ab40ceb31c0dbcc6e59fae983d0d7e61f5aaa34f8fba8fefbac4",
@@ -16911,14 +18056,14 @@
       "size": 26924
     },
     "9894a5eb6ff1": {
+      "normalized": true,
       "sha256": "2a87a2368ca7c552c4e7816ca6f5d5a6ceb01b75aa5d61fd943f331c8fc38bf1",
-      "size": 30956,
-      "normalized": true
+      "size": 30956
     },
     "98bb61da94de": {
+      "normalized": true,
       "sha256": "81c0f9a4d6caf3830f20a85f3ef7729979e3cd7d3ea5481afc1f22536cdebf6b",
-      "size": 31724,
-      "normalized": true
+      "size": 31724
     },
     "98df96d95c83": {
       "normalized": true,
@@ -16926,13 +18071,18 @@
       "size": 27500
     },
     "9961559ee797": {
+      "normalized": true,
       "sha256": "44f7fc6daa810e7d35526bc8a30e931b3b1554434f9d233ce9cb34e34aa73292",
-      "size": 25004,
-      "normalized": true
+      "size": 25004
     },
     "9986878f9cc4": {
+      "normalized": true,
       "sha256": "255ad5d7625661e7ff19161422ae573bfc311443f9bea3748442c4a07753d4f2",
-      "size": 29996,
+      "size": 29996
+    },
+    "99b5d266b91f": {
+      "sha256": "3d1b156f2102445c8e945ac589353d16e730d78ad7dac0ee5a8f40f4eddb1e99",
+      "size": 17516,
       "normalized": true
     },
     "99f3b0d7cca4": {
@@ -16951,9 +18101,9 @@
       "size": 20396
     },
     "9a8e6a73e08a": {
+      "normalized": true,
       "sha256": "50c80ac299b1b3aba8218e667f8c645e942e9c7abc112834171ff47fca713d8d",
-      "size": 26348,
-      "normalized": true
+      "size": 26348
     },
     "9a9694f22433": {
       "normalized": true,
@@ -16979,6 +18129,11 @@
       "normalized": true,
       "sha256": "307d48150271d398cfe24e5012cd96e15ef9b49a7912922384f53e6d617499bf",
       "size": 56300
+    },
+    "9b61ad1df96f": {
+      "sha256": "d8976a3736f9b851bbaf946d122334516a5bb24de68ef29dc95053b4b7625e2d",
+      "size": 29804,
+      "normalized": true
     },
     "9b9a30d66a44": {
       "normalized": true,
@@ -17041,14 +18196,14 @@
       "size": 26540
     },
     "9d770c4ff6e7": {
+      "normalized": true,
       "sha256": "c29bfab2305f43accb34387461fc4208f88b8d90dbc115c426ec2d55226f6dc3",
-      "size": 28076,
-      "normalized": true
+      "size": 28076
     },
     "9d7a22dd58ca": {
+      "normalized": true,
       "sha256": "b1c5970c336f0ea40fdb5a0ecb3c0d552fa52465b4ad748f98f0a9dcdf056c3a",
-      "size": 14444,
-      "normalized": true
+      "size": 14444
     },
     "9d8781fe7511": {
       "normalized": true,
@@ -17101,9 +18256,9 @@
       "size": 32492
     },
     "9e61b570f971": {
+      "normalized": true,
       "sha256": "9609cd6b57e336b91f550050014fc18325ca34cb27f6bc78d6cf3ca57d122428",
-      "size": 23852,
-      "normalized": true
+      "size": 23852
     },
     "9e6933ce0afa": {
       "normalized": true,
@@ -17131,9 +18286,9 @@
       "size": 39596
     },
     "9f2ee0873d7b": {
+      "normalized": true,
       "sha256": "65f5ff9f9ca31801cb706c5b22beca5607dbca26e4a2cc94f70841347a614fdf",
-      "size": 23852,
-      "normalized": true
+      "size": 23852
     },
     "9f396d2dbde1": {
       "normalized": true,
@@ -17146,9 +18301,9 @@
       "size": 52460
     },
     "9f66285e50ba": {
+      "normalized": true,
       "sha256": "2d2fce613527054bebdda750dfa32ce01b60ac56b892ce7fbef494cd7047b751",
-      "size": 34988,
-      "normalized": true
+      "size": 34988
     },
     "9f6dccee928d": {
       "normalized": true,
@@ -17156,9 +18311,9 @@
       "size": 20012
     },
     "9f7c96c7c6c2": {
+      "normalized": true,
       "sha256": "cab34c994d2e9275b80260fa33b52b11d776d7a245904d40b44cc6311519be94",
-      "size": 39596,
-      "normalized": true
+      "size": 39596
     },
     "9fab44c0485d": {
       "normalized": true,
@@ -17171,9 +18326,9 @@
       "size": 18860
     },
     "9fdeed60604d": {
+      "normalized": true,
       "sha256": "f9b2adbbd09d87e816dab2e568d0d081eecf2655d96633f80938e3b92e765527",
-      "size": 29612,
-      "normalized": true
+      "size": 29612
     },
     "9fe7ac3f3f09": {
       "normalized": true,
@@ -17211,9 +18366,9 @@
       "size": 24812
     },
     "a18ea837334b": {
+      "normalized": true,
       "sha256": "1240d3761e7ad59d2b2d5ab79ff1c6d6d761c751a1494957fcb72ed855c821be",
-      "size": 18860,
-      "normalized": true
+      "size": 18860
     },
     "a2293b3dd74e": {
       "normalized": true,
@@ -17235,10 +18390,15 @@
       "sha256": "f56abd005b17118c435c23e4ffd71d650c54638598808e11a9ccb35d364b987d",
       "size": 13676
     },
-    "a28eba837934": {
-      "sha256": "d3e521f682df3058d61cd2fd3519ef66a1638ec54cdf42f267774ea3a85a8e99",
-      "size": 14444,
+    "a262cc9faa3c": {
+      "sha256": "abeaf3f190f2b9be26195bd6dcd6b6998d980eef30674f77189a2922c4d842b2",
+      "size": 26540,
       "normalized": true
+    },
+    "a28eba837934": {
+      "normalized": true,
+      "sha256": "d3e521f682df3058d61cd2fd3519ef66a1638ec54cdf42f267774ea3a85a8e99",
+      "size": 14444
     },
     "a28fd88cd92c": {
       "normalized": true,
@@ -17266,9 +18426,9 @@
       "size": 18476
     },
     "a3de21c852f8": {
+      "normalized": true,
       "sha256": "b93a507b7286ecefd3e101bcb8d01b4b43eff3ff5f48f47e9c2a4c977daa2224",
-      "size": 40940,
-      "normalized": true
+      "size": 40940
     },
     "a46de2d7dc51": {
       "normalized": true,
@@ -17289,6 +18449,11 @@
       "normalized": true,
       "sha256": "00b566e388985ca8d9346aa2530066bace0f4ea3363d7e8868abb83cba60bc61",
       "size": 20204
+    },
+    "a556be0c3594": {
+      "sha256": "99e51d74777fae0fe06a65f32c8251d25196446002b50d2f630a7638f54a828f",
+      "size": 20204,
+      "normalized": true
     },
     "a57f22d93155": {
       "normalized": true,
@@ -17311,14 +18476,14 @@
       "size": 20204
     },
     "a68e52d6772f": {
+      "normalized": true,
       "sha256": "b426fcafee7aaccfc84f99a03babfbd36f527f1d546a9d062c403aad51e302f6",
-      "size": 22892,
-      "normalized": true
+      "size": 22892
     },
     "a6d567234d99": {
+      "normalized": true,
       "sha256": "25f111b706fada6cee8c5063a3292df7bffbeacf4abd54e5cfd3b7cf546da672",
-      "size": 29804,
-      "normalized": true
+      "size": 29804
     },
     "a6ea2715d403": {
       "normalized": true,
@@ -17415,6 +18580,11 @@
       "sha256": "1cf1b235f108b7e5ea44f0328cb09d7e9a734e6bc16a86834f3377e21d6162a6",
       "size": 24428
     },
+    "aaa999fa975b": {
+      "sha256": "e17910bd4c58acf678e1b4ad0982c5cc09b8212349bbb1d9f468ffefd0506a9b",
+      "size": 19628,
+      "normalized": true
+    },
     "aac2e92c0611": {
       "normalized": true,
       "sha256": "af8b1404ea7e518f5a231b7ba059ef4a9dd8afa5b44a59c3d105d40cfd376057",
@@ -17461,9 +18631,9 @@
       "size": 23852
     },
     "ac173190187a": {
+      "normalized": true,
       "sha256": "b6266cfb377720423b47bd839204fdf94eac4f45133f8009eea7cc85a84215f8",
-      "size": 24044,
-      "normalized": true
+      "size": 24044
     },
     "ac293d3cc073": {
       "normalized": true,
@@ -17471,9 +18641,9 @@
       "size": 21164
     },
     "ac308faf7e09": {
+      "normalized": true,
       "sha256": "56301f3337798f412fd80304b4958f5fa2d529729d1b73a9acd6a5df819dd505",
-      "size": 23852,
-      "normalized": true
+      "size": 23852
     },
     "ac5813e19455": {
       "normalized": true,
@@ -17506,14 +18676,14 @@
       "size": 16172
     },
     "ad21f61be42e": {
+      "normalized": true,
       "sha256": "bbe8e73877cdd3f3e49e8b43bf5808b049a1c095ce6f77e0e80338e6c0bed985",
-      "size": 24236,
-      "normalized": true
+      "size": 24236
     },
     "ad40e42bb00e": {
+      "normalized": true,
       "sha256": "4814ff5969f023c4087c244a59834984433f1b48764ed40e46f3a3a49fb0cc4a",
-      "size": 23276,
-      "normalized": true
+      "size": 23276
     },
     "ad516621c6c9": {
       "normalized": true,
@@ -17531,9 +18701,9 @@
       "size": 35756
     },
     "add3375a1fce": {
+      "normalized": true,
       "sha256": "f73535fd8ed3dae0edbbe987d817c72061d4383f2b4b3a0afe196d5f9cd74541",
-      "size": 25004,
-      "normalized": true
+      "size": 25004
     },
     "ae1fe5f20107": {
       "normalized": true,
@@ -17575,6 +18745,16 @@
       "sha256": "cf7f17c58d3992d7d63148a1b69724498695ba0af281eb9a5a2306dee0f49df1",
       "size": 25580
     },
+    "af555c7431e2": {
+      "sha256": "21e95662766185f0d263981da9fdc2f4bf30e0db6048660382e4ac4e319cabee",
+      "size": 35564,
+      "normalized": true
+    },
+    "af77a36156a6": {
+      "sha256": "ac44607ea6316c6123127f216ea83908eaaab719abf577618782328a24dda836",
+      "size": 21356,
+      "normalized": true
+    },
     "afac83415504": {
       "normalized": true,
       "sha256": "0a1e8a3d7ea66bc04cf1064479b46c5c57531dd7c58e882af2ac2780d3cc42be",
@@ -17584,6 +18764,16 @@
       "normalized": true,
       "sha256": "20d8b5ff05ab08d70b50b53748e12304821d54077504317c72a312b9c55eab0d",
       "size": 38444
+    },
+    "b0ce0611e28a": {
+      "sha256": "5cd1b471406f1fb77d234b77712f6782fd9292768c61471b70c8327a0dae2b30",
+      "size": 46700,
+      "normalized": true
+    },
+    "b0fdd717031e": {
+      "sha256": "2709056e49e534fb408edb086ef84e7d9763cb4bf98c229ea6358e666a2d0993",
+      "size": 40748,
+      "normalized": true
     },
     "b0fec82cae65": {
       "normalized": true,
@@ -17726,9 +18916,9 @@
       "size": 19244
     },
     "b64b3c785197": {
+      "normalized": true,
       "sha256": "bea11f173c17aeb1e20ca1e44bc25a300719f009245ee3035b945494784ddc38",
-      "size": 43052,
-      "normalized": true
+      "size": 43052
     },
     "b6d6f243863b": {
       "normalized": true,
@@ -17760,6 +18950,11 @@
       "sha256": "64652de863099f9a7d0f1a102c70a4d63419ec1f827f42326b69a008712bda3f",
       "size": 34988
     },
+    "b7d6c652694c": {
+      "sha256": "21ae57a6d79ef19628a779f0625eef5c71f2f6ee075af2d564313e99edb1377c",
+      "size": 19436,
+      "normalized": true
+    },
     "b80efe31aa2e": {
       "normalized": true,
       "sha256": "8a7478defa00aa1cb91afa29f5f89c3fc4ec8ef9af2080d0a9a8e652d0329b1c",
@@ -17786,9 +18981,9 @@
       "size": 19820
     },
     "b956dee0f412": {
+      "normalized": true,
       "sha256": "a3efd2b372043acf78cc101aee6825ecb8435570d339c72f28536201a431c12a",
-      "size": 28652,
-      "normalized": true
+      "size": 28652
     },
     "b95f1cd1ea05": {
       "normalized": true,
@@ -17810,15 +19005,20 @@
       "sha256": "244770ea387f3af7623bcea4583788334d9bae7fa3a770acc9c693c3aed8527c",
       "size": 18092
     },
+    "b9c1c8835c4a": {
+      "sha256": "c5b4a593d4a8a4fa1a2db44b8fe34d53cb563c52773adf8c3b200f0c86f885e7",
+      "size": 28268,
+      "normalized": true
+    },
     "b9c94aac6e6a": {
       "normalized": true,
       "sha256": "a905e0be3985a345e7ad5d8f88bf99037e57155a894c13230a639413bd449dde",
       "size": 17900
     },
     "b9ea3207b26a": {
+      "normalized": true,
       "sha256": "484d7ad123b527bc41cdb5b71cacb1797607f202bec6044cbe61315560bd00f8",
-      "size": 27884,
-      "normalized": true
+      "size": 27884
     },
     "b9fd9adcad0c": {
       "normalized": true,
@@ -17910,10 +19110,15 @@
       "sha256": "c4ec814c33324d5058dff31ca853b3ee2ee2334bc84025d9e23531016aad7a44",
       "size": 17516
     },
-    "bd18e57de2c1": {
-      "sha256": "c735cc94e8b404777957c1e3c4104ab5ab502b482781b576d42169ff171517f6",
-      "size": 29612,
+    "bd085e5da3d5": {
+      "sha256": "1572b9c64541707f9cbd93a7274f9558dc7d5b302dbf46425f4769e137358203",
+      "size": 19052,
       "normalized": true
+    },
+    "bd18e57de2c1": {
+      "normalized": true,
+      "sha256": "c735cc94e8b404777957c1e3c4104ab5ab502b482781b576d42169ff171517f6",
+      "size": 29612
     },
     "bd214296ffa0": {
       "normalized": true,
@@ -17976,9 +19181,9 @@
       "size": 18284
     },
     "beed5b5a309e": {
+      "normalized": true,
       "sha256": "38f1f7761e97c8935002f2209b6291f33fd3c2e48440af67b8ac67bc2306a011",
-      "size": 28652,
-      "normalized": true
+      "size": 28652
     },
     "bef3c27240dd": {
       "normalized": true,
@@ -17994,6 +19199,11 @@
       "normalized": true,
       "sha256": "a7ecf7d45c5cdb90297187195fbc7e8419edf8505566b73d2af56f3ff34d52a7",
       "size": 24620
+    },
+    "bf0b27df64a8": {
+      "sha256": "373af61992109828d5f502a07b5e9168f63f4f7a2c6d1c0b4cdec99715aa84ea",
+      "size": 48812,
+      "normalized": true
     },
     "bf2df619435b": {
       "normalized": true,
@@ -18039,6 +19249,11 @@
       "normalized": true,
       "sha256": "ee366187e1ed4f5ab80c8ad311c79554dddb6fd90a16ef9a0016b5884119c2a1",
       "size": 20780
+    },
+    "c01e5c1a4d60": {
+      "sha256": "3467289e79152afad7c145807b02b8ecb5aead592a47e64ba369fa362f85d56a",
+      "size": 22700,
+      "normalized": true
     },
     "c02880d704e4": {
       "normalized": true,
@@ -18126,14 +19341,14 @@
       "size": 68588
     },
     "c32b27b142a2": {
+      "normalized": true,
       "sha256": "bca04d426c52db7e4d704062ceecf5031daaab76ada88ec48b6aafb18dbde2cb",
-      "size": 29420,
-      "normalized": true
+      "size": 29420
     },
     "c35fce7756a8": {
+      "normalized": true,
       "sha256": "2e6e6c7b79609f69d1d6f7ca48f2795b9c87b5db128eb2d598a54473a04b18d1",
-      "size": 25772,
-      "normalized": true
+      "size": 25772
     },
     "c364763cd422": {
       "normalized": true,
@@ -18141,9 +19356,9 @@
       "size": 70508
     },
     "c36516ca187f": {
+      "normalized": true,
       "sha256": "a87749a2063a2cb442e21697f502a95d681a3431495b1f0e3a218b5213358925",
-      "size": 22316,
-      "normalized": true
+      "size": 22316
     },
     "c37eeee2b143": {
       "normalized": true,
@@ -18280,6 +19495,11 @@
       "sha256": "bd0d4e155bbbb8e44c4c9d0bcfa89656b8a72fe6159960d59e46cb68d5ca11ff",
       "size": 21932
     },
+    "c9a33cf81ddd": {
+      "sha256": "0840fc6597e70586ac9c6d2afff60d933c7eedc8bc961b846cb9e071f0568cf4",
+      "size": 29228,
+      "normalized": true
+    },
     "c9a3e4a1b698": {
       "normalized": true,
       "sha256": "22f69837c70f6009a6e31841d34029e68427840c6b3d8b25928df236496d2c2b",
@@ -18299,6 +19519,16 @@
       "normalized": true,
       "sha256": "4c098eec57844a442b0b0d338e806e2e01812c81534ad0ee034d3c6dbb6a85e7",
       "size": 16748
+    },
+    "ca4fea2ae2ba": {
+      "sha256": "9022d3c5694b7d109f88cbe1644901b689a857a0a0451575c6c2cd518c20f6b5",
+      "size": 21932,
+      "normalized": true
+    },
+    "ca622088c784": {
+      "sha256": "f87934ded0fab5bc15e73f7f51bcf96c54a7a227faafd881e50905db53fe4a28",
+      "size": 25580,
+      "normalized": true
     },
     "ca7bcf711513": {
       "normalized": true,
@@ -18326,9 +19556,9 @@
       "size": 21740
     },
     "cbc92929ecca": {
+      "normalized": true,
       "sha256": "454b48c93bde17d1ef96a588e4f68b7aaac50f30c37e862653949c1cff29d02b",
-      "size": 42092,
-      "normalized": true
+      "size": 42092
     },
     "cbf654c94cda": {
       "normalized": true,
@@ -18336,8 +19566,13 @@
       "size": 16556
     },
     "cc120d071223": {
+      "normalized": true,
       "sha256": "e87c2f86489c42bfa59576e54ee2643b167e556e08c1930b25b478802e54016e",
-      "size": 18860,
+      "size": 18860
+    },
+    "cc3f120efeae": {
+      "sha256": "c14d13f3d89c01771b48ff44f9b375f4c6f3d3f43c0e587f0feb62d7b50d0f4c",
+      "size": 25964,
       "normalized": true
     },
     "cc490f40dbf3": {
@@ -18381,9 +19616,9 @@
       "size": 45164
     },
     "ce9ca9306607": {
+      "normalized": true,
       "sha256": "1019316e14f54dabc43f2f4ad34b4650b1b1be4905b66234b0abb3952c3a074b",
-      "size": 28844,
-      "normalized": true
+      "size": 28844
     },
     "cee9754c9077": {
       "normalized": true,
@@ -18394,6 +19629,11 @@
       "normalized": true,
       "sha256": "9a223ea9f1182f38984492f514d474bafd13253635ac02a29fcf29dfc0329773",
       "size": 17900
+    },
+    "cf571501ac81": {
+      "sha256": "115dadf558d436cd6074a8152a7e7d71d574f676005e06bce5987f80991822b5",
+      "size": 28268,
+      "normalized": true
     },
     "cf69e929d0f7": {
       "normalized": true,
@@ -18411,9 +19651,9 @@
       "size": 22508
     },
     "d066f6523b48": {
+      "normalized": true,
       "sha256": "5119ed7d5b0aa72d399d25f4c2391c1b1ae25fc692c9947b26c4609c53299dfc",
-      "size": 29612,
-      "normalized": true
+      "size": 29612
     },
     "d09c85097b03": {
       "normalized": true,
@@ -18480,6 +19720,11 @@
       "sha256": "78b7afa3e8884f05159a132ab773d51e3f416ce18ec6783d07f477574297c86d",
       "size": 23276
     },
+    "d28a47b0799f": {
+      "sha256": "f9845171fdcb0609634349d6f7844b9aec196a982e18987cee022e0d9f91fbc9",
+      "size": 23660,
+      "normalized": true
+    },
     "d2a7a8d1b1bd": {
       "normalized": true,
       "sha256": "a97b3fb63e3a9c82f8e1a0e76ed9ed6d3304c8027fd8007a394eaf707dfb4f0f",
@@ -18531,9 +19776,9 @@
       "size": 19628
     },
     "d384da76b027": {
+      "normalized": true,
       "sha256": "b2e8de9359af1e4b60100952a963edfd088464f27280d1d2961b7b96b7f47f12",
-      "size": 30764,
-      "normalized": true
+      "size": 30764
     },
     "d3b897983366": {
       "normalized": true,
@@ -18590,10 +19835,20 @@
       "sha256": "7d5cc41666a75065a9ea0aecbe8d5fd6344997c1d89cfaab0417e204eb7b6013",
       "size": 18284
     },
+    "d5321252efed": {
+      "sha256": "685358a1b1fbe5b8075b6c35f0eaedcb182c6d7e02b2a9633bb79786c4204044",
+      "size": 29804,
+      "normalized": true
+    },
     "d5a65a772975": {
       "normalized": true,
       "sha256": "ca0fef780f09c2dce6313adf6688034d0f42552f141a9ede45ff0b866507dd8d",
       "size": 15404
+    },
+    "d5b15ec6728a": {
+      "sha256": "5b8b25701ffa89c9262f29b9304d0178155699be5fe873796781184a863ab1b2",
+      "size": 22508,
+      "normalized": true
     },
     "d600ce54e882": {
       "normalized": true,
@@ -18631,9 +19886,9 @@
       "size": 57068
     },
     "d7ff6978ab39": {
+      "normalized": true,
       "sha256": "32c84377f7605de51361abe0b2fc94cd59422f0a29dc24f6ab1c7d5472d73de0",
-      "size": 26732,
-      "normalized": true
+      "size": 26732
     },
     "d816e91e26d0": {
       "normalized": true,
@@ -18656,9 +19911,9 @@
       "size": 16172
     },
     "d954d6007ae8": {
+      "normalized": true,
       "sha256": "7b8e45b96738abd42fbeb4199122af2f78c2389926a731007dc6284137903a33",
-      "size": 27500,
-      "normalized": true
+      "size": 27500
     },
     "d986de50fe2c": {
       "normalized": true,
@@ -18694,6 +19949,11 @@
       "normalized": true,
       "sha256": "072a5231282af08da3acb1818d12e3098789e35c2a7eb939835e9122080c6d77",
       "size": 18284
+    },
+    "db45eb52b2f9": {
+      "sha256": "ed18392c26c044f1f33af8805c43b54f4d74ea56d895dba567a9f24e30b8742d",
+      "size": 19436,
+      "normalized": true
     },
     "db46ec5f070c": {
       "normalized": true,
@@ -18731,9 +19991,9 @@
       "size": 19628
     },
     "dc39166d4908": {
+      "normalized": true,
       "sha256": "5a0c8acca58e1c2462253f16be9f1341409c4197eb6282452c8a4e753eff1cd9",
-      "size": 25388,
-      "normalized": true
+      "size": 25388
     },
     "dc53a09e275d": {
       "normalized": true,
@@ -18781,9 +20041,9 @@
       "size": 16556
     },
     "ddc1bb9c697a": {
+      "normalized": true,
       "sha256": "72aa702eb70d3aca0265c3b1deb240e45a0598220dad2595e88b454859d47097",
-      "size": 31148,
-      "normalized": true
+      "size": 31148
     },
     "ddef7cefa0ac": {
       "normalized": true,
@@ -18806,9 +20066,9 @@
       "size": 27884
     },
     "de7a8c9c2a45": {
+      "normalized": true,
       "sha256": "8a3dc770cf9589ac8175461a8fed0b2cb33dba9fac4f801e08a6e859204570cc",
-      "size": 29612,
-      "normalized": true
+      "size": 29612
     },
     "dee220fb9269": {
       "normalized": true,
@@ -18824,6 +20084,11 @@
       "normalized": true,
       "sha256": "89be288af682ebf249ece05376210e05b7f5e74c82814ef69c60101958a5ad84",
       "size": 16172
+    },
+    "df5bade5cf67": {
+      "sha256": "23f9a68da75f94088424321c16a94b567b298ba9185f7d70a3431f873e246a44",
+      "size": 22892,
+      "normalized": true
     },
     "df82bb483583": {
       "normalized": true,
@@ -18851,9 +20116,9 @@
       "size": 23276
     },
     "dff58db832ef": {
+      "normalized": true,
       "sha256": "478d5abc53fce1b48375f2c9e66e26075b2de98ccd871871e8b9f8e350538562",
-      "size": 28268,
-      "normalized": true
+      "size": 28268
     },
     "dff990bcf4d9": {
       "normalized": true,
@@ -18991,9 +20256,9 @@
       "size": 17900
     },
     "e52740b345a8": {
+      "normalized": true,
       "sha256": "801f42b0b1efb9544273caf06be78bfac83ab9f2ecaece8d7d240e63824fa645",
-      "size": 44780,
-      "normalized": true
+      "size": 44780
     },
     "e55d150991f0": {
       "normalized": true,
@@ -19020,6 +20285,11 @@
       "sha256": "4c049901f109c3e8d324ec5a40df6f6d3255d32be155ab8652d8ae5a6506ff34",
       "size": 23468
     },
+    "e6d344d59e52": {
+      "sha256": "b9ab5ce4ae90a6e32695fb2229be5bb331c07a3fb9e21e7dd32f8203be89d30e",
+      "size": 32108,
+      "normalized": true
+    },
     "e6f8acce1b2b": {
       "normalized": true,
       "sha256": "9af55ac2d65b29379af8341467e34b39c5db18e1b2d6dde676a8c0e974d55941",
@@ -19045,6 +20315,11 @@
       "sha256": "7839e561cd02afc23efe4ab8fa3c996ed570521588d1cf03c519804e253447d1",
       "size": 20588
     },
+    "e7f34c132eb0": {
+      "sha256": "249b9c78a34e63983449ae817c8526be7aa5688c981aca6c39364f3da94cf2a1",
+      "size": 18668,
+      "normalized": true
+    },
     "e800ed4e6156": {
       "normalized": true,
       "sha256": "0a872ccc9384723053457aa723c86c2fd3a37a5771b7b23437b15d66260692d9",
@@ -19069,6 +20344,11 @@
       "normalized": true,
       "sha256": "4385ada8b0df4782e4c37eaa8141078e87f07af5bdf819a925c333dce267a1ca",
       "size": 14060
+    },
+    "e917e8407d57": {
+      "sha256": "b0aedc9df6afcb91b129a698cc50da5ffe6ccea00ef1088e1bbe23832eaf96f0",
+      "size": 43628,
+      "normalized": true
     },
     "e92d79fb3da2": {
       "normalized": true,
@@ -19146,9 +20426,9 @@
       "size": 18860
     },
     "ec1dbf64b050": {
+      "normalized": true,
       "sha256": "0307a3929e21d0316c690d368b0fcce2e6828b3f6a2cb9e8368661b146b72f02",
-      "size": 33644,
-      "normalized": true
+      "size": 33644
     },
     "ec6ff9ce8e41": {
       "normalized": true,
@@ -19166,9 +20446,9 @@
       "size": 37868
     },
     "ec9a58ff4f47": {
+      "normalized": true,
       "sha256": "602067e83b06f9e42a4c6a178e19404e22fe9337357609ec0574ddddc5ae2646",
-      "size": 18668,
-      "normalized": true
+      "size": 18668
     },
     "eca9a3f6f427": {
       "normalized": true,
@@ -19181,9 +20461,9 @@
       "size": 21356
     },
     "ece762716ca1": {
+      "normalized": true,
       "sha256": "e79834bbab053f92974aad12c8372b0c64b13f4e5d1b22c8db904bf010e6211b",
-      "size": 24044,
-      "normalized": true
+      "size": 24044
     },
     "ed0c8e137c47": {
       "normalized": true,
@@ -19225,10 +20505,20 @@
       "sha256": "0787af4fb25e729b729b9f294fe7d89d67e384c94bf6ecef620d75a9725a5ba4",
       "size": 25772
     },
+    "ee8aad1f6651": {
+      "sha256": "b78207c08b2af38352c2ca0eb0216c1e88cd3c0bdfa578d911f8ee0d22c21cec",
+      "size": 25388,
+      "normalized": true
+    },
     "ee96b63b40bd": {
       "normalized": true,
       "sha256": "2e5c2ebeddee9470e4de9af51c7a1b3cafc744378d84e564203c611d04e56f3e",
       "size": 34796
+    },
+    "eeeb7e5c6ae1": {
+      "sha256": "905d88805aca86d4a79fb08cd2b9052dfc3b9ea5e6ae9692bf3f73a99322f5b0",
+      "size": 22892,
+      "normalized": true
     },
     "ef0207cd2be6": {
       "normalized": true,
@@ -19261,9 +20551,9 @@
       "size": 17324
     },
     "f03cd2178db7": {
+      "normalized": true,
       "sha256": "e2cc589da512f1e39ea66e602a2ba4b1d7ac8f787da422c6a21960f408682347",
-      "size": 27692,
-      "normalized": true
+      "size": 27692
     },
     "f0aeea38848b": {
       "normalized": true,
@@ -19274,6 +20564,11 @@
       "normalized": true,
       "sha256": "8fa3ad72b8fa9a69ba0479efaa15b0cd69b9dcd5178a9a6114e4a3a3c314a507",
       "size": 72236
+    },
+    "f11e1a184a7c": {
+      "sha256": "0556022e4f9cd6f3cd36f2d3a86e1cecdc2ad6594232cfa43b55f33047d046f2",
+      "size": 28076,
+      "normalized": true
     },
     "f13262f53e1f": {
       "normalized": true,
@@ -19331,9 +20626,9 @@
       "size": 15404
     },
     "f2941f9c4952": {
+      "normalized": true,
       "sha256": "ef834b079def9029f5cff2928a9a59d675586bb16dc4904a9a48d8078055e02e",
-      "size": 40172,
-      "normalized": true
+      "size": 40172
     },
     "f2d3c13d58a9": {
       "normalized": true,
@@ -19354,6 +20649,11 @@
       "normalized": true,
       "sha256": "075ce2049bb79445124d2045215e136806435f966d3312f1beffe3e23699b0bd",
       "size": 53612
+    },
+    "f34b98cb3032": {
+      "sha256": "babe376c5a09df981ce72a63778a52491366a1e3993569cec980567d4995fe47",
+      "size": 22124,
+      "normalized": true
     },
     "f34ec8fb1ee0": {
       "normalized": true,
@@ -19425,10 +20725,15 @@
       "sha256": "df3a0093ef977111f2b2ad43f2a017f8503dad68ef478657528b5289e6d2aa98",
       "size": 35564
     },
-    "f4e569cc5fb3": {
-      "sha256": "aa0596c79c67c99d9737759e148f6413da12272ceaa2539df62527cc583acb95",
-      "size": 27116,
+    "f4e00a25df7a": {
+      "sha256": "142b6e0c537f61b5dbe2538c6650ed04a4fee6cdc2b0835a5a77f4487f0fde5d",
+      "size": 36140,
       "normalized": true
+    },
+    "f4e569cc5fb3": {
+      "normalized": true,
+      "sha256": "aa0596c79c67c99d9737759e148f6413da12272ceaa2539df62527cc583acb95",
+      "size": 27116
     },
     "f4eedeca9ced": {
       "normalized": true,
@@ -19496,14 +20801,14 @@
       "size": 36332
     },
     "f77c3304b5a4": {
+      "normalized": true,
       "sha256": "ed5871de49e2d1281b5292a5e11590a962782a0e0d2306bb8770130485e03912",
-      "size": 25004,
-      "normalized": true
+      "size": 25004
     },
     "f7c2a47d2c1f": {
+      "normalized": true,
       "sha256": "cd19c5173931842bf26eaa5d2cb829bbeaacf2a05f2576bebeee9964b6c73743",
-      "size": 41708,
-      "normalized": true
+      "size": 41708
     },
     "f7fc0c82c4ec": {
       "normalized": true,
@@ -19546,9 +20851,9 @@
       "size": 16940
     },
     "f909a1d80e67": {
+      "normalized": true,
       "sha256": "d7f7c94d315ca6ca2760c6e063e79d3f6febbb03fad5834ccc9e2f3764b3fe2b",
-      "size": 26924,
-      "normalized": true
+      "size": 26924
     },
     "f915f12355b8": {
       "normalized": true,
@@ -19571,8 +20876,13 @@
       "size": 14252
     },
     "fabb2172b35c": {
+      "normalized": true,
       "sha256": "765d9d0bd5f5dc3893d71ed01735c87b52ba5c46d7ea3d942fbefa255c9f22e1",
-      "size": 20780,
+      "size": 20780
+    },
+    "fad4a67d5f65": {
+      "sha256": "ea80ce7b2346b21c019cd1b282649999076f9764d77ed8200693b60e3c845aeb",
+      "size": 18668,
       "normalized": true
     },
     "fad6c4c4b75f": {
@@ -19591,9 +20901,9 @@
       "size": 18668
     },
     "fc6e6dd7572f": {
+      "normalized": true,
       "sha256": "4f099923a04e23102dd9d029dfabad72d51fb641ede200d6054062f35b2cce31",
-      "size": 28268,
-      "normalized": true
+      "size": 28268
     },
     "fcd544a238f1": {
       "normalized": true,
@@ -19646,14 +20956,14 @@
       "size": 22892
     },
     "fe498c7ee4a1": {
+      "normalized": true,
       "sha256": "555daf7fc8db28aa1af464ba7a689d65c5b7ed724730e02028fa53b99199d410",
-      "size": 29036,
-      "normalized": true
+      "size": 29036
     },
     "fe50f491540b": {
+      "normalized": true,
       "sha256": "363033df805b0e5c2c47dc1a9370e3850af6fd4996e5854ad50d8f804da611e8",
-      "size": 13484,
-      "normalized": true
+      "size": 13484
     },
     "fe54968d983f": {
       "normalized": true,
@@ -19701,9 +21011,9 @@
       "size": 50540
     },
     "ff3dfa0aa85e": {
+      "normalized": true,
       "sha256": "ed98ee2957481a6beaf4bf847e8db4a1b97af65d1e0b6a137a8c2eb4ae48e582",
-      "size": 19628,
-      "normalized": true
+      "size": 19628
     },
     "ff4ae4e61218": {
       "normalized": true,
@@ -19769,6 +21079,16 @@
     "sha256": "e0b657586af5d837cebbe0010860e215ed1324e2a594039524b61805ba987396",
     "size": 71616,
     "text": "My political opinions differ from my parents' views on several issues. The European approach to healthcare differs from the American system significantly.",
+    "voice": "en-US-Neural2-F"
+  },
+  "f11e1a184a7c": {
+    "file": "f11e1a184a7c.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "c5b07c469a7852a6ea66623dfb941c13fd008b16877b3a707c220676bf875375",
+    "size": 27456,
+    "text": "She speaks French and German, without any accent.",
     "voice": "en-US-Neural2-F"
   },
   "f13262f53e1f": {
@@ -19931,6 +21251,16 @@
     "text": "Accepts: rather than in correct position; 'prefer...rather than' structure acceptable",
     "voice": "en-US-Neural2-F"
   },
+  "f34b98cb3032": {
+    "file": "f34b98cb3032.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "af7bd6415bd6831fd54003246fa4148b7c55c04dc96912d36103f35d16b8c9b4",
+    "size": 21504,
+    "text": "Experts begin with research questions.",
+    "voice": "en-US-Neural2-F"
+  },
   "f34ec8fb1ee0": {
     "file": "f34ec8fb1ee0.mp3",
     "lang": "en-US",
@@ -20069,6 +21399,16 @@
     "sha256": "1c3882dcdf24b5cba4a0372501b34916abd7280a900f997b4663edc76ef0cddc",
     "size": 34944,
     "text": "I wait for the bus every morning. / We waited for our guests to arrive.",
+    "voice": "en-US-Neural2-F"
+  },
+  "f4e00a25df7a": {
+    "file": "f4e00a25df7a.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "854ee6e0ef3e26569d95e1801eceb76f98093d7f6107949dda799a2fc79db637",
+    "size": 35520,
+    "text": "This applies {{c1::as long as}} you comply.",
     "voice": "en-US-Neural2-F"
   },
   "f4e569cc5fb3": {
@@ -20369,6 +21709,16 @@
     "sha256": "7a3b1700f5242b0bf71691890d5410e96b50c7736da208e1a17925b1f278fc8d",
     "size": 20160,
     "text": "He was absent on account of illness.",
+    "voice": "en-US-Neural2-F"
+  },
+  "fad4a67d5f65": {
+    "file": "fad4a67d5f65.mp3",
+    "lang": "en-US",
+    "normalized": false,
+    "rate": 1.0,
+    "sha256": "69d266e0d06941d58a97a9e4355fa4fc3984b64fc9553b954e744932d27c8433",
+    "size": 18048,
+    "text": "My keys are in the drawer by the bed.",
     "voice": "en-US-Neural2-F"
   },
   "fad6c4c4b75f": {

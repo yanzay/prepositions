@@ -266,3 +266,11 @@ She cycled {{c1::around}} the park three times this morning.	Circular/circumnavi
 The river flows {{c1::into}} a larger lake at the valley's end.	Boundary crossing (inward direction)	module:04 type:cloze sense:movement frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
 We jumped {{c1::off}} the platform onto the beach below.	Detachment from elevated surface	module:04 type:cloze sense:movement frequency:high register:neutral cefr:a1 image-schema:path generalisable:yes
 The cable runs {{c1::overhead}} from the power station across the valley.	Above all ground features	module:04 type:cloze sense:movement frequency:mid register:formal cefr:b1 image-schema:over generalisable:yes
+Experts {{c1::begin with}} research questions.	preposition + initial-element	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The performance {{c1::ended in}} ovation.	preposition + final-state	module:05 sense:dependent type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:no dependent:verb
+The project {{c1::started with}} planning.	preposition + initial-action	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The committee {{c1::finished with}} its report.	preposition + concluding-element	module:05 sense:dependent type:cloze frequency:high register:formal cefr:b1 image-schema:none generalisable:no dependent:verb
+The manager {{c1::regarded}} him {{c2::as}} a future leader.	preposition + role-designation	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+The situation {{c1::looked like}} a disaster.	preposition + appearance	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+The contract ran {{c1::out of}} time.	preposition + depletion	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
+His plan {{c1::serves as}} a backup option.	preposition + functional-role	module:09 sense:idiomatic type:cloze frequency:high register:neutral cefr:b1 image-schema:none generalisable:yes
