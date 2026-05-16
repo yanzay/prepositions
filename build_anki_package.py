@@ -73,9 +73,43 @@ MODULE_NAMES = {
     "module:07": "07 - Dependent · Noun + Prep",
     "module:08": "08 - Phrasal & Multi-word",
     "module:09": "09 - Abstract & Idiomatic",
-    "module:10": "10 - L1 Interference",
+    # Module 10 mirrors ../verbs: split by learner L1 so users only enable
+    # their own interference lane instead of inheriting every language.
+    "module:10-es": "10 - L1 Interference::🇪🇸 Spanish speakers",
+    "module:10-fr": "10 - L1 Interference::🇫🇷 French speakers",
+    "module:10-de": "10 - L1 Interference::🇩🇪 German speakers",
+    "module:10-ru": "10 - L1 Interference::🇷🇺 Russian speakers",
+    "module:10-zh": "10 - L1 Interference::🇨🇳 Mandarin speakers",
+    "module:10-ja": "10 - L1 Interference::🇯🇵 Japanese speakers",
+    "module:10-ko": "10 - L1 Interference::🇰🇷 Korean speakers",
+    "module:10-ar": "10 - L1 Interference::🇸🇦 Arabic speakers",
+    "module:10-pt": "10 - L1 Interference::🇵🇹 Portuguese speakers",
+    "module:10-nl": "10 - L1 Interference::🇳🇱 Dutch speakers",
     "module:11": "11 - Polysemy Networks",
     "module:12": "12 - Zero Preposition & Ellipsis",
+}
+L1_LANG_SUFFIX = {
+    "l1:spanish": "-es",
+    "l1:french": "-fr",
+    "l1:german": "-de",
+    "l1:russian": "-ru",
+    "l1:mandarin": "-zh",
+    "l1:japanese": "-ja",
+    "l1:korean": "-ko",
+    "l1:arabic": "-ar",
+    "l1:portuguese": "-pt",
+    "l1:dutch": "-nl",
+    # Accept legacy hyphen form too, if it appears in hand-authored rows.
+    "l1-spanish": "-es",
+    "l1-french": "-fr",
+    "l1-german": "-de",
+    "l1-russian": "-ru",
+    "l1-mandarin": "-zh",
+    "l1-japanese": "-ja",
+    "l1-korean": "-ko",
+    "l1-arabic": "-ar",
+    "l1-portuguese": "-pt",
+    "l1-dutch": "-nl",
 }
 # Card-type subdeck names are prefixed with a digit so Anki's
 # alphabetical sort surfaces them in pedagogical acquisition order
@@ -676,12 +710,31 @@ def strip_cloze(text: str) -> str:
     return _CLOZE_RE.sub(r"\1", text)
 
 
-def row_module(tags_str: str) -> str:
-    """Return the canonical 'module:NN' tag, or 'module:00' if none."""
-    for t in tags_str.split():
+def row_modules(tags_str: str) -> list[str]:
+    """Return all module deck keys for this row.
+
+    L1 interference (module:10) MUST route to language-specific branches.
+    Missing/unknown l1 tags are treated as data errors (fail-fast).
+    """
+    tags = set(tags_str.split())
+    if "module:10" in tags:
+        mods = sorted({f"module:10{L1_LANG_SUFFIX[t]}" for t in tags if t in L1_LANG_SUFFIX})
+        if mods:
+            return mods
+        raise ValueError(
+            "module:10 row is missing a recognized l1:* tag "
+            "(expected one of: l1:spanish, l1:french, l1:german, l1:russian, "
+            "l1:mandarin, l1:japanese, l1:korean, l1:arabic, l1:portuguese, l1:dutch)"
+        )
+    for t in tags:
         if t.startswith("module:") and t in MODULE_NAMES:
-            return t
-    return "module:00"
+            return [t]
+    return ["module:00"]
+
+
+def row_module(tags_str: str) -> str:
+    """Return primary module key (legacy compatibility helper)."""
+    return row_modules(tags_str)[0]
 
 
 def row_card_type(tags_str: str, file_default: str) -> str:
@@ -994,30 +1047,41 @@ def main():
         for row in load_tsv(path):
             tags = row.get("Tags", "")
             ctype = row_card_type(tags, default_type)
-            module = row_module(tags)
-            deck_name = deck_name_for(module, ctype)
-            deck = get_deck(deck_name)
-            # Resolve sentence-bound media. Cloze sentences have the form
-            # "{{c1::form}}" so we must strip cloze for the audio hash.
+            try:
+                modules = row_modules(tags)
+            except ValueError as e:
+                exemplar = row.get(sent_field, "") or row.get("Sentence", "")
+                raise SystemExit(
+                    f"{filename}: {e}. Offending row exemplar: {exemplar!r}; tags={tags!r}"
+                ) from e
+            # Resolve sentence-bound media once per row, then fan out to each
+            # routed module deck (typically one; multiple only for multi-l1).
             sentence_for_media = row.get(sent_field, "")
             if default_type == "cloze":
                 sentence_for_media = strip_cloze(sentence_for_media)
             elif default_type == "contrast" and "___" in sentence_for_media:
                 sentence_for_media = sentence_for_media.replace(
                     "___", row.get("Answer", ""))
-            media = media_for_sentence(sentence_for_media,
-                                       ipa_index, diag_index, pic_index,
-                                       img_index,
-                                       label=row.get("Label", ""))
-            note = builder(models[ctype], row, media)
-            deck.add_note(note)
-            counts[ctype] += 1
+            media = media_for_sentence(
+                sentence_for_media,
+                ipa_index,
+                diag_index,
+                pic_index,
+                img_index,
+                label=row.get("Label", ""),
+            )
+            for module in modules:
+                deck_name = deck_name_for(module, ctype)
+                deck = get_deck(deck_name)
+                note = builder(models[ctype], row, media)
+                deck.add_note(note)
+                counts[ctype] += 1
 
     # Build package — bind every non-default deck to the
-    # 'English Prepositions' FSRS preset on import. The L1 Interference
-    # subdeck (module:10) ships opted-out (perDay=0) so a Russian speaker
+    # 'English Prepositions' FSRS preset on import. L1 language parents
+    # under module:10 ship opted-out (perDay=0), so a Russian speaker
     # doesn't drown in Spanish/Mandarin/Japanese cards. Each user enables
-    # only their L1 subdeck via gear → Deck Options → preset selector.
+    # only their language parent deck once via gear → Deck Options.
     pkg = genanki.Package(
         list(decks.values()),
         preset_name="English Prepositions",

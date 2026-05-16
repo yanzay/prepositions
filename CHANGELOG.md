@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Nothing yet._
 
+## [1.2.1] - 2026-05-17
+
+### Fixed
+- Split Module 10 (`L1 Interference`) into per-language deck branches
+  keyed by `l1:*` tags (Spanish/French/German/Russian/Mandarin/Japanese/
+  Korean/Arabic/Portuguese/Dutch), mirroring the production behaviour in
+  the sister `verbs` project.
+- Removed the fallback `L1 Interference::Other` lane. `module:10` rows now
+  fail the build if they do not include a recognized `l1:*` tag, preventing
+  silent misrouting of L1-specific cards.
+- Updated preset binding so only L1 language **parent** decks ship opted-out
+  (`0 new/day`), while their child type decks remain on the main preset.
+  Learners now opt in once per language, not once per card type.
+
 ## [1.2.0] - 2026-05-16
 
 ### Added — image-schema diagram coverage 1% → 92%
@@ -188,7 +202,8 @@ the same gold-standard quality as the sister `../verbs` project.
 - Phase D Polish: Modules 08–12 (~1,460 cards) + 200 picture-cue photos.
 - Phase E Distribution: AnkiHub + GitHub Release v1.0.
 
-[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/yanzay/prepositions/releases/tag/v1.2.1
 [1.2.0]: https://github.com/yanzay/prepositions/releases/tag/v1.2.0
 [1.1.1]: https://github.com/yanzay/prepositions/releases/tag/v1.1.1
 [1.1.0]: https://github.com/yanzay/prepositions/releases/tag/v1.1.0

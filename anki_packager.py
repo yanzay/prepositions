@@ -234,15 +234,17 @@ class Package:
                 deck = col.decks.get(d.id)
                 if deck is None or deck.get('dyn'):
                     continue
-                # L1 Interference sub-decks ship OPTED-OUT: bound to a
-                # zero-cards-per-day preset. Each user enables only
-                # their L1 by switching that one sub-deck to the main
-                # 'English Verb System' preset.
-                target_preset = (
-                    l1_preset_id
-                    if self.L1_DECK_PREFIX in deck.get('name', '')
-                    else preset_id
+                # L1 Interference language PARENT decks ship OPTED-OUT:
+                #   Root::10 - L1 Interference::🇷🇺 Russian speakers
+                # Child type decks under that parent stay on the main preset,
+                # so the user opts in once per language parent (not once per
+                # Recognition/Contrast/Cloze/etc child).
+                deck_name = deck.get('name', '')
+                is_l1_language_parent = (
+                    self.L1_DECK_PREFIX in deck_name
+                    and deck_name.count('::') == 2
                 )
+                target_preset = l1_preset_id if is_l1_language_parent else preset_id
                 col.decks.set_config_id_for_deck_dict(deck, target_preset)
                 col.decks.save(deck)
                 bound += 1
