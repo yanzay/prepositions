@@ -55,11 +55,11 @@ DECK_ID_BASE     = 1_700_000_000  # any unique number; subdeck IDs derive from t
 # Model IDs bumped to 2xx (v1.1.0) for the design-system v3 CSS rewrite.
 # Bumping forces Anki to re-import the templates/CSS instead of merging
 # them with the previous (hardcoded-color) note types.
-MODEL_RECOGNITION = 1_700_000_201
-MODEL_CONTRAST    = 1_700_000_202
-MODEL_PRODUCTION  = 1_700_000_203
-MODEL_CLOZE       = 1_700_000_204
-MODEL_LISTENING   = 1_700_000_205
+MODEL_RECOGNITION = 1_700_000_211
+MODEL_CONTRAST    = 1_700_000_212
+MODEL_PRODUCTION  = 1_700_000_213
+MODEL_CLOZE       = 1_700_000_214
+MODEL_LISTENING   = 1_700_000_215
 
 # Module → human-readable subdeck name. Any tag starting with `module:NN`
 # routes the card to the matching deck. Unknown modules go to a "00 - Misc".
@@ -144,7 +144,7 @@ SHARED_CSS = """
   --warn-bg:        #fef3c7;  --warn-fg:       #92400e;  --warn-border:    #fde68a;
   --danger-bg:      #fef2f2;  --danger-fg:     #991b1b;  --danger-border:  #fecaca;
   --hint-bg:        #f0fdf4;  --hint-fg:       #166534;  --hint-border:    #86efac;
-  --ipa-bg:         #fef3c7;  --ipa-fg:        #78350f;  --ipa-key-fg:     #92400e;  --ipa-border: #fde68a;
+  --ipa-bg:         transparent;  --ipa-fg:        #6b7280;  --ipa-key-fg:     #4b5563;  --ipa-border: transparent;
   --sample-fg:      #1e40af;
   --target-bg:      #eff6ff;  --target-fg:     #1d4ed8;  --target-border:  #bfdbfe;
   --cloze-fg:       #1d4ed8;
@@ -178,7 +178,7 @@ html.nightMode .card, html.night_mode .card {
   --warn-bg:        #422006;  --warn-fg:       #fef3c7;  --warn-border:    #92400e;
   --danger-bg:      #450a0a;  --danger-fg:     #fecaca;  --danger-border:  #b91c1c;
   --hint-bg:        #052e16;  --hint-fg:       #bbf7d0;  --hint-border:    #22c55e;
-  --ipa-bg:         #422006;  --ipa-fg:        #fef3c7;  --ipa-key-fg:     #fde68a;  --ipa-border: #92400e;
+  --ipa-bg:         transparent;  --ipa-fg:        #94a3b8;  --ipa-key-fg:     #cbd5e1;  --ipa-border: transparent;
   --sample-fg:      #93c5fd;
   --target-bg:      #1e3a8a;  --target-fg:     #dbeafe;  --target-border:  #2563eb;
   --cloze-fg:       #93c5fd;
@@ -204,7 +204,7 @@ html.nightMode .card, html.night_mode .card {
     --warn-bg:        #422006;  --warn-fg:       #fef3c7;  --warn-border:    #92400e;
     --danger-bg:      #450a0a;  --danger-fg:     #fecaca;  --danger-border:  #b91c1c;
     --hint-bg:        #052e16;  --hint-fg:       #bbf7d0;  --hint-border:    #22c55e;
-    --ipa-bg:         #422006;  --ipa-fg:        #fef3c7;  --ipa-key-fg:     #fde68a;  --ipa-border: #92400e;
+    --ipa-bg:         transparent;  --ipa-fg:        #94a3b8;  --ipa-key-fg:     #cbd5e1;  --ipa-border: transparent;
     --sample-fg:      #93c5fd;
     --target-bg:      #1e3a8a;  --target-fg:     #dbeafe;  --target-border:  #2563eb;
     --cloze-fg:       #93c5fd;
@@ -403,17 +403,19 @@ hr#answer, hr {
    IPA — collapsed by default, quiet styling
    ============================================================ */
 .ipa, .ipa-box {
-  margin: 10px auto;
+  margin: 8px auto 0;
   max-width: 560px;
-  padding: 5px 10px;
+  padding: 2px 0;
   background: var(--ipa-bg);
   color: var(--ipa-fg);
-  border: 1px solid var(--ipa-border);
-  border-radius: 6px;
+  border: none;
+  border-radius: 0;
   font-family: "Charis SIL", "Doulos SIL", "DejaVu Serif", serif;
-  font-size: 0.95em;
+  font-size: 0.88em;
+  font-weight: 400;
   text-align: center;
   display: block;
+  opacity: 0.85;
 }
 
 /* ============================================================

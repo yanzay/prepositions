@@ -59,7 +59,7 @@ font-family="-apple-system, Segoe UI, Arial, sans-serif" font-size="11">
 </style>
 <defs><marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="3"
        orient="auto"><path d="M0,0 L7,3 L0,6 Z" class="arrow"/></marker></defs>
-<text x="10" y="20" class="title">{title}</text>
+<title>{title}</title>
 '''
 FOOTER = "\n</svg>\n"
 

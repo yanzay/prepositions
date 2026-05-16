@@ -9,6 +9,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Nothing yet._
 
+## [1.1.1] - 2026-05-16
+
+### Fixed (visual polish)
+- **Removed duplicate label** from image-schema SVG diagrams. Each
+  Recognition back was showing `in (CONTAINER)` twice — once as the
+  big `.answer-label` heading and once again as small bold text
+  inside the SVG (the `<text class="title">` element rendered above
+  the figure/ground). The label is now an SVG `<title>` element
+  (accessibility tooltip only, not visually rendered).
+- **Quieted the IPA pronunciation block**. The old amber-on-brown
+  (`#fef3c7 / #78350f`) treatment looked like an alarm. IPA is now
+  a muted footnote: transparent background, no border, smaller
+  `0.88em` font, `opacity: 0.85`. Tokens `--ipa-bg` / `--ipa-border`
+  set to `transparent` in both light and dark themes; `--ipa-fg`
+  desaturated to slate-500 (light) / slate-400 (dark).
+- **Bumped model IDs** `…_20x` → `…_21x` so Anki re-imports the
+  new IPA CSS instead of silently merging with v1.1.0.
+
 ## [1.1.0] - 2026-05-16
 
 ### Pre-release content audit + design-system v3
@@ -126,6 +144,7 @@ the same gold-standard quality as the sister `../verbs` project.
 - Phase D Polish: Modules 08–12 (~1,460 cards) + 200 picture-cue photos.
 - Phase E Distribution: AnkiHub + GitHub Release v1.0.
 
-[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/yanzay/prepositions/releases/tag/v1.1.1
 [1.1.0]: https://github.com/yanzay/prepositions/releases/tag/v1.1.0
 [1.0.0]: https://github.com/yanzay/prepositions/releases/tag/v1.0.0

@@ -19,6 +19,6 @@
 </style>
 <defs><marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="3"
        orient="auto"><path d="M0,0 L7,3 L0,6 Z" class="arrow"/></marker></defs>
-<text x="10" y="20" class="title">to</text>
+<title>to</title>
 <line x1="60" y1="120" x2="220" y2="120" class="arrow"/><circle cx="240" cy="120" r="10" class="figure"/><text x="240" y="105" text-anchor="middle" class="label">destination</text>
 </svg>
