@@ -55,11 +55,11 @@ DECK_ID_BASE     = 1_700_000_000  # any unique number; subdeck IDs derive from t
 # Model IDs bumped to 2xx (v1.1.0) for the design-system v3 CSS rewrite.
 # Bumping forces Anki to re-import the templates/CSS instead of merging
 # them with the previous (hardcoded-color) note types.
-MODEL_RECOGNITION = 1_700_000_211
-MODEL_CONTRAST    = 1_700_000_212
-MODEL_PRODUCTION  = 1_700_000_213
-MODEL_CLOZE       = 1_700_000_214
-MODEL_LISTENING   = 1_700_000_215
+MODEL_RECOGNITION = 1_700_000_221
+MODEL_CONTRAST    = 1_700_000_222
+MODEL_PRODUCTION  = 1_700_000_223
+MODEL_CLOZE       = 1_700_000_224
+MODEL_LISTENING   = 1_700_000_225
 
 # Module → human-readable subdeck name. Any tag starting with `module:NN`
 # routes the card to the matching deck. Unknown modules go to a "00 - Misc".

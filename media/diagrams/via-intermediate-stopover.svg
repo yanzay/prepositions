@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="-apple-system, Segoe UI, Arial, sans-serif" font-size="11">
+<style>
+  .ground   { fill:#f3f4f6; stroke:#374151; stroke-width:1.5; }
+  .ground-line { stroke:#374151; stroke-width:2; fill:none; }
+  .figure   { fill:#1d4ed8; stroke:#1e3a8a; stroke-width:1.2; }
+  .figure-2 { fill:#dc2626; stroke:#7f1d1d; stroke-width:1.2; }
+  .figure-3 { fill:#16a34a; stroke:#14532d; stroke-width:1.2; }
+  .arrow    { fill:none; stroke:#1d4ed8; stroke-width:2; marker-end:url(#arrowhead); }
+  .arrow-dim { fill:none; stroke:#9ca3af; stroke-width:1.5; stroke-dasharray:4,3; }
+  .label    { fill:#6b7280; font-size:10px; }
+  .title    { font-size:13px; fill:#111827; font-weight:600; }
+  @media (prefers-color-scheme: dark) {
+    .ground       { fill:#1f2937; stroke:#9ca3af; }
+    .ground-line  { stroke:#9ca3af; }
+    .figure       { fill:#93c5fd; stroke:#bfdbfe; }
+    .figure-2     { fill:#fca5a5; stroke:#fecaca; }
+    .figure-3     { fill:#86efac; stroke:#bbf7d0; }
+    .arrow        { stroke:#93c5fd; }
+    .arrow-dim    { stroke:#64748b; }
+    .label        { fill:#9ca3af; }
+    .title        { fill:#f9fafb; }
+  }
+</style>
+<defs><marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="3"
+       orient="auto"><path d="M0,0 L7,3 L0,6 Z" class="arrow"/></marker></defs>
+<title>via (INTERMEDIATE STOPOVER)</title>
+<circle cx="40" cy="130" r="8" class="ground"/><text x="40" y="115" text-anchor="middle" class="label">A</text><circle cx="160" cy="80" r="9" class="figure-2"/><text x="160" y="65" text-anchor="middle" class="label">via</text><circle cx="280" cy="130" r="8" class="ground"/><text x="280" y="115" text-anchor="middle" class="label">B</text><line x1="50" y1="130" x2="152" y2="87" class="arrow"/><line x1="168" y1="87" x2="270" y2="130" class="arrow"/>
+</svg>
