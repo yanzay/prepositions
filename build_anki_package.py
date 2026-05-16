@@ -52,11 +52,14 @@ def ensure_anki_backend():
 
 # ── Stable model / deck IDs (random but fixed forever) ──────────────────
 DECK_ID_BASE     = 1_700_000_000  # any unique number; subdeck IDs derive from this
-MODEL_RECOGNITION = 1_700_000_101
-MODEL_CONTRAST    = 1_700_000_102
-MODEL_PRODUCTION  = 1_700_000_103
-MODEL_CLOZE       = 1_700_000_104
-MODEL_LISTENING   = 1_700_000_105
+# Model IDs bumped to 2xx (v1.1.0) for the design-system v3 CSS rewrite.
+# Bumping forces Anki to re-import the templates/CSS instead of merging
+# them with the previous (hardcoded-color) note types.
+MODEL_RECOGNITION = 1_700_000_201
+MODEL_CONTRAST    = 1_700_000_202
+MODEL_PRODUCTION  = 1_700_000_203
+MODEL_CLOZE       = 1_700_000_204
+MODEL_LISTENING   = 1_700_000_205
 
 # Module → human-readable subdeck name. Any tag starting with `module:NN`
 # routes the card to the matching deck. Unknown modules go to a "00 - Misc".
@@ -103,177 +106,559 @@ MEDIA_PIC_INDEX    = Path("media/pictures_index.json")
 MEDIA_IMG_INDEX    = Path("media/images_index.json")  # hash → metadata, by sha1(sentence)[:12]
 
 
-# ── Card UX: shared CSS (light / dark / tiered reveal / mobile) ─────────
+# ── Card UX: shared CSS — design system v3 (semantic tokens) ────────────
+# Mirrors the gold-standard system used by the sister `../verbs` deck:
+# single source of truth for colors via CSS custom properties; light +
+# dark themes via .nightMode / .night_mode AND prefers-color-scheme; full
+# semantic callout palette so success / info / warn / danger / target are
+# never invisible on any theme.
 SHARED_CSS = """
-/* English Prepositions deck — v2 card styling.
-   Light + dark + tiered-reveal + mobile-first typography. */
+/* ============================================================
+   English Prepositions — Card Design System v3
+   ------------------------------------------------------------
+   Single source of truth for colors. Everything below the
+   token block uses var(--*) so light <-> dark theming is
+   automatic and no class can ever fall through to
+   invisible-on-dark text.
+   ============================================================ */
+
+/* Light theme tokens (default) */
 .card {
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #111827;
-  background: #ffffff;
-  max-width: 36em;
-  margin: 0 auto;
-  padding: 0.6em 0.8em;
-}
-.prompt    { color: #374151; font-size: 1.05em; }
-.target    { display: inline-block; background: #eff6ff; color: #1d4ed8;
-             padding: 2px 8px; border-radius: 6px; font-size: 0.9em;
-             font-weight: 600; margin-left: 0.4em; }
-.label     { font-size: 1.4em; font-weight: 700; color: #1d4ed8; }
-.ipa       { font-family: "Charis SIL", "Doulos SIL", "DejaVu Serif", serif;
-             color: #92400e; background: #fffbeb; padding: 4px 8px;
-             border-radius: 4px; display: inline-block; }
-.tier      { margin-top: 0.6em; padding: 0.5em 0.7em;
-             border-left: 3px solid #d1d5db; background: #f9fafb;
-             border-radius: 4px; font-size: 0.95em; }
-.tier h4   { margin: 0 0 0.3em 0; font-size: 0.85em;
-             text-transform: uppercase; letter-spacing: 0.04em;
-             color: #6b7280; }
-.option    { display: block; padding: 0.45em 0.7em; margin: 0.3em 0;
-             border: 1.5px solid #d1d5db; border-radius: 6px; }
-.option.A  { background: #eff6ff; }
-.option.B  { background: #fef3c7; }
-.answer    { color: #16a34a; font-weight: 700; font-size: 1.15em; }
-.why       { font-style: italic; color: #4b5563; }
-.transcript{ font-family: "Charis SIL", "DejaVu Serif", serif;
-             color: #1f2937; font-size: 1.05em; }
-.diagram   { display: block; margin: 0.5em auto; max-width: 320px; }
-.picture   { display: block; margin: 0.5em auto; max-width: 100%; max-height: 240px; width: auto; height: auto; border-radius: 8px; }
-.img-credit{ display: block; text-align: center; font-size: 0.7em;
-             color: #6b7280; margin-top: -0.3em; margin-bottom: 0.5em;
-             font-style: italic; }
-.nightMode .img-credit, .night_mode .img-credit { color: #94a3b8; }
-.nightMode .prompt, .night_mode .prompt        { color: #f1f5f9; }
-.nightMode .answer, .night_mode .answer        { color: #f1f5f9; }
-.nightMode .transcript, .night_mode .transcript{ color: #f1f5f9; background: #1e293b; }
-.nightMode details, .night_mode details        { background: #1e293b; border-color: #475569; }
-details    { margin-top: 0.4em; }
-details summary { cursor: pointer; color: #1d4ed8; font-size: 0.9em;
-                  user-select: none; }
-details summary:hover { color: #1e40af; }
+  --bg-card:        #ffffff;
+  --bg-surface:     #f9fafb;
+  --bg-surface-2:   #f3f4f6;
 
-/* Dark mode */
+  --fg-strong:      #111827;
+  --fg-default:     #1f2937;
+  --fg-muted:       #4b5563;
+  --fg-faint:       #6b7280;
+  --fg-fainter:     #9ca3af;
+
+  --border-default: #e5e7eb;
+  --border-muted:   #d1d5db;
+  --border-strong:  #9ca3af;
+
+  /* Semantic callout palette (bg / fg / border) */
+  --success-bg:     #dcfce7;  --success-fg:    #166534;  --success-border: #86efac;
+  --info-bg:        #eff6ff;  --info-fg:       #1d4ed8;  --info-border:    #bfdbfe;
+  --warn-bg:        #fef3c7;  --warn-fg:       #92400e;  --warn-border:    #fde68a;
+  --danger-bg:      #fef2f2;  --danger-fg:     #991b1b;  --danger-border:  #fecaca;
+  --hint-bg:        #f0fdf4;  --hint-fg:       #166534;  --hint-border:    #86efac;
+  --ipa-bg:         #fef3c7;  --ipa-fg:        #78350f;  --ipa-key-fg:     #92400e;  --ipa-border: #fde68a;
+  --sample-fg:      #1e40af;
+  --target-bg:      #eff6ff;  --target-fg:     #1d4ed8;  --target-border:  #bfdbfe;
+  --cloze-fg:       #1d4ed8;
+
+  --shadow-image:   0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Dark theme tokens. Anki applies the night-mode class in DIFFERENT
+   ways across versions / clients — we cover all the documented forms. */
+.card.nightMode,  .card.night_mode,
 .nightMode .card, .night_mode .card,
-@media (prefers-color-scheme: dark) {
-  .card { background: #0f172a; color: #f1f5f9; }
-}
-.nightMode .label, .night_mode .label { color: #93c5fd; }
-.nightMode .target, .night_mode .target { background: #1e3a8a; color: #bfdbfe; }
-.nightMode .ipa, .night_mode .ipa {
-  background: #422006; color: #fbbf24; }
-.nightMode .tier, .night_mode .tier {
-  background: #1f2937; border-left-color: #4b5563; }
-.nightMode .option, .night_mode .option { border-color: #4b5563; }
-.nightMode .option.A, .night_mode .option.A { background: #1e3a8a; }
-.nightMode .option.B, .night_mode .option.B { background: #78350f; }
-.nightMode .why, .night_mode .why { color: #cbd5e1; }
-.nightMode details summary, .night_mode details summary { color: #93c5fd; }
+.nightMode.card, .night_mode.card,
+body.nightMode .card, body.night_mode .card,
+html.nightMode .card, html.night_mode .card {
+  --bg-card:        #0f172a;
+  --bg-surface:     #1e293b;
+  --bg-surface-2:   #334155;
 
-/* Mobile tweak */
+  --fg-strong:      #f8fafc;
+  --fg-default:     #e2e8f0;
+  --fg-muted:       #cbd5e1;
+  --fg-faint:       #94a3b8;
+  --fg-fainter:     #64748b;
+
+  --border-default: #334155;
+  --border-muted:   #475569;
+  --border-strong:  #64748b;
+
+  --success-bg:     #064e3b;  --success-fg:    #bbf7d0;  --success-border: #047857;
+  --info-bg:        #1e3a8a;  --info-fg:       #dbeafe;  --info-border:    #2563eb;
+  --warn-bg:        #422006;  --warn-fg:       #fef3c7;  --warn-border:    #92400e;
+  --danger-bg:      #450a0a;  --danger-fg:     #fecaca;  --danger-border:  #b91c1c;
+  --hint-bg:        #052e16;  --hint-fg:       #bbf7d0;  --hint-border:    #22c55e;
+  --ipa-bg:         #422006;  --ipa-fg:        #fef3c7;  --ipa-key-fg:     #fde68a;  --ipa-border: #92400e;
+  --sample-fg:      #93c5fd;
+  --target-bg:      #1e3a8a;  --target-fg:     #dbeafe;  --target-border:  #2563eb;
+  --cloze-fg:       #93c5fd;
+
+  --shadow-image:   0 2px 8px rgba(0,0,0,0.5);
+}
+/* OS-level dark mode fallback for clients that forget the class */
+@media (prefers-color-scheme: dark) {
+  .card {
+    --bg-card:        #0f172a;
+    --bg-surface:     #1e293b;
+    --bg-surface-2:   #334155;
+    --fg-strong:      #f8fafc;
+    --fg-default:     #e2e8f0;
+    --fg-muted:       #cbd5e1;
+    --fg-faint:       #94a3b8;
+    --fg-fainter:     #64748b;
+    --border-default: #334155;
+    --border-muted:   #475569;
+    --border-strong:  #64748b;
+    --success-bg:     #064e3b;  --success-fg:    #bbf7d0;  --success-border: #047857;
+    --info-bg:        #1e3a8a;  --info-fg:       #dbeafe;  --info-border:    #2563eb;
+    --warn-bg:        #422006;  --warn-fg:       #fef3c7;  --warn-border:    #92400e;
+    --danger-bg:      #450a0a;  --danger-fg:     #fecaca;  --danger-border:  #b91c1c;
+    --hint-bg:        #052e16;  --hint-fg:       #bbf7d0;  --hint-border:    #22c55e;
+    --ipa-bg:         #422006;  --ipa-fg:        #fef3c7;  --ipa-key-fg:     #fde68a;  --ipa-border: #92400e;
+    --sample-fg:      #93c5fd;
+    --target-bg:      #1e3a8a;  --target-fg:     #dbeafe;  --target-border:  #2563eb;
+    --cloze-fg:       #93c5fd;
+    --shadow-image:   0 2px 8px rgba(0,0,0,0.5);
+  }
+}
+
+/* ============================================================
+   Layout primitives
+   ============================================================ */
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--fg-default);
+  background: var(--bg-card);
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 4px 0;
+  color-scheme: light dark;
+}
+.front { text-align: center; }
+.front .audio-row { display: flex; justify-content: center; }
+
+/* ============================================================
+   Typography
+   ============================================================ */
+.instruction {
+  font-size: 0.82em;
+  color: var(--fg-fainter);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.sentence {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: var(--fg-strong);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.prompt {
+  font-size: 0.82em;
+  color: var(--fg-fainter);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   A/B options on contrast cards
+   ============================================================ */
+.options {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.option {
+  padding: 9px 14px;
+  border: 1.5px solid var(--border-default);
+  border-radius: 8px;
+  font-size: 0.97em;
+  color: var(--fg-default);
+  background: var(--bg-surface);
+  text-align: left;
+}
+.option .opt-letter {
+  font-weight: 700;
+  color: var(--fg-faint);
+  margin-right: 6px;
+}
+
+/* ============================================================
+   Answer block (answer-label = the preposition Label)
+   ============================================================ */
+hr#answer, hr {
+  border: none;
+  border-top: 2px solid var(--border-default);
+  margin: 20px 0 16px;
+}
+.answer-block { text-align: center; }
+.answer-label, .label {
+  font-size: 1.6em;
+  font-weight: 700;
+  color: var(--info-fg);
+  margin-bottom: 6px;
+  line-height: 1.25;
+  display: block;
+}
+.answer-correct, .answer {
+  display: inline-block;
+  background: var(--success-bg);
+  color: var(--success-fg);
+  border: 1px solid var(--success-border);
+  border-radius: 6px;
+  padding: 2px 10px;
+  font-size: 1.05em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   Tier / info / meta blocks
+   ============================================================ */
+.tier {
+  margin: 10px auto 0;
+  max-width: 560px;
+  padding: 8px 12px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-left: 3px solid var(--border-muted);
+  border-radius: 6px;
+  font-size: 0.92em;
+  color: var(--fg-default);
+  text-align: left;
+}
+.tier h4 {
+  margin: 0 0 4px 0;
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--fg-fainter);
+  font-weight: 700;
+}
+.meta-grid {
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 12px;
+  margin: 10px auto 14px;
+  font-size: 0.93em;
+  text-align: left;
+  max-width: 560px;
+}
+.meta-key {
+  color: var(--fg-faint);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.meta-val { color: var(--fg-default); }
+
+/* ============================================================
+   Why / tip blocks (Contrast / Production)
+   ============================================================ */
+.why-block, .why {
+  margin: 10px auto 0;
+  max-width: 560px;
+  font-size: 0.93em;
+  color: var(--fg-default);
+  line-height: 1.5;
+  text-align: left;
+}
+.why-block .why-label {
+  font-weight: 700;
+  color: var(--fg-strong);
+}
+.tip-block, .tip {
+  margin-top: 8px;
+  font-size: 0.87em;
+  color: var(--fg-muted);
+  font-style: italic;
+  border-left: 3px solid var(--border-muted);
+  padding-left: 10px;
+  text-align: left;
+}
+
+/* ============================================================
+   Production: target badge + sample answer
+   ============================================================ */
+.target, .target-badge {
+  display: inline-block;
+  background: var(--target-bg);
+  color: var(--target-fg);
+  border: 1px solid var(--target-border);
+  border-radius: 6px;
+  padding: 2px 10px;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: 4px 0 0 0;
+}
+.sample-label {
+  font-size: 0.8em;
+  color: var(--fg-fainter);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+.sample-answer {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: var(--sample-fg);
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   IPA — collapsed by default, quiet styling
+   ============================================================ */
+.ipa, .ipa-box {
+  margin: 10px auto;
+  max-width: 560px;
+  padding: 5px 10px;
+  background: var(--ipa-bg);
+  color: var(--ipa-fg);
+  border: 1px solid var(--ipa-border);
+  border-radius: 6px;
+  font-family: "Charis SIL", "Doulos SIL", "DejaVu Serif", serif;
+  font-size: 0.95em;
+  text-align: center;
+  display: block;
+}
+
+/* ============================================================
+   Transcript (Listening)
+   ============================================================ */
+.transcript {
+  font-family: "Charis SIL", "DejaVu Serif", serif;
+  color: var(--fg-default);
+  font-size: 1.05em;
+  background: var(--bg-surface);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+/* ============================================================
+   Image-schema diagrams + picture cues
+   ============================================================ */
+.diagram {
+  display: block;
+  margin: 10px auto;
+  max-width: 320px;
+  height: auto;
+}
+.picture {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  max-height: 280px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow-image);
+}
+.img-credit, .attribution {
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
+  color: var(--fg-fainter);
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* ============================================================
+   Cloze blank styling
+   ============================================================ */
+.cloze {
+  font-weight: 700;
+  color: var(--cloze-fg);
+  background: var(--target-bg);
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+/* ============================================================
+   <details> reveal (Contrast Why / Recognition show-context)
+   ============================================================ */
+details {
+  margin: 8px auto;
+  max-width: 560px;
+}
+details summary {
+  cursor: pointer;
+  user-select: none;
+  color: var(--info-fg);
+  font-size: 0.88em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  list-style: none;
+  outline: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::before {
+  content: "▸ ";
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+details[open] > summary::before { content: "▾ "; }
+details summary:hover { background: var(--bg-surface); }
+
+/* ============================================================
+   Mobile
+   ============================================================ */
 @media (max-width: 600px) {
-  .card { font-size: 17px; padding: 0.5em 0.6em; }
-  .label { font-size: 1.25em; }
+  .card { font-size: 17px; padding: 2px 0; }
+  .sentence { font-size: 1.05em; }
+  .answer-label, .label { font-size: 1.35em; }
+  .option { padding: 7px 10px; font-size: 0.94em; }
+  .tier, .why-block, .why, details, .ipa, .ipa-box { max-width: 100%; }
+  .picture { max-height: 220px; }
 }
 """
 
 # ── Card templates (Anki front/back HTML) ───────────────────────────────
+# All templates use the design-system v3 classes defined in SHARED_CSS:
+#   .front          centered prompt + sentence wrapper
+#   .instruction    small uppercase prompt label
+#   .sentence       the example sentence (the cue)
+#   .answer-block   centered answer-side container
+#   .answer-label   large prominent answer (preposition label)
+#   .answer-correct green confirmation pill (✓ Answer)
+#   .tier           supporting context callout
+#   .meta-grid      Pattern / Main use key-value rows
+#   .why-block      explanation prose under answer
+#   .tip-block      muted italic afterthought
+#   .target / .target-badge   blue pill (Production target)
+#   .options / .option        Contrast A/B options
+#   .ipa / .transcript / .picture / .diagram   media display
 RECOGNITION_FRONT = """
-<div class="prompt">Identify the preposition's sense:</div>
-<p>{{Sentence}}</p>
+<div class="front">
+  <div class="instruction">Identify the preposition's sense</div>
+  <div class="sentence">{{Sentence}}</div>
+</div>
 """
 RECOGNITION_BACK = """
-{{FrontSide}}
-<hr>
-<div class="label">{{Label}}</div>
-{{#IPA}}<div class="ipa">{{IPA}}</div>{{/IPA}}
-{{#Audio}}<div>{{Audio}}</div>{{/Audio}}
-
-<details>
-  <summary>Show context</summary>
-  <div class="tier">
-    <h4>Pattern</h4><div>{{Pattern}}</div>
-  </div>
-  <div class="tier">
-    <h4>Main use</h4><div>{{MainUse}}</div>
-  </div>
-  {{#QuickCue}}<div class="tier"><h4>Quick cue</h4><div>{{QuickCue}}</div></div>{{/QuickCue}}
-</details>
-
-<details>
-  <summary>Show full reference</summary>
-  {{#Trajector}}<div class="tier">
-    <h4>Trajector / Landmark / Frame</h4>
-    <div>{{Trajector}} → {{Landmark}} ({{FrameOfRef}})</div>
-  </div>{{/Trajector}}
-  {{#ImageSchema}}<div class="tier">
-    <h4>Image schema</h4><div>{{ImageSchema}}</div>
-  </div>{{/ImageSchema}}
+<div class="front">
+  <div class="instruction">Identify the preposition's sense</div>
+  <div class="sentence">{{Sentence}}</div>
+  {{#Audio}}<div class="audio-row">{{Audio}}</div>{{/Audio}}
+</div>
+<hr id="answer">
+<div class="answer-block">
+  <div class="answer-label">{{Label}}</div>
   {{#Diagram}}<div>{{Diagram}}</div>{{/Diagram}}
-  {{#Contrast}}<div class="tier">
-    <h4>Often confused with</h4><div>{{Contrast}}</div>
-  </div>{{/Contrast}}
-  {{#WhenNotToUse}}<div class="tier">
-    <h4>When not to use</h4><div>{{WhenNotToUse}}</div>
-  </div>{{/WhenNotToUse}}
-</details>
+  {{#Picture}}<div>{{Picture}}</div>{{/Picture}}
+  <div class="meta-grid">
+    {{#Pattern}}<span class="meta-key">Pattern</span><span class="meta-val">{{Pattern}}</span>{{/Pattern}}
+    {{#MainUse}}<span class="meta-key">Main use</span><span class="meta-val">{{MainUse}}</span>{{/MainUse}}
+    {{#QuickCue}}<span class="meta-key">Quick cue</span><span class="meta-val">{{QuickCue}}</span>{{/QuickCue}}
+  </div>
+  {{#IPA}}<div class="ipa">/{{IPA}}/</div>{{/IPA}}
+
+  <details>
+    <summary>Show full reference</summary>
+    {{#Trajector}}<div class="tier">
+      <h4>Trajector → Landmark{{#FrameOfRef}} ({{FrameOfRef}}){{/FrameOfRef}}</h4>
+      <div>{{Trajector}} → {{Landmark}}</div>
+    </div>{{/Trajector}}
+    {{#ImageSchema}}<div class="tier">
+      <h4>Image schema</h4><div>{{ImageSchema}}</div>
+    </div>{{/ImageSchema}}
+    {{#Contrast}}<div class="tier">
+      <h4>Often confused with</h4><div>{{Contrast}}</div>
+    </div>{{/Contrast}}
+    {{#WhenNotToUse}}<div class="tier">
+      <h4>When not to use</h4><div>{{WhenNotToUse}}</div>
+    </div>{{/WhenNotToUse}}
+  </details>
+</div>
 """
 
 CONTRAST_FRONT = """
-<div class="prompt">Choose the correct preposition:</div>
-<p>{{Sentence}}</p>
-<div class="option A">A — {{OptionA}}</div>
-<div class="option B">B — {{OptionB}}</div>
+<div class="front">
+  <div class="instruction">Choose the correct preposition</div>
+  <div class="sentence">{{Sentence}}</div>
+  <div class="options">
+    <div class="option"><span class="opt-letter">A.</span>{{OptionA}}</div>
+    <div class="option"><span class="opt-letter">B.</span>{{OptionB}}</div>
+  </div>
+</div>
 """
 CONTRAST_BACK = """
-{{FrontSide}}
-<hr>
-<div class="answer">✓ {{Answer}}</div>
-{{#Audio}}<div>{{Audio}}</div>{{/Audio}}
-<details>
-  <summary>Why?</summary>
-  <div class="tier"><div class="why">{{Why}}</div></div>
-  {{#Tip}}<div class="tier"><h4>Tip</h4><div>{{Tip}}</div></div>{{/Tip}}
-</details>
+<div class="front">
+  <div class="instruction">Choose the correct preposition</div>
+  <div class="sentence">{{Sentence}}</div>
+  {{#Audio}}<div class="audio-row">{{Audio}}</div>{{/Audio}}
+</div>
+<div class="options">
+  <div class="option"><span class="opt-letter">A.</span>{{OptionA}}</div>
+  <div class="option"><span class="opt-letter">B.</span>{{OptionB}}</div>
+</div>
+<hr id="answer">
+<div class="answer-block">
+  <span class="answer-correct">✓ {{Answer}}</span>
+  <div class="why-block"><span class="why-label">Why: </span>{{Why}}</div>
+  {{#Tip}}<div class="tip-block">{{Tip}}</div>{{/Tip}}
+  {{#IPA}}<div class="ipa">/{{IPA}}/</div>{{/IPA}}
+</div>
 """
 
 PRODUCTION_FRONT = """
-<div class="prompt">Write a response using:</div>
-<p>{{Prompt}}</p>
-<div>Target: <span class="target">{{Target}}</span></div>
+<div class="front">
+  <div class="instruction">Write a response using the target</div>
+  <div class="sentence">{{Prompt}}</div>
+  <div><span class="target-badge">{{Target}}</span></div>
+</div>
 """
 PRODUCTION_BACK = """
-{{FrontSide}}
-<hr>
-<div class="tier">
-  <h4>Sample answer</h4><div>{{Sample}}</div>
+<div class="front">
+  <div class="instruction">Write a response using the target</div>
+  <div class="sentence">{{Prompt}}</div>
+  <div><span class="target-badge">{{Target}}</span></div>
+  {{#Audio}}<div class="audio-row">{{Audio}}</div>{{/Audio}}
 </div>
-{{#Audio}}<div>{{Audio}}</div>{{/Audio}}
-<details>
-  <summary>Why this works</summary>
-  <div class="tier"><div class="why">{{Why}}</div></div>
-</details>
+<hr id="answer">
+<div class="answer-block">
+  <div class="sample-label">Sample answer</div>
+  <div class="sample-answer">{{Sample}}</div>
+  {{#Why}}<details>
+    <summary>Why this works</summary>
+    <div class="tier"><div class="why">{{Why}}</div></div>
+  </details>{{/Why}}
+</div>
 """
 
 # Cloze uses Anki's built-in cloze model (one template only).
-CLOZE_FRONT = "{{cloze:Text}}{{#Hint}}<div class=\"tier\"><h4>Hint</h4><div>{{Hint}}</div></div>{{/Hint}}"
-CLOZE_BACK  = "{{cloze:Text}}{{#Audio}}<div>{{Audio}}</div>{{/Audio}}"
+CLOZE_FRONT = """
+<div class="front">
+  <div class="instruction">Fill in the missing preposition</div>
+  <div class="sentence">{{cloze:Text}}</div>
+  {{#Hint}}<div class="tier"><h4>Hint</h4><div>{{Hint}}</div></div>{{/Hint}}
+</div>
+"""
+CLOZE_BACK = """
+<div class="front">
+  <div class="instruction">Fill in the missing preposition</div>
+  <div class="sentence">{{cloze:Text}}</div>
+  {{#Audio}}<div class="audio-row">{{Audio}}</div>{{/Audio}}
+</div>
+"""
 
 LISTENING_FRONT = """
-<div class="prompt">Listen and answer:</div>
-<div>{{AudioRef}}</div>
-<p>{{Question}}</p>
+<div class="front">
+  <div class="instruction">Listen and answer</div>
+  <div class="audio-row">{{AudioRef}}</div>
+  <div class="sentence">{{Question}}</div>
+</div>
 """
 LISTENING_BACK = """
-{{FrontSide}}
-<hr>
-<div class="answer">✓ {{Answer}}</div>
-<div class="tier">
-  <h4>Transcript</h4>
-  <div class="transcript">{{Transcript}}</div>
+<div class="front">
+  <div class="instruction">Listen and answer</div>
+  <div class="audio-row">{{AudioRef}}</div>
+  <div class="sentence">{{Question}}</div>
 </div>
-{{#IPA}}<div class="ipa">{{IPA}}</div>{{/IPA}}
+<hr id="answer">
+<div class="answer-block">
+  <span class="answer-correct">✓ {{Answer}}</span>
+  <div class="tier">
+    <h4>Transcript</h4>
+    <div class="transcript">{{Transcript}}</div>
+  </div>
+  {{#IPA}}<div class="ipa">/{{IPA}}/</div>{{/IPA}}
+</div>
 """
 
 
@@ -415,7 +800,7 @@ def make_models():
                   "QuickCue", "Contrast", "WhenNotToUse",
                   "Audio", "IPA", "Diagram", "Picture", "Tags"]
     rec_model = genanki.Model(
-        MODEL_RECOGNITION, "Prepositions Recognition v2",
+        MODEL_RECOGNITION, "Prepositions Recognition v3",
         fields=[{"name": f} for f in rec_fields],
         templates=[{
             "name": "Recognition",
@@ -427,7 +812,7 @@ def make_models():
     contrast_fields = ["Sentence", "OptionA", "OptionB", "Answer", "Why",
                        "Tip", "Audio", "IPA", "Tags"]
     contrast_model = genanki.Model(
-        MODEL_CONTRAST, "Prepositions Contrast v2",
+        MODEL_CONTRAST, "Prepositions Contrast v3",
         fields=[{"name": f} for f in contrast_fields],
         templates=[{
             "name": "Contrast",
@@ -439,7 +824,7 @@ def make_models():
     production_fields = ["Prompt", "Target", "Sense", "Sample", "Why",
                          "Audio", "Tags"]
     production_model = genanki.Model(
-        MODEL_PRODUCTION, "Prepositions Production v2",
+        MODEL_PRODUCTION, "Prepositions Production v3",
         fields=[{"name": f} for f in production_fields],
         templates=[{
             "name": "Production",
@@ -450,7 +835,7 @@ def make_models():
     )
     cloze_fields = ["Text", "Hint", "Audio", "Tags"]
     cloze_model = genanki.Model(
-        MODEL_CLOZE, "Prepositions Cloze v2",
+        MODEL_CLOZE, "Prepositions Cloze v3",
         model_type=genanki.Model.CLOZE,
         fields=[{"name": f} for f in cloze_fields],
         templates=[{
@@ -463,7 +848,7 @@ def make_models():
     listening_fields = ["AudioRef", "Question", "Answer", "Transcript",
                         "IPA", "Tags"]
     listening_model = genanki.Model(
-        MODEL_LISTENING, "Prepositions Listening v2",
+        MODEL_LISTENING, "Prepositions Listening v3",
         fields=[{"name": f} for f in listening_fields],
         templates=[{
             "name": "Listening",

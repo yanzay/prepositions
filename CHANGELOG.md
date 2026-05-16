@@ -9,6 +9,60 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _Nothing yet._
 
+## [1.1.0] - 2026-05-16
+
+### Pre-release content audit + design-system v3
+
+This is the **premium-release readiness pass**: a comprehensive sweep over
+deck names, card content, support texts, and styling to bring the deck to
+the same gold-standard quality as the sister `../verbs` project.
+
+### Fixed (content slop)
+- **Cleared 1,657 placeholder cells** (`N-A`, `n/a`, `none`, `None`) from
+  the `Trajector` / `Landmark` / `FrameOfRef` / `ImageSchema` columns of
+  `prepositions_recognition.txt`. These literal strings were truthy under
+  Anki's `{{#Field}}` conditional rendering, so the back of every
+  module:03 (Time) and module:09/12 (Idiomatic/Zero) Recognition card
+  was leaking `N-A → N-A (N-A)` instead of suppressing the whole tier.
+- **Stripped 11 leaked meta-annotations** of the form
+  `<br><small>⚠ Multi-preposition integrative drill — aim for natural
+  flow over checking off every preposition.</small>` from Production
+  prompts — these were authoring scratchnotes, not learner-facing.
+
+### Changed (styling — design-system v3 rewrite)
+- **Replaced the hardcoded-color CSS with a token-driven design system**
+  modeled on the sister `../verbs` project (`Card Design System v3`):
+  - Single source of truth for colors via CSS custom properties
+    (`--bg-card`, `--fg-strong`, `--success-*`, `--info-*`, `--warn-*`,
+    `--danger-*`, `--target-*`, `--ipa-*`, `--cloze-fg` …).
+  - Full dark-mode coverage for **every** documented Anki client form:
+    `.card.nightMode`, `.nightMode .card`, `body.nightMode .card`,
+    `html.nightMode .card`, and the `.night_mode` variants (AnkiDroid).
+  - `prefers-color-scheme: dark` fallback for clients that forget the
+    class entirely.
+  - `color-scheme: light dark` hint so native form controls
+    (`{{type:Answer}}` inputs) adopt matching colors on iOS WebKit.
+  - Semantic callout classes — `.answer-correct` (green success pill),
+    `.target-badge` (blue info pill), `.tip-block` (muted italic),
+    `.why-block`, `.ipa`, `.transcript` — that can never fall through
+    to invisible-on-dark text.
+- **Rewrote all five card templates** (Recognition / Contrast /
+  Production / Cloze / Listening) to use the design-system classes
+  (`.front`, `.sentence`, `.instruction`, `.answer-block`,
+  `.meta-grid`, `.options`, `.opt-letter`, etc.) for visual parity with
+  the verbs deck. Recognition back now uses a centered answer-block
+  layout with a `meta-grid` (Pattern / Main use / Quick cue) instead of
+  a stack of tiered `<details>` panels. Contrast/Listening get the
+  green `.answer-correct` pill. Production gets the blue `.target-badge`
+  pill and a distinct `.sample-answer` styling for the sample.
+- **Bumped all five note-type model IDs** (`MODEL_RECOGNITION` …
+  `MODEL_LISTENING` → `…_201`–`…_205`) and note-type names from `v2`
+  → `v3` so Anki re-imports the templates/CSS cleanly instead of
+  silently merging with the previous (v1.0.0) hardcoded-color CSS.
+- Mobile breakpoint (`@media (max-width: 600px)`) now resizes
+  `.sentence`, `.answer-label`, `.option`, and reflows `.tier` /
+  `.ipa` / `.details` to full width.
+
 ## [1.0.0] - 2026-05-16
 
 ### Released
@@ -72,5 +126,6 @@ _Nothing yet._
 - Phase D Polish: Modules 08–12 (~1,460 cards) + 200 picture-cue photos.
 - Phase E Distribution: AnkiHub + GitHub Release v1.0.
 
-[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/yanzay/prepositions/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/yanzay/prepositions/releases/tag/v1.1.0
 [1.0.0]: https://github.com/yanzay/prepositions/releases/tag/v1.0.0
